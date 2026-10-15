@@ -24,13 +24,13 @@
 - [x] 作者凭据生成一次：id `Stk-BossLiu`，公钥指纹 `a00d827d31046724607517eab0a8de291b932cd4d54c0cbbdb3d394eb4d89c96`（私钥仅存 `.local/aep/`，不入库）
 - [x] `metadata/aep.json` 事实字段：package / versionName 1.1.40 / 原 SHA-256；车型条件 `allOf=[]`（不推断车型）
 - [x] 远程仓库 `https://github.com/Stk-BossLiu/HozonSystemUIEnhance.git` 接入并完成首次推送（commit `9dfe0eb`，133.73 MiB / 14074 对象；GitHub 对 input/original.apk 77.33MB 给出超 50MB 建议值警告，不影响交付；推送走 `ssh://git@ssh.github.com:443` 直连，本机代理 7890 未运行）
-- [x] 运行库接入预研：入口审查矩阵完成（`metadata/entrypoints.json`），方案 = 在 `HzSystemUIApplication` 新增 `attachBaseContext` 覆写（super 后紧接 `RuntimeInjector.initialize`），单一入口覆盖全部组件/进程/multiprocess；待作者确认后实施
+- [x] 运行库接线实施并静态验证通过：`RuntimeInjector` 位于 `smali_classes2`（classes.dex 字段引用已达 65535 上限，放主 dex 会溢出），`initialize(p1)` 接入 `Lc/f/a/c/a;->attachBaseContext`（framework super 后第 1 条指令）；`check_apk.py` 全项通过（entriesVerified / runtimeClassVerified / 16K 对齐 / ZIP_STORED / JNI，结果存 `.work/syntax-check-result.json`）
 
 ### 待办
 
 - [ ] 定义增强需求（作者提供）
-- [ ] 作者确认接线方案后：在 `HzSystemUIApplication` 写入 `attachBaseContext` 覆写 + `install_runtime.py` 安装运行库
 - [ ] 补全 `metadata/aep.json` 描述性字段（name / description / offlineAepLabel；label 中车型待作者指定目标）
+- [ ] **OEM framework 资源**：原件引用隐藏框架资源 `@android:style/PreferenceHeaderPanel.Material`（仅 `res/layout/media_projection_dialog_title.xml`），公共 framework 链接报 private/not public，aapt1/aapt2 均无法绕过；最终构建需从实车拉取 `framework-res.apk`（及可能的 OEM 附加框架包）安装到 `.work/framework`——需连接实车并授权 ADB
 - [ ] 首次完整构建（`build_aep.py`，新 build-id）
 - [ ] 结构检查 `aep.py verify --mode structure`；设备验证需另行授权
 - [ ] 免费包（none）或 VIN 发码（vin）按最终选择执行

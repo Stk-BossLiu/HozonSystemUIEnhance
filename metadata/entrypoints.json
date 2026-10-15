@@ -8,15 +8,15 @@
       "type": "application",
       "process": "com.android.systemui（android:process，唯一显式声明；persistent=true，directBootAware=true，defaultToDeviceProtectedStorage=true）",
       "directBootAware": true,
-      "entry": "Lcom/hozonauto/systemui/HzSystemUIApplication;->attachBaseContext(Landroid/content/Context;)V（原类无此覆写，计划新增；父类 Lc/f/a/c/a;->attachBaseContext 仅做 Intrinsics 非空检查后调用 Landroid/app/Application;->attachBaseContext，无业务）",
+      "entry": "Lc/f/a/c/a;->attachBaseContext(Landroid/content/Context;)V（已实施：该方法持有唯一 framework super 调用，现于 super 后紧接 initialize(p1)；原 Kotlin 编译器生成的 Intrinsics 非空断言因检查器要求 framework super 必须为方法首条指令而移除——framework 恒传非空 base，实际路径行为不变）",
       "runtimeEntry": "Lcom/netamade/aep/RuntimeInjector;->initialize(Landroid/content/Context;)V",
       "coverageReason": "计划在 HzSystemUIApplication 新增 attachBaseContext：super(Lc/f/a/c/a;->attachBaseContext) 返回后紧接 initialize(p1)。该类是 Manifest 唯一注册 Application，任何承载本包组件的进程实例化 Application 时都会经过此入口，天然覆盖全部组件与 multiprocess 场景；Provider.attachInfo/onCreate 与全部 Activity/Service/Receiver 生命周期均晚于 Application.attachBaseContext",
-      "frameworkSuperEvidence": "target/decoded/smali/c/f/a/c/a.smali attachBaseContext：invoke-super {p0, p1}, Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V（target/decoded/smali_classes2/com/hozonauto/systemui/HzSystemUIApplication.smali 现无 attachBaseContext 方法，仅 <init>/onCreate/onTerminate）",
+      "frameworkSuperEvidence": "target/decoded/smali/c/f/a/c/a.smali attachBaseContext 现为两条指令：invoke-super {p0, p1}, Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V → invoke-static {p1}, Lcom/netamade/aep/RuntimeInjector;->initialize(Landroid/content/Context;)V；check_apk.py 实测 entriesVerified=true, placement=afterFrameworkSuper, notInHostCatch=true, beforeHostInitialization=true",
       "hostInitializationAndCatchReviewed": true,
       "manifestCacheAndNativeAbiReviewed": true,
       "packageVisibilityReviewed": true,
       "runtimeVerified": false,
-      "reviewStatus": "已对照原 APK Manifest、Application smali 与继承链审查；initialize 尚未写入（待作者确认方案）；设备运行未验证"
+      "reviewStatus": "已对照原 APK Manifest、Application smali 与继承链审查；initialize 已写入 c/f/a/c/a（RuntimeInjector 位于 smali_classes2，check_apk.py 静态验证通过，运行库版本 1）；设备运行未验证"
     },
     {
       "originalComponent": "com.hozonauto.systemui.activity.{LeftSplitActivity, TopSplitActivity, WifiConnectActivity, SeaTransportActivity}; com.hozonauto.systemui.usb.UsbPermissionActivity; com.hozonauto.systemui.media.MediaProjectionPermissionActivity; com.hozon.screensaver.ui.screen.{ScreenSaverActivity, ScreenSaverViceActivity}; com.blankj.utilcode.util.{UtilsTransActivity4MainProcess, UtilsTransActivity}",

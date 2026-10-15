@@ -78,3 +78,17 @@
 - 验证：`git ls-remote` 显示远端 main 已建立并追踪；入口矩阵以 Manifest + smali 原文为据；设备行为未验证。
 - 未完成：initialize 尚未写入 smali（待作者确认）；增强需求未定义；构建未执行。
 - 关联功能记录：`docs/PROGRESS.md`、`metadata/entrypoints.json`。
+
+### 2026-10-16 Asia/Shanghai - 运行库接线实施与预检验证
+
+- 授权范围：同上（离线工程与静态实施）；未授权设备操作与发布。
+- 调查与实施：
+  - 初版方案（在 HzSystemUIApplication 新增 attachBaseContext 覆写，super 调用自定义父类）被 `check_apk.py` 拒绝：检查器要求入口方法首条指令即 framework super、第 2 条即无条件 initialize（scripts/check_apk.py 行 79-85，FRAMEWORK_CONTEXTS 白名单）。按技能"复用原类或其真实基类的最早 attach"改为在 `Lc/f/a/c/a;->attachBaseContext` 接入；已确认该类唯一子类为 HzSystemUIApplication。
+  - 偏差记录：c/f/a/c/a 原 Kotlin 编译器生成的 Intrinsics 非空断言（const-string "base" + invoke-static Le/i/b/g;->e）因检查器要求 framework super 必须为首条指令而移除；framework 恒传非空 base，实际路径行为不变。这是本工程相对原件的唯一指令级删减。
+  - **64K 字段引用溢出**：`install_runtime.py` 默认将 RuntimeInjector.smali 放入 `smali/`（classes.dex）。解析原 APK dex 头：classes.dex fields=65535（16 位上限、零余量）、methods=44471（余量 21065）；新增运行库类导致字段索引溢出（"Unsigned short value out of range: 65536"）。将 RuntimeInjector 移至 `smali_classes2`（fields=44171，余量 214K）后汇编通过。跨 dex 引用在 ART 上无碍。
+  - **私有框架资源**：回编在 aapt2 链接阶段失败：`resource android:style/PreferenceHeaderPanel.Material is private`；`--use-aapt1` 报 `Resource is not public`（textAppearance）。全包唯一引用点：`res/layout/media_projection_dialog_title.xml`。根因：apktool 公共 framework 1.apk 不含该 OEM 所用隐藏资源的公开符号；判定最终构建需要实车 `framework-res.apk`（OEM id 映射，防运行期资源错位），静态阶段不可绕过，未修改原件资源引用。
+  - 预检副本（.work/syntax-check，资源引用临时替换为公共样式，target 未动）构建 exit 0；`check_apk.py` exit 0 全项通过：entry placement=afterFrameworkSuper / notInHostCatch / beforeHostInitialization，runtimeVersion=1，libaep.so ZIP_STORED + 16K 对齐 + JNI 符号，DEX 全量重提取（classes.dex 5338 类 / classes2.dex 3961 类）。测试 APK 以临时调试密钥（CN=test，证书指纹 22e6eeab…）签名，仅用于预检，非交付物。
+- 错误处理：见上三条（均已在本次会话解决或明确根因与后续路径）。
+- 验证：预检构建与 check_apk 结果存 `.work/syntax-build.log`、`.work/syntax-check-result.json`；测试副本与测试 APK 已清理，target/decoded 保留已接线状态。
+- 未完成：OEM framework-res.apk（需实车 ADB，另授权）；增强需求未定义；metadata 描述字段未补全；最终构建/结构检查/设备验证未执行。
+- 关联功能记录：`docs/PROGRESS.md`。

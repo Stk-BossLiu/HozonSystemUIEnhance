@@ -20,14 +20,11 @@
 
 # virtual methods
 .method public attachBaseContext(Landroid/content/Context;)V
-    .locals 1
+    .locals 0
 
-    const-string v0, "base"
-
-    invoke-static {p1, v0}, Le/i/b/g;->e(Ljava/lang/Object;Ljava/lang/String;)V
-
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+
+    invoke-static {p1}, Lcom/netamade/aep/RuntimeInjector;->initialize(Landroid/content/Context;)V
 
     return-void
 .end method
