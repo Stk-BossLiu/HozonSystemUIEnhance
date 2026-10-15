@@ -5,6 +5,10 @@
 .work/
 out/
 
+# apktool 增量构建中间产物（最终构建由 build_aep.py 在工作副本完成）
+target/decoded/build/
+*.orig
+
 # Windows 系统文件
 Thumbs.db
 Desktop.ini

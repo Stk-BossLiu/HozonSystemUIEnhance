@@ -25,6 +25,7 @@
 - [x] `metadata/aep.json` 事实字段：package / versionName 1.1.40 / 原 SHA-256；车型条件 `allOf=[]`（不推断车型）
 - [x] 远程仓库 `https://github.com/Stk-BossLiu/HozonSystemUIEnhance.git` 接入并完成首次推送（commit `9dfe0eb`，133.73 MiB / 14074 对象；GitHub 对 input/original.apk 77.33MB 给出超 50MB 建议值警告，不影响交付；推送走 `ssh://git@ssh.github.com:443` 直连，本机代理 7890 未运行）
 - [x] 运行库接线实施并静态验证通过：`RuntimeInjector` 位于 `smali_classes2`（classes.dex 字段引用已达 65535 上限，放主 dex 会溢出），`initialize(p1)` 接入 `Lc/f/a/c/a;->attachBaseContext`（framework super 后第 1 条指令）；`check_apk.py` 全项通过（entriesVerified / runtimeClassVerified / 16K 对齐 / ZIP_STORED / JNI，结果存 `.work/syntax-check-result.json`）
+- [x] 仓库卫生：apktool 增量构建目录（`target/decoded/build/`）与 `*.orig` 备份移出版本控制
 
 ### 待办
 
