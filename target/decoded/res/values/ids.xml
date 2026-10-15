@@ -816,4 +816,5 @@
     <item type="id" name="wifi_current_disconnect_tv" />
     <item type="id" name="year" />
     <item type="id" name="zero_corner_chip" />
+    <item type="id" name="cb_test" />
 </resources>

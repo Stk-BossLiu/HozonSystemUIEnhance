@@ -17,4 +17,5 @@
 ,{"cbId":"cb_hotspot","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_hotspot","tvTxt":"qs_text_ap","tvContentDescription":"qs_text_ap_cd"}
 ,{"cbId":"cb_slope","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_slope","tvTxt":"qs_text_slope","tvContentDescription":"qs_text_slope_cd"}
 ,{"cbId":"cb_camera","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_camera","tvTxt":"qs_text_camera","tvContentDescription":"qs_text_camera_cd"}
+,{"cbId":"cb_test","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_screen","tvTxt":"qs_text_test","tvContentDescription":"qs_text_test"}
 ]}

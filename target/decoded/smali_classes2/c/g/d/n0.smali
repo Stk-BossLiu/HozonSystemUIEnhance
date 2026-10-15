@@ -1601,6 +1601,32 @@
 
     invoke-interface {v0, v3, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
+    # aep-test-tile: register cb_test tile (id 0x7f0a040d, string 0x7f110254)
+    iget-object v0, v1, Lc/g/d/n0;->a:Ljava/util/Map;
+
+    const v2, 0x7f0a040d
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    const-string v4, "cb_test"
+
+    invoke-interface {v0, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    iget-object v0, v1, Lc/g/d/n0;->c:Ljava/util/Map;
+
+    const v2, 0x7f110254
+
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v2
+
+    const-string v4, "qs_text_test"
+
+    invoke-interface {v0, v4, v2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    # end aep-test-tile
+
     const-string v0, "ro.hozon.car.autohold"
 
     const-string v2, ""
@@ -1667,7 +1693,7 @@
 
     invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    const/16 v9, 0x8
+    const/16 v9, 0x9
 
     invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

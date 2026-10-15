@@ -26,9 +26,11 @@
 - [x] 远程仓库 `https://github.com/Stk-BossLiu/HozonSystemUIEnhance.git` 接入并完成首次推送（commit `9dfe0eb`，133.73 MiB / 14074 对象；GitHub 对 input/original.apk 77.33MB 给出超 50MB 建议值警告，不影响交付；推送走 `ssh://git@ssh.github.com:443` 直连，本机代理 7890 未运行）
 - [x] 运行库接线实施并静态验证通过：`RuntimeInjector` 位于 `smali_classes2`（classes.dex 字段引用已达 65535 上限，放主 dex 会溢出），`initialize(p1)` 接入 `Lc/f/a/c/a;->attachBaseContext`（framework super 后第 1 条指令）；`check_apk.py` 全项通过（entriesVerified / runtimeClassVerified / 16K 对齐 / ZIP_STORED / JNI，结果存 `.work/syntax-check-result.json`）
 - [x] 仓库卫生：apktool 增量构建目录（`target/decoded/build/`）与 `*.orig` 备份移出版本控制
+- [x] 测试磁贴（第一个功能注入）：下拉车控磁贴新增 "test" 磁贴——资源（`cb_test` id=0x7f0a040d、`qs_text_test`="test" string=0x7f110254，public.xml 锁定）+ 3 个 DropdownItems*.json 条目（复用 `bg_qs_screen` 背景）+ `n0`(DropdownDataHelper) 映射注册 + 列表版本 8→9 强制刷新；预检构建 exit 0、新资源 ID 精确落位、`check_apk.py` 全项通过、资产含新条目。**设备实际显示/点击未验证（无设备授权）**
 
 ### 待办
 
+- [ ] 实车验收测试磁贴（需授权 ADB：安装/挂载 + 下拉面板目检 + 点击确认无业务动作）
 - [ ] 定义增强需求（作者提供）
 - [ ] 补全 `metadata/aep.json` 描述性字段（name / description / offlineAepLabel；label 中车型待作者指定目标）
 - [ ] **OEM framework 资源**：原件引用隐藏框架资源 `@android:style/PreferenceHeaderPanel.Material`（仅 `res/layout/media_projection_dialog_title.xml`），公共 framework 链接报 private/not public，aapt1/aapt2 均无法绕过；最终构建需从实车拉取 `framework-res.apk`（及可能的 OEM 附加框架包）安装到 `.work/framework`——需连接实车并授权 ADB

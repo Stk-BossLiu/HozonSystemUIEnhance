@@ -16,4 +16,5 @@
 ,{"cbId":"cb_seat_fanzhe_main","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_seat_fanzhe_main","tvTxt":"qs_text_seat_fanzhe_main","tvContentDescription":"0"}
 ,{"cbId":"cb_camera","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_camera","tvTxt":"qs_text_camera","tvContentDescription":"qs_text_camera_cd"}
 ,{"cbId":"cb_hud","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_hud","tvTxt":"qs_text_hud","tvContentDescription":"qs_text_hud_cd"}
+,{"cbId":"cb_test","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_screen","tvTxt":"qs_text_test","tvContentDescription":"qs_text_test"}
 ]}

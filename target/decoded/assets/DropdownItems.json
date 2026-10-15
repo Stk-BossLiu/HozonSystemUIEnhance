@@ -16,4 +16,5 @@
 ,{"cbId":"cb_ventilation","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_ventilation","tvTxt":"qs_text_one_key_ventilation","tvContentDescription":"qs_text_one_key_ventilation_cd"}
 ,{"cbId":"cb_autohold","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_aoto","tvTxt":"qs_text_aoto","tvContentDescription":"qs_text_aoto_cd"}
 ,{"cbId":"cb_seat_fanzhe_main","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_seat_fanzhe_main","tvTxt":"qs_text_seat_fanzhe_main","tvContentDescription":"0"}
+,{"cbId":"cb_test","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_screen","tvTxt":"qs_text_test","tvContentDescription":"qs_text_test"}
 ]}

@@ -597,5 +597,6 @@
     <string name="wpc_toast_malfunction">无线充电异常，请联系售后服务中心</string>
     <string name="wpc_toast_overtemperature">无线充电模块温度过高，请在温度降低后使用</string>
     <string name="wpc_toast_peps">寻找钥匙中，请稍后</string>
-    <string name="year"> 年</string>
+    <string name="year"> 年</string>
+    <string name="qs_text_test">test</string>
 </resources>

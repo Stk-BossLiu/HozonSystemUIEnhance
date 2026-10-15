@@ -92,3 +92,24 @@
 - 验证：预检构建与 check_apk 结果存 `.work/syntax-build.log`、`.work/syntax-check-result.json`；测试副本与测试 APK 已清理，target/decoded 保留已接线状态。
 - 未完成：OEM framework-res.apk（需实车 ADB，另授权）；增强需求未定义；metadata 描述字段未补全；最终构建/结构检查/设备验证未执行。
 - 关联功能记录：`docs/PROGRESS.md`。
+
+### 2026-10-16 Asia/Shanghai - 下拉磁贴注入测试（"test" 磁贴）
+
+- 授权范围：同上（离线实施与静态验证）；设备验收未授权。
+- 需求：在下拉磁贴区新增一个磁贴，文本 "test"，点击无任何功能。
+- 调查（磁贴体系，混淆类 c/g/d/*）：
+  - 磁贴数据驱动：`assets/DropdownItems{,32,36_0520}.json` 按车型（EP32/EP36/其他）加载（`n0`＝DropdownDataHelper，行 1721-1778）。
+  - JSON 字段经 `n0` 构造函数中的三张 Map 解析为资源 ID：`a`=cbId/tvId→R.id、`b`=cbDrawableName→R.drawable、`c`=tvTxt/tvContentDescription→R.string；未知键 `Map.get` 返回 null 直接 NPE——新磁贴必须注册映射。
+  - 渲染：`DropdownEditLayout.a(DropdownItem,Z)` 按 `qs_vehicle_edit_item` 布局创建，CheckBox.setId(r.a)、setBackgroundResource(r.c)、TextView.setText(getString(r.d))；已知特殊 id（camera/hud/lsa/autohold/ventilation）重映射根 id，未知 id 跳过。
+  - 点击分发：`DropdownCheckBox.performClick()` 按 view id 的 if-else 链（wifi/bluetooth/hotspot/tailgate/cleanscreen 等各有分支）；未知 id 无分支匹配 → 无业务动作，满足"点击没有任何功能"。
+  - 列表持久化：`savedDropdownItems` + `savedDropdownVersion`（当前 8）；版本相同则忽略资产 JSON 变更。
+- 实施（8 处修改，均在 target/decoded）：
+  1. `res/values/ids.xml` 新增 `<item type="id" name="cb_test" />`
+  2. `res/values/strings.xml` 新增 `<string name="qs_text_test">test</string>`
+  3. `res/values/public.xml` 锁定 `cb_test=0x7f0a040d`（id 段原 max 0x7f0a040c 后追加）、`qs_text_test=0x7f110254`（string 段原 max 0x7f110253 后追加），保证 smali 字面量与 aapt2 分配一致
+  4-6. 三个 DropdownItems*.json 各追加 `{"cbId":"cb_test","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_screen","tvTxt":"qs_text_test","tvContentDescription":"qs_text_test"}`（背景复用现有 bg_qs_screen，不新增 drawable）
+  7. `n0.smali` 构造函数（.line 108 最后一个 map c put 之后）注册 `a["cb_test"]=0x7f0a040d`、`c["qs_text_test"]=0x7f110254`（寄存器 v0/v2/v4 与后续代码重载，无污染）
+  8. `n0.smali` 版本常量 0x8→0x9（行 1670，唯一引用点），强制存量设备刷新磁贴列表；副作用：用户自定义磁贴布局重置一次，已入档
+- 验证：预检副本构建 exit 0；`aapt2 dump resources` 确认 `0x7f0a040d id/cb_test PUBLIC`、`0x7f110254 string/qs_text_test PUBLIC`；`check_apk.py` exit 0（entriesVerified/runtimeClassVerified=true，2 个 DEX 全量重提取）；产物 assets/DropdownItems.json 含 cb_test/qs_text_test。测试 APK（sha256 2869c9fd…）与副本已清理。
+- 未完成/未验证：实车下拉面板实际显示与点击行为未验证（无设备授权）；EP32 的 Dropdown32EditLayout 未逐行审查（数据同源 n0，理论共用）；本测试以 `.work` 补丁绕过 OEM framework 私有资源问题，最终交付仍需实车 framework-res.apk。
+- 关联功能记录：`docs/PROGRESS.md`。

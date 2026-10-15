@@ -11195,4 +11195,6 @@
     <public type="xml" name="widget_screen_cleaning" id="0x7f140009" />
     <public type="xml" name="widget_screen_save" id="0x7f14000a" />
     <public type="xml" name="widget_vice_breathing_screen" id="0x7f14000b" />
+    <public type="id" name="cb_test" id="0x7f0a040d" />
+    <public type="string" name="qs_text_test" id="0x7f110254" />
 </resources>
