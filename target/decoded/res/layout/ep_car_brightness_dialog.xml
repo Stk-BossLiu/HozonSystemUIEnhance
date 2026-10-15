@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_18"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="end" android:orientation="vertical" android:background="@drawable/bg_volume" android:paddingTop="@dimen/vol_seekbar_padding_top" android:paddingBottom="@dimen/vol_seekbar_padding_bottom" android:layout_width="@dimen/vol_dialog_media_width" android:layout_height="@dimen/vol_dialog_media_height">
+        <com.hozonauto.systemui.statusbar.LimitVerticalSeekBar android:id="@id/sb_brightness_ihu" android:visibility="visible" android:layout_width="@dimen/vol_seekbar_width" android:layout_height="@dimen/vol_seekbar_height" android:max="50" android:progressDrawable="@drawable/bg_seekbar_ep40" android:thumb="@null" android:min="1" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:layout_marginTop="@dimen/vol_seekbar_icon_margin_top" android:src="@mipmap/qs_icon_ihu" />
+        <TextView android:textSize="@dimen/dp_28" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" android:text="@string/qs_text_brightness_ihu" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_48" android:layout_height="@dimen/dp_48" android:layout_marginTop="600.0dip" android:src="@mipmap/icon_brightness_on_small_vertical" />
+    <TextView android:textSize="@dimen/dp_32" android:textColor="@color/vertical_volume_value_color" android:layout_gravity="center_horizontal" android:id="@id/tv_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_48" />
+</FrameLayout>

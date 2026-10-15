@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shadow_large_surface_lite_lassie" />
+    <item android:drawable="@drawable/neutral_color_background_system_popup_lite_lassie" />
+</layer-list>

@@ -1,0 +1,10 @@
+# 作者凭据与激活码 —— 永不入库（技能安全约定）
+.local/
+
+# 临时工作副本与构建产物
+.work/
+out/
+
+# Windows 系统文件
+Thumbs.db
+Desktop.ini

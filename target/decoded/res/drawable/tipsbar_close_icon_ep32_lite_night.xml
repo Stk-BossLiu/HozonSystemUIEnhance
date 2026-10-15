@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_color_on_brand_tertiary_lite_night" android:pathData="M6,11.4001C3.0176,11.4001 0.6,8.9825 0.6,6.0001C0.6,3.0177 3.0176,0.6001 6,0.6001C8.9824,0.6001 11.4,3.0177 11.4,6.0001C11.4,8.9825 8.9824,11.4001 6,11.4001Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M7.591,8.0154C7.7081,8.1325 7.8981,8.1325 8.0152,8.0154C8.1324,7.8982 8.1324,7.7082 8.0152,7.5911L6.4243,6.0001L8.0152,4.4092C8.1324,4.292 8.1324,4.102 8.0152,3.9849C7.8981,3.8677 7.7081,3.8677 7.591,3.9849L6,5.5759L4.409,3.9848C4.2918,3.8677 4.1019,3.8677 3.9847,3.9848C3.8676,4.102 3.8676,4.292 3.9847,4.4091L5.5757,6.0001L3.9847,7.5911C3.8676,7.7083 3.8676,7.8982 3.9847,8.0154C4.1019,8.1326 4.2918,8.1326 4.409,8.0154L6,6.4244L7.591,8.0154Z" android:fillType="evenOdd" />
+</vector>

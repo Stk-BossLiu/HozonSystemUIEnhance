@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/px_7" android:textColor="@color/com_checkbox_selected_text_color" android:gravity="center" android:id="@id/radiobutton_title" android:layout_width="wrap_content" android:layout_height="@dimen/px_10" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/com_btn_secondary_normal_bg_color_comfort_night" android:pathData="M4,0L36,0A4,4 0,0 1,40 4L40,32A4,4 0,0 1,36 36L4,36A4,4 0,0 1,0 32L0,4A4,4 0,0 1,4 0z" />
+    <path android:fillColor="@color/neutral_color_icon_primary_comfort_night" android:pathData="M16.941,16.249H16.25C15.974,16.249 15.75,16.473 15.75,16.749V19.249C15.75,19.525 15.974,19.749 16.25,19.749H16.941C17.468,19.749 17.972,19.956 18.347,20.326L19.824,21.785C19.982,21.941 20.25,21.829 20.25,21.607V14.392C20.25,14.17 19.982,14.058 19.824,14.214L18.347,15.673C17.972,16.042 17.468,16.249 16.941,16.249ZM16.941,15.499C17.27,15.499 17.586,15.37 17.82,15.139L19.298,13.68C19.929,13.056 21,13.504 21,14.392V21.607C21,22.495 19.929,22.942 19.298,22.319L17.82,20.86C17.586,20.629 17.27,20.499 16.941,20.499H16.25C15.56,20.499 15,19.94 15,19.249V16.749C15,16.059 15.56,15.499 16.25,15.499H16.941Z" android:fillType="evenOdd" />
+</vector>

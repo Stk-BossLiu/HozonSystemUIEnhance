@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widgetMy.SkinCompatLinearLayoutMy android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root_layout" android:background="@drawable/wallpaper_bg_selector_comfort_night" android:layout_width="192.0dip" android:layout_height="192.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <skin.support.widgetMy.SkinCompatImageViewMy android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/selector_pressed_widget_icon_screen_cleaning_comfort_night" />
+    <com.hozonauto.systemui.statusbar.WidgetFontTextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:text="@string/widget_screen_cleaning" />
+</skin.support.widgetMy.SkinCompatLinearLayoutMy>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:background="@drawable/inside" android:layout_width="@dimen/px_456" android:layout_height="@dimen/px_328"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tool="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/background" android:background="@drawable/section_bg" android:layout_width="@dimen/px_192" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" style="@style/DialogTitleStyle" />
+        <TextView android:id="@id/message" style="@style/DialogContentStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8" android:layout_marginBottom="@dimen/px_8">
+            <TextView android:id="@id/confirm" style="@style/DialogConfirmStyle" />
+            <TextView android:id="@id/cancel" style="@style/DialogCancelStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

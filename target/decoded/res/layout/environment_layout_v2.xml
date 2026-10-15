@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0dip" android:textColor="@color/environment_text_color" android:paddingBottom="@dimen/px_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="哪吒定制环绕音响" android:layout_alignParentTop="true" />
+    <RadioGroup android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_environment_container" android:padding="@dimen/rb_container_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_jiaxiang" android:background="@drawable/selector_bg_environmnet" android:layout_width="@dimen/px_44" android:layout_height="@dimen/px_20" android:button="@null" android:text="@string/left_drawer_voice_motion_jiaxiang" />
+        <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_tongyong" android:background="@drawable/selector_bg_environmnet" android:layout_width="@dimen/px_44" android:layout_height="@dimen/px_20" android:button="@null" android:text="@string/left_drawer_voice_motion_tongyong" />
+        <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_simi" android:background="@drawable/selector_bg_environmnet" android:layout_width="@dimen/px_44" android:layout_height="@dimen/px_20" android:button="@null" android:text="@string/left_drawer_voice_motion_simi" />
+        <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_fujia" android:background="@drawable/selector_bg_environmnet" android:layout_width="@dimen/px_44" android:layout_height="@dimen/px_20" android:button="@null" android:text="@string/left_drawer_voice_motion_fujia" />
+    </RadioGroup>
+</merge>

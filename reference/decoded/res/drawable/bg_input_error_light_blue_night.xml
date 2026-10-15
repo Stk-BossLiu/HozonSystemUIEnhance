@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/input_text_height" android:drawable="@drawable/neutral_color_background_surface_primary_light_blue_night" />
+    <item android:height="@dimen/input_text_height">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/px_0_4" android:color="@color/function_color_error_text_default_light_blue_night" />
+            <corners android:radius="@dimen/px_4" />
+        </shape>
+    </item>
+</layer-list>

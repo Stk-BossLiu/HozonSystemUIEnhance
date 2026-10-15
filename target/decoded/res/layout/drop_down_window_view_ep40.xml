@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.car.DropDownWindowView android:background="@color/color_expand_statusbar" android:layout_width="fill_parent" android:layout_height="@dimen/drop_down_panel_full_expanded_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/drop_down_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/weather_account_layout_ep40" android:layout_width="fill_parent" android:layout_height="@dimen/qs_weather_icon_height">
+            <ImageView android:id="@id/iv_weather" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <TextView android:textSize="@dimen/dp_72" android:textColor="@color/weather_text_color" android:id="@id/tv_weather_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_113" android:includeFontPadding="false" android:layout_marginStart="@dimen/dp_80" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textSize="@dimen/dp_40" android:textColor="@color/qs_date_text_color" android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_44" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="@id/tv_weather_temp" app:layout_constraintTop_toBottomOf="@id/tv_weather_temp" />
+            <TextView android:textSize="@dimen/dp_40" android:textColor="@color/weather_text_color" android:id="@id/tv_weather_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="188.0dip" app:layout_constraintBaseline_toBaselineOf="@id/tv_weather_temp" app:layout_constraintStart_toStartOf="@id/tv_date" />
+            <View android:background="@mipmap/tab_bg" android:layout_width="@dimen/dp_1372" android:layout_height="4.0dip" android:layout_marginBottom="@dimen/dp_32" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/expand_system_icon" />
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/radioGroupLayout_ep40" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_355">
+            <RadioButton android:textSize="@dimen/dp_44" android:textColor="@color/tab_text_color_ep40" android:gravity="center" android:id="@id/rb_qs" android:background="@drawable/selector_bg_drop_down_switch_ep40" android:layout_width="@dimen/dp_210" android:layout_height="@dimen/dp_118" android:button="@null" android:text="@string/drop_down_qs_text" />
+            <View android:layout_width="@dimen/dp_360" android:layout_height="0.0dip" />
+            <RadioButton android:textSize="@dimen/dp_44" android:textColor="@color/tab_text_color_ep40" android:gravity="center" android:id="@id/rb_notification" android:background="@drawable/selector_bg_drop_down_switch_ep40" android:layout_width="wrap_content" android:layout_height="@dimen/dp_118" android:button="@null" android:text="@string/drop_down_notification_text" android:singleLine="true" />
+        </RadioGroup>
+        <include layout="@layout/qs_container_ep40" />
+        <include layout="@layout/notification_container_ep40" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fl_mask" android:background="@color/color_expand_statusbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.hozonauto.systemui.statusbar.car.DropDownWindowView>

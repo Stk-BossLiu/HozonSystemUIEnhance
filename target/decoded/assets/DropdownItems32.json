@@ -1,0 +1,20 @@
+{"all": [
+ {"cbId":"cb_wifi","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_wifi","tvTxt":"qs_text_wifi","tvContentDescription":"qs_text_wifi_cd"}
+,{"cbId":"cb_bluetooth","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_bluetooth","tvTxt":"qs_text_bluetooth","tvContentDescription":"qs_text_bluetooth_cd"}
+,{"cbId":"cb_tailgate","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_tailgate","tvTxt":"qs_text_rear_door","tvContentDescription":"qs_text_rear_door_cd"}
+,{"cbId":"cb_oil_lock","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_oil_lock","tvTxt":"qs_text_oil_lock","tvContentDescription":"qs_text_oil_lock_cd"}
+,{"cbId":"cb_ventilation","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_ventilation","tvTxt":"qs_text_one_key_ventilation","tvContentDescription":"qs_text_one_key_ventilation_cd"}
+
+,{"cbId":"cb_backlight","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_backlight","tvTxt":"qs_text_backlight","tvContentDescription":"qs_text_backlight_cd"}
+,{"cbId":"cb_poweroff","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_poweroff","tvTxt":"qs_text_poweroff","tvContentDescription":"qs_text_poweroff_cd"}
+,{"cbId":"cb_autohold","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_aoto","tvTxt":"qs_text_aoto","tvContentDescription":"qs_text_aoto_cd"}
+,{"cbId":"cb_lsa","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_cue_tone","tvTxt":"qs_text_low_voice","tvContentDescription":"qs_text_low_voice_cd"}
+,{"cbId":"cb_radar","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_radar","tvTxt":"qs_text_radar","tvContentDescription":"qs_text_radar_cd"}
+
+
+,{"cbId":"cb_cleanscreen","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_cleanscreen","tvTxt":"qs_text_cleanscreen","tvContentDescription":"qs_text_cleanscreen_cd"}
+,{"cbId":"cb_vicescreenoff","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_vicescreenoff","tvTxt":"qs_text_vicescreenoff","tvContentDescription":"qs_text_vicescreenoff_cd"}
+,{"cbId":"cb_hotspot","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_hotspot","tvTxt":"qs_text_ap","tvContentDescription":"qs_text_ap_cd"}
+,{"cbId":"cb_slope","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_slope","tvTxt":"qs_text_slope","tvContentDescription":"qs_text_slope_cd"}
+,{"cbId":"cb_camera","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_camera","tvTxt":"qs_text_camera","tvContentDescription":"qs_text_camera_cd"}
+]}

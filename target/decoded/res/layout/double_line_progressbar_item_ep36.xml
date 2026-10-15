@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/px_8" android:paddingTop="@dimen/px_8" android:paddingRight="@dimen/px_8" android:paddingBottom="@dimen/px_8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_size_8" android:textColor="@color/com_list_text_title_color" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/FzltBlackSimpleFontStyle" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_20">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_left" android:layout_width="@dimen/icon_width_40" android:layout_height="@dimen/icon_height_40" android:layout_marginRight="@dimen/space_14" android:scaleType="fitCenter" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/seekBar_container" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_right" android:layout_width="@dimen/icon_width_40" android:layout_height="@dimen/icon_height_40" android:layout_marginLeft="@dimen/space_14" android:scaleType="fitCenter" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.0dip" android:width="12.0dip" android:autoMirrored="true" android:viewportWidth="12.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M0,2C0,0.895 0.895,0 2,0H10C11.105,0 12,0.895 12,2V10C12,11.105 11.105,12 10,12H2C0.895,12 0,11.105 0,10V2Z" android:fillAlpha="0.4" />
+    <group>
+        <clip-path android:pathData="M0,2C0,0.895 0.895,0 2,0H10C11.105,0 12,0.895 12,2V10C12,11.105 11.105,12 10,12H2C0.895,12 0,11.105 0,10V2Z" />
+        <path android:fillColor="#ff1f225a" android:pathData="M2,0.4H10V-0.4H2V0.4ZM11.6,2V10H12.4V2H11.6ZM10,11.6H2V12.4H10V11.6ZM0.4,10V2H-0.4V10H0.4ZM2,11.6C1.116,11.6 0.4,10.884 0.4,10H-0.4C-0.4,11.325 0.675,12.4 2,12.4V11.6ZM11.6,10C11.6,10.884 10.884,11.6 10,11.6V12.4C11.325,12.4 12.4,11.325 12.4,10H11.6ZM10,0.4C10.884,0.4 11.6,1.116 11.6,2H12.4C12.4,0.675 11.325,-0.4 10,-0.4V0.4ZM2,-0.4C0.675,-0.4 -0.4,0.675 -0.4,2H0.4C0.4,1.116 1.116,0.4 2,0.4V-0.4Z" android:fillAlpha="0.15" />
+    </group>
+</vector>

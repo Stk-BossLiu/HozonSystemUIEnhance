@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/default_pic_empty_abnormal_ep32" />
+            <TextView android:textColor="@color/neutral_color_text_primary" android:layout_gravity="center_horizontal" android:id="@id/tv_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="hint" style="@style/HozonTheme.TextAppearance.Body.Medium.Regular" />
+            <TextView android:textColor="@color/neutral_color_text_secondary" android:layout_gravity="center_horizontal" android:id="@id/tv_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="提示⽂本" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8" android:dividerPadding="30.0dip">
+                <com.hozonauto.widget.btn.ContainerButton android:id="@id/tv_ensure2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/px_24" app:hz_btnStyle="primary" app:hz_btnText="行动按钮1" />
+                <com.hozonauto.widget.btn.ContainerButton android:id="@id/tv_cancel2" android:layout_width="wrap_content" android:layout_height="@dimen/px_24" android:layout_marginLeft="@dimen/px_8" app:hz_btnStyle="secondary" app:hz_btnText="行动按钮2" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

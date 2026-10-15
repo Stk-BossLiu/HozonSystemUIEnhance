@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/space_60" android:paddingRight="@dimen/space_60" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_title_icon" android:layout_width="@dimen/icon_width_64" android:layout_height="@dimen/icon_height_64" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/font_44" android:textColor="@color/standard_dialog_subTitle_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我是标题" android:layout_toRightOf="@id/iv_title_icon" android:layout_centerVertical="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/font_36" android:textColor="@color/standard_dialog_subTitle_color" android:id="@id/tv_text_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_text_num_zero" />
+                <TextView android:textSize="@dimen/font_36" android:textColor="@color/standard_dialog_subTitle_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_text_num_200" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/edit_text" android:background="@drawable/bg_multi_edit_rectangle_shape" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <EditText android:textSize="@dimen/font_32" android:textColor="@color/edit_text_grey_dark" android:textColorHint="@color/edit_text_hint_grey_dark" android:gravity="left|top" android:id="@id/et_multi_line" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_60" android:layout_marginTop="@dimen/space_36" android:layout_marginRight="@dimen/space_60" android:layout_marginBottom="@dimen/space_36" android:hint="@string/input_content_suggest" android:layout_above="@id/function_icons_container" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:textCursorDrawable="@drawable/cursor_selector" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/function_icons_container" android:paddingRight="@dimen/space_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/font_28" android:textColor="@color/multi_edit_warn_text_color" android:ellipsize="end" android:id="@id/tv_assist" android:paddingTop="@dimen/space_4" android:paddingBottom="@dimen/space_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space_60" android:layout_marginRight="@dimen/space_60" android:maxLines="2" android:alpha="0.56" />
+    </LinearLayout>
+</FrameLayout>

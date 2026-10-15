@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/multi_edit_bg_color_comfort_night" />
+    <corners android:topLeftRadius="@dimen/inputbox_corner_radius_18" android:topRightRadius="@dimen/inputbox_corner_radius_18" android:bottomLeftRadius="@dimen/inputbox_corner_radius_18" android:bottomRightRadius="@dimen/inputbox_corner_radius_18" />
+</shape>

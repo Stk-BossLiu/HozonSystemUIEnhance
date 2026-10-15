@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/px_0_4" android:color="@color/neutral_color_stoke_primary_lite_lassie_night" />
+            <corners android:radius="@dimen/px_4" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/color_button_line_background_selector_lite_lassie_night" android:left="@dimen/px_0_4" android:top="@dimen/px_0_4" android:right="@dimen/px_0_4" android:bottom="@dimen/px_0_4" />
+</layer-list>

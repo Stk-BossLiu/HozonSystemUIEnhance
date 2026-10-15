@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="66.0dip" android:viewportWidth="22.0" android:viewportHeight="12.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$switch_button_bg_off_normal_svg_dream__0" android:pathData="M0,3C0,1.3432 1.3432,0 3,0H19C20.6569,0 22,1.3432 22,3V9C22,10.6569 20.6569,12 19,12H3C1.3432,12 0,10.6569 0,9V3Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+</vector>

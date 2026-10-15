@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/input_text_width" android:layout_height="fill_parent" android:minHeight="@dimen/px_24"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/input_text_height">
+        <EditText android:gravity="center_vertical" android:id="@id/et_input" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/px_24" android:singleLine="true" android:paddingStart="@dimen/px_8" android:paddingEnd="@dimen/px_56" style="@style/HozonTheme.Widget.EditText" />
+        <LinearLayout android:layout_gravity="right|center" android:id="@id/right_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/px_8">
+            <ImageView android:id="@id/iv_input" android:visibility="gone" android:layout_width="@dimen/right_icon_size" android:layout_height="@dimen/right_icon_size" android:src="@drawable/ic_edit_input_wrong" android:scaleType="center" />
+            <ImageView android:id="@id/iv_input_visible" android:visibility="gone" android:layout_width="@dimen/right_icon_size" android:layout_height="@dimen/right_icon_size" android:src="@drawable/ic_visible_selector" android:scaleType="center" android:layout_marginStart="@dimen/px_6" />
+            <ImageView android:id="@id/iv_input_icon" android:visibility="gone" android:layout_width="@dimen/right_icon_size" android:layout_height="@dimen/right_icon_size" android:scaleType="center" android:layout_marginStart="@dimen/px_6" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right|center" android:id="@id/right_text_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/px_0_4">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_right_input" android:visibility="gone" android:layout_width="@dimen/right_icon_size" android:layout_height="@dimen/right_icon_size" android:src="@drawable/ic_edit_input_wrong" android:scaleType="center" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_split_line" android:layout_width="@dimen/px_1" android:layout_height="@dimen/px_16" android:src="@drawable/spilt_line" android:scaleType="center" />
+            <Button android:id="@id/right_text_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/HozonTheme.Widget.Button.TextOnly" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/body_medium" android:textColor="@color/function_color_error_text_default" android:id="@id/tv_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_1" android:layout_marginStart="@dimen/px_6" />
+</LinearLayout>

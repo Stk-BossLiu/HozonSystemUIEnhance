@@ -1,0 +1,19 @@
+{"all": [
+ {"cbId":"cb_mirror","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_mirror","tvTxt":"qs_text_mirror","tvContentDescription":"qs_text_mirror_cd"}
+,{"cbId":"cb_ventilation","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_ventilation","tvTxt":"qs_text_one_key_ventilation","tvContentDescription":"qs_text_one_key_ventilation_cd"}
+,{"cbId":"cb_autohold","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_aoto","tvTxt":"qs_text_aoto","tvContentDescription":"qs_text_aoto_cd"}
+,{"cbId":"cb_onekeycall","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_onecall","tvTxt":"qs_text_onekeycall","tvContentDescription":"qs_text_onekeycall_cd"}
+,{"cbId":"cb_screen","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_screen","tvTxt":"qs_text_screen","tvContentDescription":"qs_text_screen_cd"}
+
+,{"cbId":"cb_bluetooth","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_bluetooth","tvTxt":"qs_text_bluetooth","tvContentDescription":"qs_text_bluetooth_cd"}
+,{"cbId":"cb_wifi","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_wifi","tvTxt":"qs_text_wifi","tvContentDescription":"qs_text_wifi_cd"}
+,{"cbId":"cb_hotspot","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_hotspot","tvTxt":"qs_text_ap","tvContentDescription":"qs_text_ap_cd"}
+,{"cbId":"cb_door_lock","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_lock","tvTxt":"qs_text_lock","tvContentDescription":"qs_text_lock_cd"}
+,{"cbId":"cb_tailgate","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_tailgate","tvTxt":"qs_text_rear_door","tvContentDescription":"qs_text_rear_door_cd"}
+
+,{"cbId":"cb_lsa","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_cue_tone","tvTxt":"qs_text_pedestrian_tone","tvContentDescription":"qs_text_pedestrian_tone_cd"}
+,{"cbId":"cb_seat_fanzhe_sub","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_seat_fanzhe_sub","tvTxt":"qs_text_seat_fanzhe_sub","tvContentDescription":"0"}
+,{"cbId":"cb_seat_fanzhe_main","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_seat_fanzhe_main","tvTxt":"qs_text_seat_fanzhe_main","tvContentDescription":"0"}
+,{"cbId":"cb_camera","canLongClick":"0","tvId":"0","cbDrawableName":"bg_qs_camera","tvTxt":"qs_text_camera","tvContentDescription":"qs_text_camera_cd"}
+,{"cbId":"cb_hud","canLongClick":"1","tvId":"0","cbDrawableName":"bg_qs_hud","tvTxt":"qs_text_hud","tvContentDescription":"qs_text_hud_cd"}
+]}

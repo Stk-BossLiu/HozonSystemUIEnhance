@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/dialog_shade_start_bg_color_comfort_night" android:endColor="@color/dialog_shade_end_bg_color_comfort_night" android:angle="270.0" android:type="linear" />
+    <corners android:topLeftRadius="@dimen/dialog_corner_radius_24" android:topRightRadius="@dimen/dialog_corner_radius_24" android:bottomLeftRadius="@dimen/dialog_corner_radius_24" android:bottomRightRadius="@dimen/dialog_corner_radius_24" />
+</shape>

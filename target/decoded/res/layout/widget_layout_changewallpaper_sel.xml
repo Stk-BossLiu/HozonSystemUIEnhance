@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin.support.widgetMy.SkinCompatLinearLayoutCustom android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/root_layout" android:background="@drawable/widget_sel_bg" android:layout_width="192.0dip" android:layout_height="192.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <skin.support.widgetMy.SkinCompatImageViewCustom android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="32.0dip" android:src="@drawable/icon_eye_close" />
+    <com.hozonauto.systemui.statusbar.FontTextView android:textSize="24.0sp" android:textColor="@color/weather_text_color" android:id="@id/tv_name" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="16.0dip" android:text="@string/widget_changewallpaper" />
+</skin.support.widgetMy.SkinCompatLinearLayoutCustom>

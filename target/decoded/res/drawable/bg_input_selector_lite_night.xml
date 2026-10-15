@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/bg_input_disable_lite_night" />
+    <item android:state_focused="true" android:drawable="@drawable/bg_input_focused_lite_night" />
+    <item android:state_focused="false" android:drawable="@drawable/bg_input_normal_lite_night" />
+</selector>

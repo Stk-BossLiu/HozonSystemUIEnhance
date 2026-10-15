@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_vehicle_one" android:paddingTop="@dimen/dp_60" android:paddingBottom="@dimen/dp_60" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dp_80"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/topEditLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editTvEp32" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/dateLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editTopHInt" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editTopSaveTv" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/widget_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editSwitchIv" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/dragBottomLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/widget_layout_32" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editHintLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editBottomLayout" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editBottomSave" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/editBottomCancel" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/cb_wifi" android:background="@drawable/bg_qs_wifi" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" android:contentDescription="@string/qs_text_wifi_cd" />
+            <TextView android:text="@string/qs_text_wifi" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_bluetooth" android:background="@drawable/bg_qs_bluetooth" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" android:contentDescription="@string/qs_text_bluetooth_cd" />
+            <TextView android:text="@string/qs_text_bluetooth" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_hotspot" android:background="@drawable/bg_qs_hotspot" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" android:contentDescription="@string/qs_text_ap_cd" />
+            <TextView android:text="@string/qs_text_ap" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_door_lock" android:background="@drawable/bg_qs_lock" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" />
+            <TextView android:text="@string/qs_text_lock" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_oil_lock" android:background="@drawable/bg_qs_lock" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" />
+            <TextView android:text="@string/qs_text_lock" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_backlight" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_poweroff" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_radar" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_cleanscreen" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_vicescreenoff" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_slope" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_screen" android:background="@drawable/bg_qs_screen" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_screen_cd" />
+            <TextView android:text="@string/qs_text_screen" style="@style/QSTileText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/dp_120" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height">
+                <CheckBox android:id="@id/cb_tailgate" android:background="@drawable/bg_qs_tailgate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:button="@null" android:contentDescription="@string/qs_text_rear_door_cd" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_tailgate_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+            <TextView android:text="@string/qs_text_rear_door" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_mirror" android:background="@drawable/bg_qs_mirror" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" />
+            <TextView android:text="@string/qs_text_mirror" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_camera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_camera" android:background="@drawable/bg_qs_camera" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_camera_cd" />
+            <TextView android:text="@string/qs_text_camera" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_hud" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_hud" android:background="@drawable/bg_qs_hud" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" />
+            <TextView android:text="@string/qs_text_hud" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_ventilation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_ventilation" android:background="@drawable/bg_qs_ventilation" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" />
+            <TextView android:text="@string/qs_text_one_key_ventilation" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_lsa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_lsa" android:background="@drawable/bg_qs_cue_tone" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" android:contentDescription="@string/qs_text_pedestrian_tone_cd" />
+            <TextView android:text="@string/qs_text_pedestrian_tone" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_autohold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_autohold" android:background="@drawable/bg_qs_aoto_comfort_night" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" />
+            <TextView android:text="@string/qs_text_aoto" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_seat_fanzhe_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_seat_fanzhe_sub" android:background="@drawable/bg_qs_aoto_comfort_night" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" />
+            <TextView android:text="@string/qs_text_seat_fanzhe_sub" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/ll_seat_fanzhe_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_seat_fanzhe_main" android:background="@drawable/bg_qs_aoto_comfort_night" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" />
+            <TextView android:text="@string/qs_text_seat_fanzhe_main" style="@style/QSTileText" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140">
+            <CheckBox android:id="@id/cb_onekeycall" android:background="@drawable/bg_qs_wifi" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_width" android:button="@null" />
+            <TextView android:text="@string/qs_text_onekeycall" style="@style/QSTileText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

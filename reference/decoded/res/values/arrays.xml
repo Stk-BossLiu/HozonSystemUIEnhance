@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_SystemUIServiceComponents">
+        <item>com.hozonauto.systemui.Dependency</item>
+        <item>com.hozonauto.systemui.statusbar.car.HzCarStatusBar</item>
+        <item>com.hozonauto.systemui.volume.VolumeUI</item>
+        <item>com.hozonauto.systemui.toast.ToastUI</item>
+    </string-array>
+</resources>

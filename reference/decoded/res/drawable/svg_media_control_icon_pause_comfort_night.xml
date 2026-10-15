@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="8.0" android:viewportHeight="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/neutral_color_icon_primary_comfort_night" android:pathData="M2.49963,0.83301C2.22349,0.83301 1.99963,1.05687 1.99963,1.33301V6.66634C1.99963,6.94248 2.22349,7.16634 2.49963,7.16634C2.77578,7.16634 2.99963,6.94248 2.99963,6.66634V1.33301C2.99963,1.05687 2.77578,0.83301 2.49963,0.83301ZM5.49964,0.83301C5.22349,0.83301 4.99964,1.05687 4.99964,1.33301V6.66634C4.99964,6.94248 5.22349,7.16634 5.49964,7.16634C5.77578,7.16634 5.99964,6.94248 5.99964,6.66634V1.33301C5.99964,1.05687 5.77578,0.83301 5.49964,0.83301Z" android:fillType="evenOdd" />
+</vector>

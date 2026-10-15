@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/px_24">
+        <LinearLayout android:orientation="horizontal" android:id="@id/common_input_edit_bg" android:background="@drawable/bg_edittext_has_line_normal" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_content" android:paddingLeft="@dimen/px_8" android:paddingRight="@dimen/px_8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_toLeftOf="@id/tv_send_verification">
+                <EditText android:textColor="@color/neutral_color_text_primary" android:textColorHint="@color/neutral_color_text_tertiary" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/et_common_input" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/px_6" android:hint="@string/input_content_suggest" android:singleLine="true" android:layout_toLeftOf="@id/iv_clear" android:layout_alignParentLeft="true" android:textCursorDrawable="@drawable/cursor_selector" style="@style/HozonTheme.TextAppearance.Button.Medium.Regular" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_clear" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@drawable/app_icon_close_ep32" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="删除" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_icons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_1" />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size_8" android:textColor="@color/function_color_error_text_default" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_warn_ocuppy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8" android:text=" " android:maxLines="1" />
+    <TextView android:textSize="@dimen/font_size_8" android:textColor="@color/function_color_error_text_default" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_warn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8" android:text="我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字，我是警告文字" android:maxLines="2" />
+</LinearLayout>

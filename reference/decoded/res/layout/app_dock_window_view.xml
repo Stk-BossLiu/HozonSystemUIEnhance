@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.AppDockWindowView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="#ff4169e1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_settings" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="车辆设置" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_applist" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="应用中心" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_3" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="自动泊车\n暂无功能" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_4" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="360全景影响\n暂无功能" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_5" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="智能语音\n暂无功能" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_6" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="情景模式\n暂无功能" />
+    <Button android:textColor="@color/black" android:gravity="center" android:id="@id/btn_7" android:background="#ffffffff" android:layout_width="188.0dip" android:layout_height="188.0dip" android:layout_margin="@dimen/dp_10" android:text="哪吒商城\n暂无功能" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Working\nIn\nProgress" />
+</com.hozonauto.systemui.AppDockWindowView>

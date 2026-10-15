@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.HotspotPopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_pop" android:background="@drawable/bg_pop" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_168" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_container" android:paddingLeft="@dimen/px_16" android:paddingRight="@dimen/px_16" android:layout_width="fill_parent" android:layout_height="@dimen/px_32">
+            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/pop_hotspot" android:layout_weight="1.0" style="@style/HozonTheme.TextAppearance.Body.Large.Regular" />
+            <com.hozonauto.widget.SwitchButton android:id="@id/switch_hotspot" android:contentDescription="热点(switch)" app:hz_loading_timeout="12000" app:hz_show_loading="true" style="@style/SwitchButton" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@id/divide_line" android:background="@color/neutral_color_splitline_primary" android:layout_width="@dimen/px_136" android:layout_height="@dimen/px_1" />
+        <com.hozonauto.systemui.theme.HzNestedScrollView android:id="@id/nested_scrollview" android:layout_width="@dimen/px_152" android:layout_height="@dimen/px_174" android:layout_marginStart="@dimen/px_16">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_connected" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_10" android:layout_marginBottom="@dimen/px_10" android:text="@string/pop_hotspot_connected" style="@style/HozonTheme.TextAppearance.Body.Small.Heavy" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_hotspot_connected" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+            </LinearLayout>
+        </com.hozonauto.systemui.theme.HzNestedScrollView>
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.HotspotPopView>

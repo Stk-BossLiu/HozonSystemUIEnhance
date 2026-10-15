@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.car.DropDownWindowView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/drop_down_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/qs_weather_icon_height">
+            <ImageView android:id="@id/iv_weather" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include layout="@layout/expand_system_icon" />
+        <RadioGroup android:gravity="center" android:orientation="horizontal" android:background="@drawable/bg_qs_rb_container" android:padding="@dimen/rb_container_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_355" android:layout_centerHorizontal="true">
+            <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_qs" android:background="@drawable/selector_bg_drop_down_switch" android:layout_width="@dimen/rb_button_width" android:layout_height="@dimen/rb_button_height" android:button="@null" android:text="@string/drop_down_qs_text" />
+            <RadioButton android:textSize="@dimen/rb_button_tv_size" android:textColor="@color/tab_text_color" android:gravity="center" android:id="@id/rb_notification" android:background="@drawable/selector_bg_drop_down_switch" android:layout_width="@dimen/rb_button_width" android:layout_height="@dimen/rb_button_height" android:button="@null" android:text="@string/drop_down_notification_text" android:singleLine="true" />
+        </RadioGroup>
+        <com.hozonauto.systemui.statusbar.NoPlaySoundEffectView android:id="@id/shrinkView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="-20.0dip" android:layout_marginEnd="6.0px" android:layout_toEndOf="@id/rl_qs_container_layout" android:layout_alignParentEnd="true" />
+        <FrameLayout android:id="@id/rl_qs_container_layout" android:background="@drawable/neutral_color_background_system_popup" android:layout_width="@dimen/px_304" android:layout_height="fill_parent" android:layout_marginStart="600.0px">
+            <include layout="@layout/qs_container" />
+        </FrameLayout>
+        <include layout="@layout/notification_container" />
+        <FrameLayout android:visibility="gone" android:layout_width="@dimen/px_304" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/px_3">
+            <View android:layout_gravity="center|bottom" android:background="@drawable/horizontal_line_bg" android:layout_width="@dimen/px_56" android:layout_height="@dimen/px_1" />
+        </FrameLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fl_mask" android:background="@color/color_expand_statusbar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/radioGroupLayout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:id="@id/leftClickShrinkView" android:layout_width="600.0px" android:layout_height="fill_parent" />
+</com.hozonauto.systemui.statusbar.car.DropDownWindowView>

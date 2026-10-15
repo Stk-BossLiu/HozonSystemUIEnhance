@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.NotificationPopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pop" android:background="@drawable/bg_pop" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_220" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/px_40">
+            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:id="@id/notification_client_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_center" android:layout_marginStart="@dimen/px_16" style="@style/HozonTheme.TextAppearance.Body.Large.Regular" />
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/btn_clear" android:background="@drawable/svg_icon_empty" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:contentDescription="删除" android:layout_marginStart="@dimen/px_109" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/px_6" android:textColor="@color/widget_home_text_normal_color" android:gravity="center" android:id="@id/btn_clear_confirm" android:background="@drawable/bg_clear_ep36" android:visibility="gone" android:layout_width="@dimen/px_31" android:layout_height="@dimen/px_12" android:text="@string/qs_clear_notification" android:contentDescription="清除" android:layout_marginStart="@dimen/px_154" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/fl_no_notification" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_16" android:layout_marginBottom="@dimen/px_8" android:layout_marginStart="@dimen/px_16">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/notification_icon_no_notification_ep32" />
+        </LinearLayout>
+        <com.hozonauto.systemui.theme.HzNestedScrollView android:id="@id/nested_scrollview" android:paddingBottom="@dimen/px_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="always">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_notification" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_8" android:layout_marginRight="@dimen/px_8" android:overScrollMode="never" />
+            </LinearLayout>
+        </com.hozonauto.systemui.theme.HzNestedScrollView>
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.NotificationPopView>

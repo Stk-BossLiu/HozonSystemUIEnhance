@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M2,2h12v12h-12z" />
+        <path android:fillColor="@color/neutral_color_icon_primary_comfort_night" android:pathData="M7.5706,12.0745C7.3211,11.8251 7.3211,11.4206 7.5706,11.1711C7.8201,10.9216 8.2246,10.9216 8.4741,11.1711C8.7236,11.4206 8.7236,11.8251 8.4741,12.0745C8.2246,12.324 7.8201,12.324 7.5706,12.0745Z" />
+        <path android:fillColor="@color/neutral_color_icon_primary_comfort_night" android:pathData="M5.8042,9.9717C5.6578,9.8253 5.6578,9.5878 5.8042,9.4414C7.0293,8.2163 9.0155,8.2163 10.2405,9.4414C10.387,9.5878 10.387,9.8253 10.2405,9.9717C10.0941,10.1182 9.8566,10.1182 9.7102,9.9717C8.778,9.0396 7.2667,9.0396 6.3346,9.9717C6.1881,10.1182 5.9507,10.1182 5.8042,9.9717Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/neutral_color_icon_primary_comfort_night" android:pathData="M4.1595,8.0772C4.013,7.9307 4.013,7.6933 4.1595,7.5469C6.2928,5.4135 9.7516,5.4135 11.885,7.5469C12.0314,7.6933 12.0314,7.9307 11.885,8.0772C11.7385,8.2236 11.5011,8.2236 11.3546,8.0772C9.5142,6.2367 6.5302,6.2367 4.6898,8.0772C4.5433,8.2236 4.3059,8.2236 4.1595,8.0772Z" android:fillType="evenOdd" />
+        <path android:fillColor="@color/neutral_color_icon_tertiary_comfort_night" android:pathData="M2.5149,6.1824C2.3685,6.036 2.3685,5.7985 2.5149,5.6521C5.5566,2.6104 10.488,2.6104 13.5296,5.6521C13.6761,5.7985 13.6761,6.036 13.5296,6.1824C13.3832,6.3288 13.1458,6.3288 12.9993,6.1824C10.2506,3.4337 5.794,3.4337 3.0452,6.1824C2.8988,6.3288 2.6614,6.3288 2.5149,6.1824Z" android:fillType="evenOdd" />
+    </group>
+</vector>

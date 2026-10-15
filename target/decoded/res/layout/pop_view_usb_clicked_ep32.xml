@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.USBClickedPopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pop" android:background="@drawable/bg_pop" android:paddingBottom="@dimen/px_24" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_220" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/px_16">
+        <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_12" android:text="USB" android:layout_marginStart="@dimen/px_8" style="@style/HozonTheme.TextAppearance.Body.Large.Regular" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gallery" android:background="@drawable/neutral_color_background_surface_primary" android:layout_width="@dimen/px_188" android:layout_height="@dimen/px_36" android:layout_marginTop="@dimen/px_12">
+            <ImageView android:layout_width="@dimen/px_24" android:layout_height="@dimen/px_24" android:src="@mipmap/ic_gallery_ep32" android:layout_marginStart="@dimen/px_6" />
+            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:layout_gravity="center" android:layout_width="@dimen/px_105" android:layout_height="wrap_content" android:text="@string/pop_usbclicked_gallery_text" android:layout_marginStart="@dimen/px_6" style="@style/HozonTheme.TextAppearance.Body.Medium.Regular" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/local_media" android:background="@drawable/neutral_color_background_surface_primary" android:layout_width="@dimen/px_188" android:layout_height="@dimen/px_36" android:layout_marginTop="@dimen/px_4">
+            <ImageView android:layout_width="@dimen/px_24" android:layout_height="@dimen/px_24" android:src="@mipmap/ic_local_media_ep32" android:layout_marginStart="@dimen/px_6" />
+            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:layout_gravity="center" android:layout_width="@dimen/px_105" android:layout_height="wrap_content" android:text="@string/pop_usbclicked_local_media_text" android:layout_marginStart="@dimen/px_6" style="@style/HozonTheme.TextAppearance.Body.Medium.Regular" />
+        </LinearLayout>
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.USBClickedPopView>

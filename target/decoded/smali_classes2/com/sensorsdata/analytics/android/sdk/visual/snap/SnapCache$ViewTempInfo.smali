@@ -1,0 +1,37 @@
+.class public Lcom/sensorsdata/analytics/android/sdk/visual/snap/SnapCache$ViewTempInfo;
+.super Ljava/lang/Object;
+.source "SnapCache.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/sensorsdata/analytics/android/sdk/visual/snap/SnapCache;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "ViewTempInfo"
+.end annotation
+
+
+# instance fields
+.field public localVisibleRect:Ljava/lang/Boolean;
+
+.field public selectPath:Ljava/lang/String;
+
+.field public viewId:Ljava/lang/String;
+
+.field public viewText:Ljava/lang/String;
+
+.field public viewType:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

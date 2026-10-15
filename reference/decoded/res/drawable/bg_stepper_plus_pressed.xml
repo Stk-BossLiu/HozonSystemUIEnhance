@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="80.0dip" android:width="80.0dip" android:viewportWidth="80.0" android:viewportHeight="80.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$bg_stepper_plus_pressed__0" android:pathData="M8,40 A32,32 0 1 1 8,40.001  M0,40 A40,40 0 1 0 0,39.999 " />
+    <path android:fillColor="@drawable/$bg_stepper_plus_pressed__1" android:pathData="M8,40 A32,32 0 1 1 8,40.001" />
+    <path android:fillColor="@drawable/$bg_stepper_plus_pressed__2" android:pathData="M40,8 A32,32 0 1 1 39.999,8,M10,40 A30,30,0 1 0 10,39.999" />
+    <path android:pathData="M20,40 H60 z" android:strokeColor="@color/white" android:strokeWidth="5.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+    <path android:pathData="M40,20 V60 z" android:strokeColor="@color/white" android:strokeWidth="5.0" android:strokeLineCap="round" android:strokeLineJoin="round" />
+</vector>

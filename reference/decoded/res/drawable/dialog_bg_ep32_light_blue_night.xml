@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/shadow_large_surface_light_blue_night" />
+    <item android:drawable="@drawable/neutral_color_background_system_popup_light_blue_night" />
+</layer-list>

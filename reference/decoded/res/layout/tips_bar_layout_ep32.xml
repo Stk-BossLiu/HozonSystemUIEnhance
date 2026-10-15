@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tips_bar_container" android:background="@drawable/tips_bar_bg_ep32" android:paddingLeft="@dimen/px_13" android:paddingRight="@dimen/px_13" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/tips_bar_icon" android:visibility="gone" android:layout_width="@dimen/px_12" android:layout_height="@dimen/px_12" android:layout_marginRight="@dimen/px_8" />
+    <TextView android:textColor="@color/neutral_color_text_primary" android:gravity="center" android:id="@id/tips_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_7" android:layout_marginBottom="@dimen/px_7" android:maxWidth="@dimen/px_262" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+    <TextView android:textColor="@color/function_color_link_default" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tips_bar_btn" android:paddingLeft="@dimen/px_12" android:paddingRight="@dimen/px_12" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_8" style="@style/HozonTheme.TextAppearance.Button.Medium.Regular" />
+    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tips_bar_close" android:visibility="gone" android:layout_width="@dimen/px_12" android:layout_height="@dimen/px_12" android:layout_marginLeft="@dimen/px_8" android:src="@drawable/tipsbar_close_icon_ep32" />
+</LinearLayout>

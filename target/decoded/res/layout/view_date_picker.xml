@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/pickers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_6">
+            <com.hozonauto.widget.NumberPicker android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/month" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" android:minWidth="@dimen/px_36" app:itemCount="3" app:selectionDivider="@drawable/divider_line_numberpicker" app:selectionDividerHeight="@dimen/number_picker_line_height" app:selectionDividersDistance="@dimen/px_20" app:text="@string/month" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_6">
+            <com.hozonauto.widget.NumberPicker android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/day" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" android:minWidth="@dimen/px_36" app:itemCount="3" app:selectionDivider="@drawable/divider_line_numberpicker" app:selectionDividerHeight="@dimen/number_picker_line_height" app:selectionDividersDistance="@dimen/px_20" app:text="@string/day" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/fl_year" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hozonauto.widget.NumberPicker android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/year" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" android:minWidth="@dimen/px_44" app:itemCount="3" app:selectionDivider="@drawable/divider_line_numberpicker" app:selectionDividerHeight="@dimen/number_picker_line_height" app:selectionDividersDistance="@dimen/px_20" app:text="@string/year" />
+        </FrameLayout>
+    </LinearLayout>
+    <CalendarView android:id="@id/calendar_view" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="@dimen/px_61" android:layout_height="@dimen/px_70" android:layout_weight="1.0" android:layout_marginStart="@dimen/px_11" />
+</LinearLayout>

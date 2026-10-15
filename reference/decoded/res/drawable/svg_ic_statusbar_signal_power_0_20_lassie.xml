@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie" android:pathData="M4.6252,10.25L4.6252,10.25A0.375,0.375 0,0 1,5.0002 10.625L5.0002,12.125A0.375,0.375 0,0 1,4.6252 12.5L4.6252,12.5A0.375,0.375 0,0 1,4.2502 12.125L4.2502,10.625A0.375,0.375 0,0 1,4.6252 10.25z" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie" android:pathData="M6.3756,9.2502L6.3756,9.2502A0.375,0.375 0,0 1,6.7506 9.6252L6.7506,12.1252A0.375,0.375 0,0 1,6.3756 12.5002L6.3756,12.5002A0.375,0.375 0,0 1,6.0006 12.1252L6.0006,9.6252A0.375,0.375 0,0 1,6.3756 9.2502z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie" android:pathData="M8.1255,8.2507L8.1255,8.2507A0.375,0.375 0,0 1,8.5005 8.6257L8.5005,12.1257A0.375,0.375 0,0 1,8.1255 12.5007L8.1255,12.5007A0.375,0.375 0,0 1,7.7505 12.1257L7.7505,8.6257A0.375,0.375 0,0 1,8.1255 8.2507z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie" android:pathData="M9.8754,7.25L9.8754,7.25A0.375,0.375 0,0 1,10.2504 7.625L10.2504,12.125A0.375,0.375 0,0 1,9.8754 12.5L9.8754,12.5A0.375,0.375 0,0 1,9.5004 12.125L9.5004,7.625A0.375,0.375 0,0 1,9.8754 7.25z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie" android:pathData="M11.6256,6.2502L11.6256,6.2502A0.375,0.375 0,0 1,12.0006 6.6252L12.0006,12.1252A0.375,0.375 0,0 1,11.6256 12.5002L11.6256,12.5002A0.375,0.375 0,0 1,11.2506 12.1252L11.2506,6.6252A0.375,0.375 0,0 1,11.6256 6.2502z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+</vector>

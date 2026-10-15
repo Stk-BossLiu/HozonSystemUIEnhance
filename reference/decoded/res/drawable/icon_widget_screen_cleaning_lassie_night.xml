@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M8.346,15.625C8.346,15.28 8.626,15 8.971,15H11.746C12.092,15 12.371,15.28 12.371,15.625C12.371,15.97 12.092,16.25 11.746,16.25H8.971C8.626,16.25 8.346,15.97 8.346,15.625Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M3.867,5H16.367C16.827,5 17.201,5.373 17.201,5.833V9.546H18.451V5.833C18.451,4.683 17.518,3.75 16.367,3.75H3.867C2.717,3.75 1.784,4.683 1.784,5.833V14.167C1.784,15.317 2.717,16.25 3.867,16.25H11.746V15H3.867C3.407,15 3.034,14.627 3.034,14.167V5.833C3.034,5.373 3.407,5 3.867,5Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M17.825,7.298C18.171,7.298 18.45,7.578 18.45,7.923L18.45,9.583C18.45,9.928 18.171,10.208 17.825,10.208C17.48,10.208 17.2,9.928 17.2,9.583L17.2,7.923C17.2,7.578 17.48,7.298 17.825,7.298Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M15.04,9.663L16.065,11.932L18.333,12.957L16.065,13.981L15.04,16.25L14.015,13.981L11.746,12.957L14.015,11.932L15.04,9.663Z" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M16.065,11.932L15.04,9.663L14.015,11.932L11.746,12.957L14.015,13.981L15.04,16.25L16.065,13.981L18.333,12.957L16.065,11.932ZM16.309,12.957L15.435,12.562L15.04,11.688L14.645,12.562L13.771,12.957L14.645,13.351L15.04,14.225L15.435,13.351L16.309,12.957Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M7.119,7.083L7.742,8.463L9.122,9.086L7.742,9.709L7.119,11.089L6.496,9.709L5.117,9.086L6.496,8.463L7.119,7.083Z" />
+    <path android:fillColor="@color/neutral_color_icon_primary_lassie_night" android:pathData="M7.742,8.463L7.119,7.083L6.496,8.463L5.117,9.086L6.496,9.709L7.119,11.089L7.742,9.709L9.122,9.086L7.742,8.463Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.0dip" android:width="12.0dip" android:autoMirrored="true" android:viewportWidth="12.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$checkbox_selected_normal_ep32_lassie__0" android:pathData="M2,0L10,0A2,2 0,0 1,12 2L12,10A2,2 0,0 1,10 12L2,12A2,2 0,0 1,0 10L0,2A2,2 0,0 1,2 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M9.625,3.356C9.418,3.148 9.082,3.148 8.875,3.356L4.76,7.471L2.939,5.65C2.724,5.435 2.376,5.435 2.161,5.65C1.946,5.865 1.946,6.213 2.161,6.428L4.106,8.372C4.16,8.426 4.222,8.467 4.289,8.494C4.312,8.534 4.341,8.571 4.375,8.606C4.582,8.813 4.918,8.813 5.125,8.606L9.625,4.106C9.832,3.898 9.832,3.563 9.625,3.356Z" android:fillType="evenOdd" />
+</vector>

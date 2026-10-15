@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@mipmap/ic_volume_mute_normal" />
+        </layer-list>
+    </item>
+    <item android:state_selected="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@mipmap/ic_volume_mute_pressed" />
+        </layer-list>
+    </item>
+</selector>

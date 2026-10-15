@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/neutral_color_background_surface_primary_lite_lassie" />
+    <item>
+        <shape android:layout_height="fill_parent" android:shape="rectangle">
+            <stroke android:width="@dimen/px_0_4" android:color="@color/function_color_link_default_lite_lassie" />
+            <corners android:radius="@dimen/px_4" />
+        </shape>
+    </item>
+</layer-list>

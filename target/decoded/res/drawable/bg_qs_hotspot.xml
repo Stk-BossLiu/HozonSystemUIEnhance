@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_normal" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/icon_quickmenu_hotspot_sei_normal_ep36" />
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_pressed" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/icon_quickmenu_hotspot_sei_normal_ep36" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/icon_quickmenu_hotspot_sei_white_ep36" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected_pressed" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/icon_quickmenu_hotspot_sei_white_ep36" />
+        </layer-list>
+    </item>
+</selector>

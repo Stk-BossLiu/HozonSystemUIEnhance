@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <size android:height="@dimen/dp_64" />
+            <solid android:color="@color/vol_seekbar_bg_color" />
+            <corners android:radius="@dimen/vol_seekbar_bg_corner" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <size android:height="@dimen/dp_64" />
+                <gradient android:startColor="@color/seek_bar_gradient_start_color" android:endColor="@color/seek_bar_gradient_end_color" android:angle="270.0" />
+                <corners android:radius="@dimen/vol_seekbar_bg_corner" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

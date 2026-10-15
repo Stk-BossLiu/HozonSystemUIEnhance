@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/space_60" android:paddingRight="@dimen/space_60" android:paddingBottom="@dimen/space_32" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_36" android:textColor="@color/primary_grey_dark" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_40" android:text="我是标题" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/swichBtnContainer" android:layout_width="@dimen/icon_width_116" android:layout_height="@dimen/icon_height_60" android:layout_marginTop="@dimen/space_32" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/font_24" android:textColor="@color/primary_grey_dark" android:ellipsize="end" android:id="@id/tv_assist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_28" android:includeFontPadding="false" android:layout_below="@id/tv_title" android:layout_alignParentLeft="true" android:alpha="0.36" />
+</RelativeLayout>

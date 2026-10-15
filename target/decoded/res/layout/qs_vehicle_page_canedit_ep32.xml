@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.DropdownEditLayout android:orientation="vertical" android:id="@id/ll_vehicle_one" android:paddingTop="@dimen/edit_container_padding_top" android:paddingBottom="@dimen/edit_container_padding_bottom" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingHorizontal="@dimen/edit_container_padding_h" app:layout_constraintTop_toBottomOf="@id/accountLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

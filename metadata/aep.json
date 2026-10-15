@@ -1,0 +1,18 @@
+{
+  "offlineAepLabel": {
+    "application": "应用名称",
+    "model": "车型或产品型号",
+    "productVersion": "产品版本"
+  },
+  "schemaVersion": 2,
+  "enhancementId": "hozon-systemui-enhance",
+  "name": "面向用户的应用名称",
+  "package": "com.hozonauto.systemui",
+  "activationMode": "none",
+  "description": "产品版本\n【功能】说明实际行为和必要条件。",
+  "compatibility": {
+    "allOf": [],
+    "stockPackageVersionName": "1.1.40",
+    "stockApkSha256": "e9ef9f651804c05c1a3d2e24575c15e6eed2f8ce18abe719f0e9eade7b0208a7"
+  }
+}

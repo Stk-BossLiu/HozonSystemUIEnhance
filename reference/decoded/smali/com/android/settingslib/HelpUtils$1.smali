@@ -1,0 +1,102 @@
+.class public Lcom/android/settingslib/HelpUtils$1;
+.super Ljava/lang/Object;
+.source "HelpUtils.java"
+
+# interfaces
+.implements Landroid/view/MenuItem$OnMenuItemClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/settingslib/HelpUtils;->prepareHelpMenuItem(Landroid/app/Activity;Landroid/view/MenuItem;Ljava/lang/String;Ljava/lang/String;)Z
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic val$activity:Landroid/app/Activity;
+
+.field public final synthetic val$intent:Landroid/content/Intent;
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;Landroid/content/Intent;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/android/settingslib/HelpUtils$1;->val$activity:Landroid/app/Activity;
+
+    iput-object p2, p0, Lcom/android/settingslib/HelpUtils$1;->val$intent:Landroid/content/Intent;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onMenuItemClick(Landroid/view/MenuItem;)Z
+    .locals 2
+
+    .line 1
+    iget-object p1, p0, Lcom/android/settingslib/HelpUtils$1;->val$activity:Landroid/app/Activity;
+
+    iget-object v0, p0, Lcom/android/settingslib/HelpUtils$1;->val$intent:Landroid/content/Intent;
+
+    const-string v1, "EXTRA_CONTEXT"
+
+    .line 2
+    invoke-virtual {v0, v1}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const/16 v1, 0x201
+
+    .line 3
+    invoke-static {p1, v1, v0}, Lcom/android/internal/logging/MetricsLogger;->action(Landroid/content/Context;ILjava/lang/String;)V
+
+    .line 4
+    :try_start_0
+    iget-object p1, p0, Lcom/android/settingslib/HelpUtils$1;->val$activity:Landroid/app/Activity;
+
+    iget-object v0, p0, Lcom/android/settingslib/HelpUtils$1;->val$intent:Landroid/content/Intent;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p1, v0, v1}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
+    :try_end_0
+    .catch Landroid/content/ActivityNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    .line 5
+    :catch_0
+    invoke-static {}, Lcom/android/settingslib/HelpUtils;->access$000()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v0, "No activity found for intent: "
+
+    invoke-static {v0}, Lc/a/b/a/a;->k(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/android/settingslib/HelpUtils$1;->val$intent:Landroid/content/Intent;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {p1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
+    const/4 p1, 0x1
+
+    return p1
+.end method

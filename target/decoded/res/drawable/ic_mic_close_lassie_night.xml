@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="12.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_color_on_brand_on_slider_lassie_night" android:pathData="M7.75,3.5V5.25C7.75,5.563 7.668,5.856 7.524,6.11L8.069,6.654C8.341,6.254 8.5,5.771 8.5,5.25V3.5C8.5,2.119 7.381,1 6,1C5.03,1 4.189,1.553 3.774,2.36L4.345,2.931C4.581,2.244 5.233,1.75 6,1.75C6.966,1.75 7.75,2.533 7.75,3.5Z" />
+    <path android:fillColor="@color/brand_color_on_brand_on_slider_lassie_night" android:pathData="M6.316,7.73L5.519,6.933C4.939,6.768 4.482,6.311 4.317,5.731L3.5,4.914V5.25C3.5,6.631 4.619,7.75 6,7.75C6.107,7.75 6.212,7.743 6.316,7.73Z" />
+    <path android:fillColor="@color/brand_color_on_brand_on_slider_lassie_night" android:pathData="M7.23,8.644L7.799,9.213C7.362,9.425 6.882,9.563 6.375,9.608V10.625C6.375,10.832 6.207,11 6,11C5.793,11 5.625,10.832 5.625,10.625V9.608C3.523,9.419 1.875,7.652 1.875,5.5C1.875,5.293 2.043,5.125 2.25,5.125C2.457,5.125 2.625,5.293 2.625,5.5C2.625,7.364 4.136,8.875 6,8.875C6.434,8.875 6.849,8.793 7.23,8.644Z" />
+    <path android:fillColor="@color/brand_color_on_brand_on_slider_lassie_night" android:pathData="M9.338,7.924L8.8,7.385C9.163,6.847 9.375,6.198 9.375,5.5C9.375,5.293 9.543,5.125 9.75,5.125C9.957,5.125 10.125,5.293 10.125,5.5C10.125,6.406 9.833,7.243 9.338,7.924Z" />
+    <path android:fillColor="@color/brand_color_on_brand_on_slider_lassie_night" android:pathData="M1.757,2.288C1.611,2.141 1.611,1.904 1.757,1.757C1.904,1.611 2.141,1.611 2.288,1.757L10.243,9.712C10.389,9.859 10.389,10.096 10.243,10.243C10.096,10.389 9.859,10.389 9.712,10.243L1.757,2.288Z" />
+</vector>

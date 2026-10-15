@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tips_bar_container" android:background="@drawable/tips_bar_bg" android:paddingLeft="42.0dip" android:paddingRight="42.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/tips_bar_icon" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginRight="34.0dip" />
+    <TextView android:textSize="@dimen/font_32_dp" android:textColor="@color/tips_bar_textcolor" android:ellipsize="end" android:gravity="center" android:id="@id/tips_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="29.0dip" android:layout_marginBottom="29.0dip" android:maxWidth="868.0dip" android:minWidth="226.0dip" android:maxLines="2" />
+    <TextView android:textSize="@dimen/font_32_dp" android:textColor="#ff0095fe" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tips_bar_btn" android:visibility="gone" android:layout_width="116.0dip" android:layout_height="48.0dip" android:layout_marginLeft="34.0dip" />
+    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tips_bar_close" android:padding="8.0dip" android:visibility="gone" android:layout_width="57.599976dip" android:layout_height="57.599976dip" android:layout_marginLeft="34.0dip" android:src="@drawable/tipsbar_close_icon" />
+</LinearLayout>

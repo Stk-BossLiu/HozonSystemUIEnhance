@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/com_dialog_text_warn_color_comfort_night" android:pathData="M15,6.5C15,8.157 13.657,9.5 12,9.5C10.343,9.5 9,8.157 9,6.5C9,4.843 10.343,3.5 12,3.5C13.657,3.5 15,4.843 15,6.5ZM16.5,6.5C16.5,8.985 14.485,11 12,11C9.515,11 7.5,8.985 7.5,6.5C7.5,4.015 9.515,2 12,2C14.485,2 16.5,4.015 16.5,6.5ZM5.25,20.5C5.25,16.772 8.272,13.75 12,13.75C15.728,13.75 18.75,16.772 18.75,20.5C18.75,20.914 19.086,21.25 19.5,21.25C19.914,21.25 20.25,20.914 20.25,20.5C20.25,15.944 16.556,12.25 12,12.25C7.444,12.25 3.75,15.944 3.75,20.5C3.75,20.914 4.086,21.25 4.5,21.25C4.914,21.25 5.25,20.914 5.25,20.5Z" android:fillType="evenOdd" />
+</vector>

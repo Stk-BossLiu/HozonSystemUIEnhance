@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <skin.support.widget.SkinCompatLinearLayout android:orientation="vertical" android:id="@id/layout_shade" android:background="@drawable/neutral_color_background_system_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/px_12" android:layout_marginRight="@dimen/px_12" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_inner" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.hozonauto.widget.dialog.InputDialogView android:id="@id/standard_dialog" android:background="@drawable/dialog_bg_ep32" android:layout_width="@dimen/px_224" android:layout_height="wrap_content" />
+                <View android:id="@id/topview" android:layout_width="@dimen/px_224" android:layout_height="@dimen/px_148" app:layout_constraintBottom_toBottomOf="@id/standard_dialog" app:layout_constraintLeft_toLeftOf="@id/standard_dialog" app:layout_constraintRight_toRightOf="@id/standard_dialog" app:layout_constraintTop_toTopOf="@id/standard_dialog" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

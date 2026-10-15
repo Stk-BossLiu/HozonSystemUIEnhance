@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:height="@dimen/px_24" android:drawable="@drawable/neutral_color_background_surface_primary_comfort_night" />
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/neutral_color_background_surface_slider_comfort_night" />
+    </item>
+</layer-list>

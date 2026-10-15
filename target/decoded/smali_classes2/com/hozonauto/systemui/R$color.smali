@@ -1,0 +1,3668 @@
+.class public final Lcom/hozonauto/systemui/R$color;
+.super Ljava/lang/Object;
+
+
+# static fields
+.field public static final abc_background_cache_hint_selector_material_dark:I = 0x7f060000
+
+.field public static final abc_background_cache_hint_selector_material_light:I = 0x7f060001
+
+.field public static final abc_btn_colored_borderless_text_material:I = 0x7f060002
+
+.field public static final abc_btn_colored_text_material:I = 0x7f060003
+
+.field public static final abc_color_highlight_material:I = 0x7f060004
+
+.field public static final abc_decor_view_status_guard:I = 0x7f060005
+
+.field public static final abc_decor_view_status_guard_light:I = 0x7f060006
+
+.field public static final abc_hint_foreground_material_dark:I = 0x7f060007
+
+.field public static final abc_hint_foreground_material_light:I = 0x7f060008
+
+.field public static final abc_primary_text_disable_only_material_dark:I = 0x7f060009
+
+.field public static final abc_primary_text_disable_only_material_light:I = 0x7f06000a
+
+.field public static final abc_primary_text_material_dark:I = 0x7f06000b
+
+.field public static final abc_primary_text_material_light:I = 0x7f06000c
+
+.field public static final abc_search_url_text:I = 0x7f06000d
+
+.field public static final abc_search_url_text_normal:I = 0x7f06000e
+
+.field public static final abc_search_url_text_pressed:I = 0x7f06000f
+
+.field public static final abc_search_url_text_selected:I = 0x7f060010
+
+.field public static final abc_secondary_text_material_dark:I = 0x7f060011
+
+.field public static final abc_secondary_text_material_light:I = 0x7f060012
+
+.field public static final abc_tint_btn_checkable:I = 0x7f060013
+
+.field public static final abc_tint_default:I = 0x7f060014
+
+.field public static final abc_tint_edittext:I = 0x7f060015
+
+.field public static final abc_tint_seek_thumb:I = 0x7f060016
+
+.field public static final abc_tint_spinner:I = 0x7f060017
+
+.field public static final abc_tint_switch_track:I = 0x7f060018
+
+.field public static final acc_activated:I = 0x7f060019
+
+.field public static final acc_activated_comfort_night:I = 0x7f06001a
+
+.field public static final acc_activated_dream:I = 0x7f06001b
+
+.field public static final acc_activated_dream_night:I = 0x7f06001c
+
+.field public static final acc_activated_lassie:I = 0x7f06001d
+
+.field public static final acc_activated_lassie_night:I = 0x7f06001e
+
+.field public static final acc_activated_light_blue:I = 0x7f06001f
+
+.field public static final acc_activated_light_blue_night:I = 0x7f060020
+
+.field public static final acc_activated_lite:I = 0x7f060021
+
+.field public static final acc_activated_lite_lassie:I = 0x7f060022
+
+.field public static final acc_activated_lite_lassie_night:I = 0x7f060023
+
+.field public static final acc_activated_lite_night:I = 0x7f060024
+
+.field public static final acc_icon_bg:I = 0x7f060025
+
+.field public static final acc_icon_bg_comfort_night:I = 0x7f060026
+
+.field public static final acc_icon_bg_dream:I = 0x7f060027
+
+.field public static final acc_icon_bg_dream_night:I = 0x7f060028
+
+.field public static final acc_icon_bg_lassie:I = 0x7f060029
+
+.field public static final acc_icon_bg_lassie_night:I = 0x7f06002a
+
+.field public static final acc_icon_bg_light_blue:I = 0x7f06002b
+
+.field public static final acc_icon_bg_light_blue_night:I = 0x7f06002c
+
+.field public static final acc_icon_bg_lite:I = 0x7f06002d
+
+.field public static final acc_icon_bg_lite_lassie:I = 0x7f06002e
+
+.field public static final acc_icon_bg_lite_lassie_night:I = 0x7f06002f
+
+.field public static final acc_icon_bg_lite_night:I = 0x7f060030
+
+.field public static final acc_normal:I = 0x7f060031
+
+.field public static final acc_normal_comfort_night:I = 0x7f060032
+
+.field public static final acc_normal_dream:I = 0x7f060033
+
+.field public static final acc_normal_dream_night:I = 0x7f060034
+
+.field public static final acc_normal_lassie:I = 0x7f060035
+
+.field public static final acc_normal_lassie_night:I = 0x7f060036
+
+.field public static final acc_normal_light_blue:I = 0x7f060037
+
+.field public static final acc_normal_light_blue_night:I = 0x7f060038
+
+.field public static final acc_normal_lite:I = 0x7f060039
+
+.field public static final acc_normal_lite_lassie:I = 0x7f06003a
+
+.field public static final acc_normal_lite_lassie_night:I = 0x7f06003b
+
+.field public static final acc_normal_lite_night:I = 0x7f06003c
+
+.field public static final acc_off_speed_color:I = 0x7f06003d
+
+.field public static final acc_off_speed_color_comfort_night:I = 0x7f06003e
+
+.field public static final acc_pause:I = 0x7f06003f
+
+.field public static final acc_pause_comfort_night:I = 0x7f060040
+
+.field public static final acc_pause_dream:I = 0x7f060041
+
+.field public static final acc_pause_dream_night:I = 0x7f060042
+
+.field public static final acc_pause_lassie:I = 0x7f060043
+
+.field public static final acc_pause_lassie_night:I = 0x7f060044
+
+.field public static final acc_pause_light_blue:I = 0x7f060045
+
+.field public static final acc_pause_light_blue_night:I = 0x7f060046
+
+.field public static final acc_pause_lite:I = 0x7f060047
+
+.field public static final acc_pause_lite_lassie:I = 0x7f060048
+
+.field public static final acc_pause_lite_lassie_night:I = 0x7f060049
+
+.field public static final acc_pause_lite_night:I = 0x7f06004a
+
+.field public static final acc_speed_color:I = 0x7f06004b
+
+.field public static final accent_material_dark:I = 0x7f06004c
+
+.field public static final accent_material_light:I = 0x7f06004d
+
+.field public static final account_name:I = 0x7f06004e
+
+.field public static final account_name_comfort_night:I = 0x7f06004f
+
+.field public static final account_name_ep32:I = 0x7f060050
+
+.field public static final account_name_ep32_comfort_night:I = 0x7f060051
+
+.field public static final account_phone:I = 0x7f060052
+
+.field public static final account_phone_comfort_night:I = 0x7f060053
+
+.field public static final account_tel_ep32:I = 0x7f060054
+
+.field public static final account_tel_ep32_comfort_night:I = 0x7f060055
+
+.field public static final androidx_core_ripple_material_light:I = 0x7f060056
+
+.field public static final androidx_core_secondary_text_default_material_light:I = 0x7f060057
+
+.field public static final arc_gradient_end_color:I = 0x7f060058
+
+.field public static final arc_gradient_end_white_color:I = 0x7f060059
+
+.field public static final arc_gradient_middle_color:I = 0x7f06005a
+
+.field public static final arc_gradient_start_color:I = 0x7f06005b
+
+.field public static final arc_gradient_start_white_color:I = 0x7f06005c
+
+.field public static final auto_color_selector:I = 0x7f06005d
+
+.field public static final background_floating_material_dark:I = 0x7f06005e
+
+.field public static final background_floating_material_light:I = 0x7f06005f
+
+.field public static final background_material_dark:I = 0x7f060060
+
+.field public static final background_material_light:I = 0x7f060061
+
+.field public static final bg_dialog_ep36:I = 0x7f060062
+
+.field public static final bg_dialog_ep36_comfort_night:I = 0x7f060063
+
+.field public static final bg_dialog_seekbar_outer:I = 0x7f060064
+
+.field public static final bg_dialog_seekbar_outer_comfort_night:I = 0x7f060065
+
+.field public static final bg_edit_container_bg:I = 0x7f060066
+
+.field public static final bg_edit_container_bg_comfort_night:I = 0x7f060067
+
+.field public static final bg_edit_container_bg_ep32:I = 0x7f060068
+
+.field public static final bg_grey:I = 0x7f060069
+
+.field public static final bg_grey_mulit_edit:I = 0x7f06006a
+
+.field public static final bg_qs_rb_button_bg:I = 0x7f06006b
+
+.field public static final bg_qs_rb_button_bg_comfort_night:I = 0x7f06006c
+
+.field public static final bg_qs_rb_button_black_bg_comfort_night:I = 0x7f06006d
+
+.field public static final bg_qs_rb_button_normal_bg:I = 0x7f06006e
+
+.field public static final bg_qs_rb_button_normal_bg_32:I = 0x7f06006f
+
+.field public static final bg_qs_rb_button_normal_bg_comfort_night:I = 0x7f060070
+
+.field public static final bg_qs_rb_button_normal_bg_ep36:I = 0x7f060071
+
+.field public static final bg_qs_rb_button_pressed_bg:I = 0x7f060072
+
+.field public static final bg_qs_rb_button_pressed_bg_comfort_night:I = 0x7f060073
+
+.field public static final bg_qs_rb_button_pressed_selected_bg:I = 0x7f060074
+
+.field public static final bg_qs_rb_button_pressed_selected_bg_comfort_night:I = 0x7f060075
+
+.field public static final bg_qs_rb_button_selected_bg:I = 0x7f060076
+
+.field public static final bg_qs_rb_button_selected_bg_comfort_night:I = 0x7f060077
+
+.field public static final bg_qs_rb_container_bg:I = 0x7f060078
+
+.field public static final bg_qs_rb_container_bg_comfort_night:I = 0x7f060079
+
+.field public static final bg_statusbar:I = 0x7f06007a
+
+.field public static final bg_statusbar_comfort_night:I = 0x7f06007b
+
+.field public static final bg_vol_brightness:I = 0x7f06007c
+
+.field public static final bg_vol_brightness_comfort_night:I = 0x7f06007d
+
+.field public static final black:I = 0x7f06007e
+
+.field public static final black_comfort_night:I = 0x7f06007f
+
+.field public static final black_common:I = 0x7f060080
+
+.field public static final black_common_comfort_night:I = 0x7f060081
+
+.field public static final black_common_dream:I = 0x7f060082
+
+.field public static final black_common_dream_night:I = 0x7f060083
+
+.field public static final black_common_lassie:I = 0x7f060084
+
+.field public static final black_common_lassie_night:I = 0x7f060085
+
+.field public static final black_common_light_blue:I = 0x7f060086
+
+.field public static final black_common_light_blue_night:I = 0x7f060087
+
+.field public static final black_common_lite:I = 0x7f060088
+
+.field public static final black_common_lite_lassie:I = 0x7f060089
+
+.field public static final black_common_lite_lassie_night:I = 0x7f06008a
+
+.field public static final black_common_lite_night:I = 0x7f06008b
+
+.field public static final brand_color_brand_default:I = 0x7f06008c
+
+.field public static final brand_color_brand_default_comfort_night:I = 0x7f06008d
+
+.field public static final brand_color_on_brand_on_slider:I = 0x7f06008e
+
+.field public static final brand_color_on_brand_on_slider_comfort_night:I = 0x7f06008f
+
+.field public static final brand_color_on_brand_on_slider_dream:I = 0x7f060090
+
+.field public static final brand_color_on_brand_on_slider_dream_night:I = 0x7f060091
+
+.field public static final brand_color_on_brand_on_slider_lassie:I = 0x7f060092
+
+.field public static final brand_color_on_brand_on_slider_lassie_night:I = 0x7f060093
+
+.field public static final brand_color_on_brand_on_slider_light_blue:I = 0x7f060094
+
+.field public static final brand_color_on_brand_on_slider_light_blue_night:I = 0x7f060095
+
+.field public static final brand_color_on_brand_on_slider_lite:I = 0x7f060096
+
+.field public static final brand_color_on_brand_on_slider_lite_lassie:I = 0x7f060097
+
+.field public static final brand_color_on_brand_on_slider_lite_lassie_night:I = 0x7f060098
+
+.field public static final brand_color_on_brand_on_slider_lite_night:I = 0x7f060099
+
+.field public static final brand_color_on_brand_on_switch_light_blue:I = 0x7f06009a
+
+.field public static final brand_color_on_brand_on_switch_light_blue_night:I = 0x7f06009b
+
+.field public static final brand_color_on_brand_primary:I = 0x7f06009c
+
+.field public static final brand_color_on_brand_primary_comfort_night:I = 0x7f06009d
+
+.field public static final brand_color_on_brand_primary_dream:I = 0x7f06009e
+
+.field public static final brand_color_on_brand_primary_dream_night:I = 0x7f06009f
+
+.field public static final brand_color_on_brand_primary_lassie:I = 0x7f0600a0
+
+.field public static final brand_color_on_brand_primary_lassie_night:I = 0x7f0600a1
+
+.field public static final brand_color_on_brand_primary_light_blue:I = 0x7f0600a2
+
+.field public static final brand_color_on_brand_primary_light_blue_night:I = 0x7f0600a3
+
+.field public static final brand_color_on_brand_primary_lite:I = 0x7f0600a4
+
+.field public static final brand_color_on_brand_primary_lite_lassie:I = 0x7f0600a5
+
+.field public static final brand_color_on_brand_primary_lite_lassie_night:I = 0x7f0600a6
+
+.field public static final brand_color_on_brand_primary_lite_night:I = 0x7f0600a7
+
+.field public static final brand_color_on_brand_secondary:I = 0x7f0600a8
+
+.field public static final brand_color_on_brand_secondary_comfort_night:I = 0x7f0600a9
+
+.field public static final brand_color_on_brand_secondary_dream:I = 0x7f0600aa
+
+.field public static final brand_color_on_brand_secondary_dream_night:I = 0x7f0600ab
+
+.field public static final brand_color_on_brand_secondary_lassie:I = 0x7f0600ac
+
+.field public static final brand_color_on_brand_secondary_lassie_night:I = 0x7f0600ad
+
+.field public static final brand_color_on_brand_secondary_light_blue:I = 0x7f0600ae
+
+.field public static final brand_color_on_brand_secondary_light_blue_night:I = 0x7f0600af
+
+.field public static final brand_color_on_brand_secondary_lite:I = 0x7f0600b0
+
+.field public static final brand_color_on_brand_secondary_lite_lassie:I = 0x7f0600b1
+
+.field public static final brand_color_on_brand_secondary_lite_lassie_night:I = 0x7f0600b2
+
+.field public static final brand_color_on_brand_secondary_lite_night:I = 0x7f0600b3
+
+.field public static final brand_color_on_brand_tertiary:I = 0x7f0600b4
+
+.field public static final brand_color_on_brand_tertiary_comfort_night:I = 0x7f0600b5
+
+.field public static final brand_color_on_brand_tertiary_dream:I = 0x7f0600b6
+
+.field public static final brand_color_on_brand_tertiary_dream_night:I = 0x7f0600b7
+
+.field public static final brand_color_on_brand_tertiary_lassie:I = 0x7f0600b8
+
+.field public static final brand_color_on_brand_tertiary_lassie_night:I = 0x7f0600b9
+
+.field public static final brand_color_on_brand_tertiary_light_blue:I = 0x7f0600ba
+
+.field public static final brand_color_on_brand_tertiary_light_blue_night:I = 0x7f0600bb
+
+.field public static final brand_color_on_brand_tertiary_lite:I = 0x7f0600bc
+
+.field public static final brand_color_on_brand_tertiary_lite_lassie:I = 0x7f0600bd
+
+.field public static final brand_color_on_brand_tertiary_lite_lassie_night:I = 0x7f0600be
+
+.field public static final brand_color_on_brand_tertiary_lite_night:I = 0x7f0600bf
+
+.field public static final brand_morandi_red:I = 0x7f0600c0
+
+.field public static final brandcolor_brand_default:I = 0x7f0600c1
+
+.field public static final bright_foreground_disabled_material_dark:I = 0x7f0600c2
+
+.field public static final bright_foreground_disabled_material_light:I = 0x7f0600c3
+
+.field public static final bright_foreground_inverse_material_dark:I = 0x7f0600c4
+
+.field public static final bright_foreground_inverse_material_light:I = 0x7f0600c5
+
+.field public static final bright_foreground_material_dark:I = 0x7f0600c6
+
+.field public static final bright_foreground_material_light:I = 0x7f0600c7
+
+.field public static final bt_item_name:I = 0x7f0600c8
+
+.field public static final bt_item_name_comfort_night:I = 0x7f0600c9
+
+.field public static final btn_bg_comfort_night:I = 0x7f0600ca
+
+.field public static final btn_bg_test:I = 0x7f0600cb
+
+.field public static final btn_bg_test_comfort_night:I = 0x7f0600cc
+
+.field public static final btn_bg_test_dream:I = 0x7f0600cd
+
+.field public static final btn_bg_test_dream_night:I = 0x7f0600ce
+
+.field public static final btn_bg_test_lassie:I = 0x7f0600cf
+
+.field public static final btn_bg_test_lassie_night:I = 0x7f0600d0
+
+.field public static final btn_bg_test_light_blue:I = 0x7f0600d1
+
+.field public static final btn_bg_test_light_blue_night:I = 0x7f0600d2
+
+.field public static final btn_bg_test_lite:I = 0x7f0600d3
+
+.field public static final btn_bg_test_lite_lassie:I = 0x7f0600d4
+
+.field public static final btn_bg_test_lite_lassie_night:I = 0x7f0600d5
+
+.field public static final btn_bg_test_lite_night:I = 0x7f0600d6
+
+.field public static final btn_main_disable:I = 0x7f0600d7
+
+.field public static final btn_main_pressed:I = 0x7f0600d8
+
+.field public static final btn_main_test:I = 0x7f0600d9
+
+.field public static final btn_main_test1:I = 0x7f0600da
+
+.field public static final btn_main_test2:I = 0x7f0600db
+
+.field public static final btn_main_test3:I = 0x7f0600dc
+
+.field public static final btn_pressed_grey_dark:I = 0x7f0600dd
+
+.field public static final btn_text_black:I = 0x7f0600de
+
+.field public static final bubble_background_color:I = 0x7f0600df
+
+.field public static final bubble_background_color_comfort_night:I = 0x7f0600e0
+
+.field public static final bubble_content_color:I = 0x7f0600e1
+
+.field public static final bubble_content_color_comfort_night:I = 0x7f0600e2
+
+.field public static final bubble_shadow_color:I = 0x7f0600e3
+
+.field public static final bubble_shadow_color_comfort_night:I = 0x7f0600e4
+
+.field public static final button_material_dark:I = 0x7f0600e5
+
+.field public static final button_material_light:I = 0x7f0600e6
+
+.field public static final caption_text_color:I = 0x7f0600e7
+
+.field public static final caption_text_color_comfort_night:I = 0x7f0600e8
+
+.field public static final cardview_dark_background:I = 0x7f0600e9
+
+.field public static final cardview_light_background:I = 0x7f0600ea
+
+.field public static final cardview_shadow_end_color:I = 0x7f0600eb
+
+.field public static final cardview_shadow_start_color:I = 0x7f0600ec
+
+.field public static final cc_speed_color:I = 0x7f0600ed
+
+.field public static final checkbox_themeable_attribute_color:I = 0x7f0600ee
+
+.field public static final circle_pro_fail:I = 0x7f0600ef
+
+.field public static final clear_bg_main:I = 0x7f0600f0
+
+.field public static final clear_bg_vice:I = 0x7f0600f1
+
+.field public static final clock_data_text:I = 0x7f0600f2
+
+.field public static final clock_text:I = 0x7f0600f3
+
+.field public static final clockclicked_pop_text_color:I = 0x7f0600f4
+
+.field public static final clockclicked_pop_text_color_comfort_night:I = 0x7f0600f5
+
+.field public static final clockclicked_pop_text_enabled_color_ep32:I = 0x7f0600f6
+
+.field public static final colorDragSave:I = 0x7f0600f7
+
+.field public static final colorTabChecked:I = 0x7f0600f8
+
+.field public static final colorTabChecked_ep36:I = 0x7f0600f9
+
+.field public static final color_button_text_default:I = 0x7f0600fa
+
+.field public static final color_button_text_default_comfort_night:I = 0x7f0600fb
+
+.field public static final color_button_text_default_dream:I = 0x7f0600fc
+
+.field public static final color_button_text_default_dream_night:I = 0x7f0600fd
+
+.field public static final color_button_text_default_lassie:I = 0x7f0600fe
+
+.field public static final color_button_text_default_lassie_night:I = 0x7f0600ff
+
+.field public static final color_button_text_default_light_blue:I = 0x7f060100
+
+.field public static final color_button_text_default_light_blue_night:I = 0x7f060101
+
+.field public static final color_button_text_default_lite:I = 0x7f060102
+
+.field public static final color_button_text_default_lite_lassie:I = 0x7f060103
+
+.field public static final color_button_text_default_lite_lassie_night:I = 0x7f060104
+
+.field public static final color_button_text_default_lite_night:I = 0x7f060105
+
+.field public static final color_button_text_only:I = 0x7f060106
+
+.field public static final color_button_text_only_comfort_night:I = 0x7f060107
+
+.field public static final color_button_text_only_dream:I = 0x7f060108
+
+.field public static final color_button_text_only_dream_night:I = 0x7f060109
+
+.field public static final color_button_text_only_lassie:I = 0x7f06010a
+
+.field public static final color_button_text_only_lassie_night:I = 0x7f06010b
+
+.field public static final color_button_text_only_light_blue:I = 0x7f06010c
+
+.field public static final color_button_text_only_light_blue_night:I = 0x7f06010d
+
+.field public static final color_button_text_only_lite:I = 0x7f06010e
+
+.field public static final color_button_text_only_lite_lassie:I = 0x7f06010f
+
+.field public static final color_button_text_only_lite_lassie_night:I = 0x7f060110
+
+.field public static final color_button_text_only_lite_night:I = 0x7f060111
+
+.field public static final color_clock:I = 0x7f060112
+
+.field public static final color_clock_comfort_night:I = 0x7f060113
+
+.field public static final color_drop_down_qs_title:I = 0x7f060114
+
+.field public static final color_drop_down_seekbar:I = 0x7f060115
+
+.field public static final color_edit_text_hint:I = 0x7f060116
+
+.field public static final color_edit_text_hint_comfort_night:I = 0x7f060117
+
+.field public static final color_edit_text_hint_dream:I = 0x7f060118
+
+.field public static final color_edit_text_hint_dream_night:I = 0x7f060119
+
+.field public static final color_edit_text_hint_lassie:I = 0x7f06011a
+
+.field public static final color_edit_text_hint_lassie_night:I = 0x7f06011b
+
+.field public static final color_edit_text_hint_light_blue:I = 0x7f06011c
+
+.field public static final color_edit_text_hint_light_blue_night:I = 0x7f06011d
+
+.field public static final color_edit_text_hint_lite:I = 0x7f06011e
+
+.field public static final color_edit_text_hint_lite_lassie:I = 0x7f06011f
+
+.field public static final color_edit_text_hint_lite_lassie_night:I = 0x7f060120
+
+.field public static final color_edit_text_hint_lite_night:I = 0x7f060121
+
+.field public static final color_edit_text_text:I = 0x7f060122
+
+.field public static final color_edit_text_text_comfort_night:I = 0x7f060123
+
+.field public static final color_edit_text_text_dream:I = 0x7f060124
+
+.field public static final color_edit_text_text_dream_night:I = 0x7f060125
+
+.field public static final color_edit_text_text_lassie:I = 0x7f060126
+
+.field public static final color_edit_text_text_lassie_night:I = 0x7f060127
+
+.field public static final color_edit_text_text_light_blue:I = 0x7f060128
+
+.field public static final color_edit_text_text_light_blue_night:I = 0x7f060129
+
+.field public static final color_edit_text_text_lite:I = 0x7f06012a
+
+.field public static final color_edit_text_text_lite_lassie:I = 0x7f06012b
+
+.field public static final color_edit_text_text_lite_lassie_night:I = 0x7f06012c
+
+.field public static final color_edit_text_text_lite_night:I = 0x7f06012d
+
+.field public static final color_expand_statusbar:I = 0x7f06012e
+
+.field public static final color_expand_statusbar_comfort_night:I = 0x7f06012f
+
+.field public static final color_expand_statusbar_ep36:I = 0x7f060130
+
+.field public static final color_expand_statusbar_ep36_comfort_night:I = 0x7f060131
+
+.field public static final color_hyperlink_text:I = 0x7f060132
+
+.field public static final color_hyperlink_text_comfort_night:I = 0x7f060133
+
+.field public static final color_hyperlink_text_dream:I = 0x7f060134
+
+.field public static final color_hyperlink_text_dream_night:I = 0x7f060135
+
+.field public static final color_hyperlink_text_lassie:I = 0x7f060136
+
+.field public static final color_hyperlink_text_lassie_night:I = 0x7f060137
+
+.field public static final color_hyperlink_text_light_blue:I = 0x7f060138
+
+.field public static final color_hyperlink_text_light_blue_night:I = 0x7f060139
+
+.field public static final color_hyperlink_text_lite:I = 0x7f06013a
+
+.field public static final color_hyperlink_text_lite_lassie:I = 0x7f06013b
+
+.field public static final color_hyperlink_text_lite_lassie_night:I = 0x7f06013c
+
+.field public static final color_hyperlink_text_lite_night:I = 0x7f06013d
+
+.field public static final color_lightness_auto_bg:I = 0x7f06013e
+
+.field public static final color_lightness_auto_bg_2:I = 0x7f06013f
+
+.field public static final color_mask:I = 0x7f060140
+
+.field public static final color_mask_comfort_night:I = 0x7f060141
+
+.field public static final color_mask_ep36:I = 0x7f060142
+
+.field public static final color_notification_center_title:I = 0x7f060143
+
+.field public static final color_notification_collapse:I = 0x7f060144
+
+.field public static final color_notification_collapse_comfort_night:I = 0x7f060145
+
+.field public static final color_notification_content:I = 0x7f060146
+
+.field public static final color_notification_content_comfort_night:I = 0x7f060147
+
+.field public static final color_notification_title:I = 0x7f060148
+
+.field public static final color_notification_title_comfort_night:I = 0x7f060149
+
+.field public static final color_notification_view:I = 0x7f06014a
+
+.field public static final color_number_picker_text_selector:I = 0x7f06014b
+
+.field public static final color_number_picker_text_selector_comfort_night:I = 0x7f06014c
+
+.field public static final color_number_picker_text_selector_dream:I = 0x7f06014d
+
+.field public static final color_number_picker_text_selector_dream_night:I = 0x7f06014e
+
+.field public static final color_number_picker_text_selector_lassie:I = 0x7f06014f
+
+.field public static final color_number_picker_text_selector_lassie_night:I = 0x7f060150
+
+.field public static final color_number_picker_text_selector_light_blue:I = 0x7f060151
+
+.field public static final color_number_picker_text_selector_light_blue_night:I = 0x7f060152
+
+.field public static final color_number_picker_text_selector_lite:I = 0x7f060153
+
+.field public static final color_number_picker_text_selector_lite_lassie:I = 0x7f060154
+
+.field public static final color_number_picker_text_selector_lite_lassie_night:I = 0x7f060155
+
+.field public static final color_number_picker_text_selector_lite_night:I = 0x7f060156
+
+.field public static final color_pop_bt_sub_title:I = 0x7f060157
+
+.field public static final color_pop_bt_sub_title_comfort_night:I = 0x7f060158
+
+.field public static final color_pop_center_color:I = 0x7f060159
+
+.field public static final color_pop_center_color_comfort_night:I = 0x7f06015a
+
+.field public static final color_pop_devide_line:I = 0x7f06015b
+
+.field public static final color_pop_devide_line_comfort_night:I = 0x7f06015c
+
+.field public static final color_primary_button_text:I = 0x7f06015d
+
+.field public static final color_primary_button_text_comfort_night:I = 0x7f06015e
+
+.field public static final color_primary_button_text_dream:I = 0x7f06015f
+
+.field public static final color_primary_button_text_dream_night:I = 0x7f060160
+
+.field public static final color_primary_button_text_lassie:I = 0x7f060161
+
+.field public static final color_primary_button_text_lassie_night:I = 0x7f060162
+
+.field public static final color_primary_button_text_light_blue:I = 0x7f060163
+
+.field public static final color_primary_button_text_light_blue_night:I = 0x7f060164
+
+.field public static final color_primary_button_text_lite:I = 0x7f060165
+
+.field public static final color_primary_button_text_lite_lassie:I = 0x7f060166
+
+.field public static final color_primary_button_text_lite_lassie_night:I = 0x7f060167
+
+.field public static final color_primary_button_text_lite_night:I = 0x7f060168
+
+.field public static final color_tab_text_checked:I = 0x7f060169
+
+.field public static final color_tab_text_checked_comfort_night:I = 0x7f06016a
+
+.field public static final color_tab_text_checked_ep40:I = 0x7f06016b
+
+.field public static final color_tab_text_checked_ep40_comfort_night:I = 0x7f06016c
+
+.field public static final color_tab_text_normal:I = 0x7f06016d
+
+.field public static final color_tab_text_normal_comfort_night:I = 0x7f06016e
+
+.field public static final color_tab_text_normal_ep40:I = 0x7f06016f
+
+.field public static final color_tab_text_normal_ep40_comfort_night:I = 0x7f060170
+
+.field public static final color_text:I = 0x7f060171
+
+.field public static final color_text_comfort_night:I = 0x7f060172
+
+.field public static final color_text_only_normal_text:I = 0x7f060173
+
+.field public static final color_text_only_normal_text_comfort_night:I = 0x7f060174
+
+.field public static final color_text_only_normal_text_dream:I = 0x7f060175
+
+.field public static final color_text_only_normal_text_dream_night:I = 0x7f060176
+
+.field public static final color_text_only_normal_text_lassie:I = 0x7f060177
+
+.field public static final color_text_only_normal_text_lassie_night:I = 0x7f060178
+
+.field public static final color_text_only_normal_text_light_blue:I = 0x7f060179
+
+.field public static final color_text_only_normal_text_light_blue_night:I = 0x7f06017a
+
+.field public static final color_text_only_normal_text_lite:I = 0x7f06017b
+
+.field public static final color_text_only_normal_text_lite_lassie:I = 0x7f06017c
+
+.field public static final color_text_only_normal_text_lite_lassie_night:I = 0x7f06017d
+
+.field public static final color_text_only_normal_text_lite_night:I = 0x7f06017e
+
+.field public static final color_toast:I = 0x7f06017f
+
+.field public static final color_toast_comfort_night:I = 0x7f060180
+
+.field public static final color_transparent:I = 0x7f060181
+
+.field public static final color_transparent_comfort_night:I = 0x7f060182
+
+.field public static final color_usbpopview_title:I = 0x7f060183
+
+.field public static final color_usbpopview_title_comfort_night:I = 0x7f060184
+
+.field public static final color_usbpopview_titler_comfort_night:I = 0x7f060185
+
+.field public static final color_warn_button_text:I = 0x7f060186
+
+.field public static final color_warn_button_text_comfort_night:I = 0x7f060187
+
+.field public static final color_warn_button_text_dream:I = 0x7f060188
+
+.field public static final color_warn_button_text_dream_night:I = 0x7f060189
+
+.field public static final color_warn_button_text_lassie:I = 0x7f06018a
+
+.field public static final color_warn_button_text_lassie_night:I = 0x7f06018b
+
+.field public static final color_warn_button_text_light_blue:I = 0x7f06018c
+
+.field public static final color_warn_button_text_light_blue_night:I = 0x7f06018d
+
+.field public static final color_warn_button_text_lite:I = 0x7f06018e
+
+.field public static final color_warn_button_text_lite_lassie:I = 0x7f06018f
+
+.field public static final color_warn_button_text_lite_lassie_night:I = 0x7f060190
+
+.field public static final color_warn_button_text_lite_night:I = 0x7f060191
+
+.field public static final com_btn_colortext_disable_icon_color:I = 0x7f060192
+
+.field public static final com_btn_colortext_disable_icon_color_comfort_night:I = 0x7f060193
+
+.field public static final com_btn_colortext_disable_text_color:I = 0x7f060194
+
+.field public static final com_btn_colortext_disable_text_color_comfort_night:I = 0x7f060195
+
+.field public static final com_btn_colortext_normal_icon_color:I = 0x7f060196
+
+.field public static final com_btn_colortext_normal_icon_color_comfort_night:I = 0x7f060197
+
+.field public static final com_btn_colortext_normal_text_color:I = 0x7f060198
+
+.field public static final com_btn_colortext_normal_text_color_comfort_night:I = 0x7f060199
+
+.field public static final com_btn_colortext_press_bg_color:I = 0x7f06019a
+
+.field public static final com_btn_colortext_press_bg_color_comfort_night:I = 0x7f06019b
+
+.field public static final com_btn_colortext_press_icon_color:I = 0x7f06019c
+
+.field public static final com_btn_colortext_press_icon_color_comfort_night:I = 0x7f06019d
+
+.field public static final com_btn_colortext_press_text_color:I = 0x7f06019e
+
+.field public static final com_btn_colortext_press_text_color_comfort_night:I = 0x7f06019f
+
+.field public static final com_btn_error_disable_bg_color:I = 0x7f0601a0
+
+.field public static final com_btn_error_disable_bg_color_comfort_night:I = 0x7f0601a1
+
+.field public static final com_btn_error_disable_icon_color:I = 0x7f0601a2
+
+.field public static final com_btn_error_disable_icon_color_comfort_night:I = 0x7f0601a3
+
+.field public static final com_btn_error_disable_text_color:I = 0x7f0601a4
+
+.field public static final com_btn_error_disable_text_color_comfort_night:I = 0x7f0601a5
+
+.field public static final com_btn_error_normal_bg_color:I = 0x7f0601a6
+
+.field public static final com_btn_error_normal_bg_color_comfort_night:I = 0x7f0601a7
+
+.field public static final com_btn_error_normal_icon_color:I = 0x7f0601a8
+
+.field public static final com_btn_error_normal_icon_color_comfort_night:I = 0x7f0601a9
+
+.field public static final com_btn_error_normal_text_color:I = 0x7f0601aa
+
+.field public static final com_btn_error_normal_text_color_comfort_night:I = 0x7f0601ab
+
+.field public static final com_btn_error_press_bg_color:I = 0x7f0601ac
+
+.field public static final com_btn_error_press_bg_color_comfort_night:I = 0x7f0601ad
+
+.field public static final com_btn_error_press_icon_color:I = 0x7f0601ae
+
+.field public static final com_btn_error_press_icon_color_comfort_night:I = 0x7f0601af
+
+.field public static final com_btn_error_press_text_color:I = 0x7f0601b0
+
+.field public static final com_btn_error_press_text_color_comfort_night:I = 0x7f0601b1
+
+.field public static final com_btn_loading_disable_bg_color:I = 0x7f0601b2
+
+.field public static final com_btn_loading_disable_bg_color_comfort_night:I = 0x7f0601b3
+
+.field public static final com_btn_loading_disable_icon_color:I = 0x7f0601b4
+
+.field public static final com_btn_loading_disable_icon_color_comfort_night:I = 0x7f0601b5
+
+.field public static final com_btn_loading_disable_text_color:I = 0x7f0601b6
+
+.field public static final com_btn_loading_disable_text_color_comfort_night:I = 0x7f0601b7
+
+.field public static final com_btn_main_disable_bg_color:I = 0x7f0601b8
+
+.field public static final com_btn_main_disable_bg_color_comfort_night:I = 0x7f0601b9
+
+.field public static final com_btn_main_disable_icon_color:I = 0x7f0601ba
+
+.field public static final com_btn_main_disable_icon_color_comfort_night:I = 0x7f0601bb
+
+.field public static final com_btn_main_disable_text_color:I = 0x7f0601bc
+
+.field public static final com_btn_main_disable_text_color_comfort_night:I = 0x7f0601bd
+
+.field public static final com_btn_main_normal_bg_color:I = 0x7f0601be
+
+.field public static final com_btn_main_normal_bg_color_comfort_night:I = 0x7f0601bf
+
+.field public static final com_btn_main_normal_icon_color:I = 0x7f0601c0
+
+.field public static final com_btn_main_normal_icon_color_comfort_night:I = 0x7f0601c1
+
+.field public static final com_btn_main_normal_text_color:I = 0x7f0601c2
+
+.field public static final com_btn_main_normal_text_color_comfort_night:I = 0x7f0601c3
+
+.field public static final com_btn_main_press_bg_color:I = 0x7f0601c4
+
+.field public static final com_btn_main_press_bg_color_comfort_night:I = 0x7f0601c5
+
+.field public static final com_btn_main_press_icon_color:I = 0x7f0601c6
+
+.field public static final com_btn_main_press_icon_color_comfort_night:I = 0x7f0601c7
+
+.field public static final com_btn_main_press_text_color:I = 0x7f0601c8
+
+.field public static final com_btn_main_press_text_color_comfort_night:I = 0x7f0601c9
+
+.field public static final com_btn_outlined_disable_icon_color:I = 0x7f0601ca
+
+.field public static final com_btn_outlined_disable_icon_color_comfort_night:I = 0x7f0601cb
+
+.field public static final com_btn_outlined_disable_stroke_color:I = 0x7f0601cc
+
+.field public static final com_btn_outlined_disable_stroke_color_comfort_night:I = 0x7f0601cd
+
+.field public static final com_btn_outlined_disable_text_color:I = 0x7f0601ce
+
+.field public static final com_btn_outlined_disable_text_color_comfort_night:I = 0x7f0601cf
+
+.field public static final com_btn_outlined_normal_icon_color:I = 0x7f0601d0
+
+.field public static final com_btn_outlined_normal_icon_color_comfort_night:I = 0x7f0601d1
+
+.field public static final com_btn_outlined_normal_stroke_color:I = 0x7f0601d2
+
+.field public static final com_btn_outlined_normal_stroke_color_comfort_night:I = 0x7f0601d3
+
+.field public static final com_btn_outlined_normal_text_color:I = 0x7f0601d4
+
+.field public static final com_btn_outlined_normal_text_color_comfort_night:I = 0x7f0601d5
+
+.field public static final com_btn_outlined_press_bg_color:I = 0x7f0601d6
+
+.field public static final com_btn_outlined_press_bg_color_comfort_night:I = 0x7f0601d7
+
+.field public static final com_btn_outlined_press_icon_color:I = 0x7f0601d8
+
+.field public static final com_btn_outlined_press_icon_color_comfort_night:I = 0x7f0601d9
+
+.field public static final com_btn_outlined_press_stroke_color:I = 0x7f0601da
+
+.field public static final com_btn_outlined_press_stroke_color_comfort_night:I = 0x7f0601db
+
+.field public static final com_btn_outlined_press_text_color:I = 0x7f0601dc
+
+.field public static final com_btn_outlined_press_text_color_comfort_night:I = 0x7f0601dd
+
+.field public static final com_btn_secondary_disable_bg_color:I = 0x7f0601de
+
+.field public static final com_btn_secondary_disable_bg_color_comfort_night:I = 0x7f0601df
+
+.field public static final com_btn_secondary_disable_icon_color:I = 0x7f0601e0
+
+.field public static final com_btn_secondary_disable_icon_color_comfort_night:I = 0x7f0601e1
+
+.field public static final com_btn_secondary_disable_stroke_color:I = 0x7f0601e2
+
+.field public static final com_btn_secondary_disable_stroke_color_comfort_night:I = 0x7f0601e3
+
+.field public static final com_btn_secondary_disable_text_color:I = 0x7f0601e4
+
+.field public static final com_btn_secondary_disable_text_color_comfort_night:I = 0x7f0601e5
+
+.field public static final com_btn_secondary_normal_bg_color:I = 0x7f0601e6
+
+.field public static final com_btn_secondary_normal_bg_color_comfort_night:I = 0x7f0601e7
+
+.field public static final com_btn_secondary_normal_icon_color:I = 0x7f0601e8
+
+.field public static final com_btn_secondary_normal_icon_color_comfort_night:I = 0x7f0601e9
+
+.field public static final com_btn_secondary_normal_stroke_color:I = 0x7f0601ea
+
+.field public static final com_btn_secondary_normal_stroke_color_comfort_night:I = 0x7f0601eb
+
+.field public static final com_btn_secondary_normal_text_color:I = 0x7f0601ec
+
+.field public static final com_btn_secondary_normal_text_color_comfort_night:I = 0x7f0601ed
+
+.field public static final com_btn_secondary_press_bg_color:I = 0x7f0601ee
+
+.field public static final com_btn_secondary_press_bg_color_comfort_night:I = 0x7f0601ef
+
+.field public static final com_btn_secondary_press_icon_color:I = 0x7f0601f0
+
+.field public static final com_btn_secondary_press_icon_color_comfort_night:I = 0x7f0601f1
+
+.field public static final com_btn_secondary_press_stroke_color:I = 0x7f0601f2
+
+.field public static final com_btn_secondary_press_stroke_color_comfort_night:I = 0x7f0601f3
+
+.field public static final com_btn_secondary_press_text_color:I = 0x7f0601f4
+
+.field public static final com_btn_secondary_press_text_color_comfort_night:I = 0x7f0601f5
+
+.field public static final com_btn_text_disable_icon_color:I = 0x7f0601f6
+
+.field public static final com_btn_text_disable_icon_color_comfort_night:I = 0x7f0601f7
+
+.field public static final com_btn_text_disable_text_color:I = 0x7f0601f8
+
+.field public static final com_btn_text_disable_text_color_comfort_night:I = 0x7f0601f9
+
+.field public static final com_btn_text_normal_icon_color:I = 0x7f0601fa
+
+.field public static final com_btn_text_normal_icon_color_comfort_night:I = 0x7f0601fb
+
+.field public static final com_btn_text_normal_text_color:I = 0x7f0601fc
+
+.field public static final com_btn_text_normal_text_color_comfort_night:I = 0x7f0601fd
+
+.field public static final com_btn_text_press_bg_color:I = 0x7f0601fe
+
+.field public static final com_btn_text_press_bg_color_comfort_night:I = 0x7f0601ff
+
+.field public static final com_btn_text_press_icon_color:I = 0x7f060200
+
+.field public static final com_btn_text_press_icon_color_comfort_night:I = 0x7f060201
+
+.field public static final com_btn_text_press_text_color:I = 0x7f060202
+
+.field public static final com_btn_text_press_text_color_comfort_night:I = 0x7f060203
+
+.field public static final com_btn_weak_disable_bg_color:I = 0x7f060204
+
+.field public static final com_btn_weak_disable_bg_color_comfort_night:I = 0x7f060205
+
+.field public static final com_btn_weak_disable_icon_color:I = 0x7f060206
+
+.field public static final com_btn_weak_disable_icon_color_comfort_night:I = 0x7f060207
+
+.field public static final com_btn_weak_disable_text_color:I = 0x7f060208
+
+.field public static final com_btn_weak_disable_text_color_comfort_night:I = 0x7f060209
+
+.field public static final com_btn_weak_normal_bg_color:I = 0x7f06020a
+
+.field public static final com_btn_weak_normal_bg_color_comfort_night:I = 0x7f06020b
+
+.field public static final com_btn_weak_normal_icon_color:I = 0x7f06020c
+
+.field public static final com_btn_weak_normal_icon_color_comfort_night:I = 0x7f06020d
+
+.field public static final com_btn_weak_normal_text_color:I = 0x7f06020e
+
+.field public static final com_btn_weak_normal_text_color_comfort_night:I = 0x7f06020f
+
+.field public static final com_btn_weak_press_bg_color:I = 0x7f060210
+
+.field public static final com_btn_weak_press_bg_color_comfort_night:I = 0x7f060211
+
+.field public static final com_btn_weak_press_icon_color:I = 0x7f060212
+
+.field public static final com_btn_weak_press_icon_color_comfort_night:I = 0x7f060213
+
+.field public static final com_btn_weak_press_text_color:I = 0x7f060214
+
+.field public static final com_btn_weak_press_text_color_comfort_night:I = 0x7f060215
+
+.field public static final com_checkbox_selected_disable_bg_color:I = 0x7f060216
+
+.field public static final com_checkbox_selected_disable_bg_color_comfort_night:I = 0x7f060217
+
+.field public static final com_checkbox_selected_disable_icon_color:I = 0x7f060218
+
+.field public static final com_checkbox_selected_disable_icon_color_comfort_night:I = 0x7f060219
+
+.field public static final com_checkbox_selected_normal_bg_color:I = 0x7f06021a
+
+.field public static final com_checkbox_selected_normal_bg_color_comfort_night:I = 0x7f06021b
+
+.field public static final com_checkbox_selected_normal_icon_color:I = 0x7f06021c
+
+.field public static final com_checkbox_selected_normal_icon_color_comfort_night:I = 0x7f06021d
+
+.field public static final com_checkbox_selected_press_bg_color:I = 0x7f06021e
+
+.field public static final com_checkbox_selected_press_bg_color_comfort_night:I = 0x7f06021f
+
+.field public static final com_checkbox_selected_press_icon_color:I = 0x7f060220
+
+.field public static final com_checkbox_selected_press_icon_color_comfort_night:I = 0x7f060221
+
+.field public static final com_checkbox_selected_text_color:I = 0x7f060222
+
+.field public static final com_checkbox_selected_text_color_comfort_night:I = 0x7f060223
+
+.field public static final com_checkbox_unselected_disable_bg_color:I = 0x7f060224
+
+.field public static final com_checkbox_unselected_disable_bg_color_comfort_night:I = 0x7f060225
+
+.field public static final com_checkbox_unselected_disable_stroke_color:I = 0x7f060226
+
+.field public static final com_checkbox_unselected_disable_stroke_color_comfort_night:I = 0x7f060227
+
+.field public static final com_checkbox_unselected_normal_bg_color:I = 0x7f060228
+
+.field public static final com_checkbox_unselected_normal_bg_color_comfort_night:I = 0x7f060229
+
+.field public static final com_checkbox_unselected_normal_stroke_color:I = 0x7f06022a
+
+.field public static final com_checkbox_unselected_normal_stroke_color_comfort_night:I = 0x7f06022b
+
+.field public static final com_checkbox_unselected_press_bg_color:I = 0x7f06022c
+
+.field public static final com_checkbox_unselected_press_bg_color_comfort_night:I = 0x7f06022d
+
+.field public static final com_checkbox_unselected_press_stroke_color:I = 0x7f06022e
+
+.field public static final com_checkbox_unselected_press_stroke_color_comfort_night:I = 0x7f06022f
+
+.field public static final com_checkbox_unselected_text_color:I = 0x7f060230
+
+.field public static final com_checkbox_unselected_text_color_comfort_night:I = 0x7f060231
+
+.field public static final com_dialog_background_color:I = 0x7f060232
+
+.field public static final com_dialog_background_color_comfort_night:I = 0x7f060233
+
+.field public static final com_dialog_divider_color:I = 0x7f060234
+
+.field public static final com_dialog_divider_color_comfort_night:I = 0x7f060235
+
+.field public static final com_dialog_input_activatestroke_color:I = 0x7f060236
+
+.field public static final com_dialog_input_activatestroke_color_comfort_night:I = 0x7f060237
+
+.field public static final com_dialog_input_bg_color:I = 0x7f060238
+
+.field public static final com_dialog_input_bg_color_comfort_night:I = 0x7f060239
+
+.field public static final com_dialog_input_indicator_color:I = 0x7f06023a
+
+.field public static final com_dialog_input_indicator_color_comfort_night:I = 0x7f06023b
+
+.field public static final com_dialog_input_warnstroke_color:I = 0x7f06023c
+
+.field public static final com_dialog_input_warnstroke_color_comfort_night:I = 0x7f06023d
+
+.field public static final com_dialog_progressbar_bar_color:I = 0x7f06023e
+
+.field public static final com_dialog_progressbar_bar_color_comfort_night:I = 0x7f06023f
+
+.field public static final com_dialog_progressbar_bg_color:I = 0x7f060240
+
+.field public static final com_dialog_progressbar_bg_color_comfort_night:I = 0x7f060241
+
+.field public static final com_dialog_text_caption_color:I = 0x7f060242
+
+.field public static final com_dialog_text_caption_color_comfort_night:I = 0x7f060243
+
+.field public static final com_dialog_text_content_color:I = 0x7f060244
+
+.field public static final com_dialog_text_content_color_comfort_night:I = 0x7f060245
+
+.field public static final com_dialog_text_link_color:I = 0x7f060246
+
+.field public static final com_dialog_text_link_color_comfort_night:I = 0x7f060247
+
+.field public static final com_dialog_text_subtitle_color:I = 0x7f060248
+
+.field public static final com_dialog_text_subtitle_color_comfort_night:I = 0x7f060249
+
+.field public static final com_dialog_text_title_color:I = 0x7f06024a
+
+.field public static final com_dialog_text_title_color_comfort_night:I = 0x7f06024b
+
+.field public static final com_dialog_text_warn_color:I = 0x7f06024c
+
+.field public static final com_dialog_text_warn_color_comfort_night:I = 0x7f06024d
+
+.field public static final com_fold_list_content_bg_color:I = 0x7f06024e
+
+.field public static final com_fold_list_content_bg_color_comfort_night:I = 0x7f06024f
+
+.field public static final com_fold_list_title_bg_color:I = 0x7f060250
+
+.field public static final com_fold_list_title_bg_color_comfort_night:I = 0x7f060251
+
+.field public static final com_list_bg_editing_color:I = 0x7f060252
+
+.field public static final com_list_bg_editing_color_comfort_night:I = 0x7f060253
+
+.field public static final com_list_bg_normal_color:I = 0x7f060254
+
+.field public static final com_list_bg_normal_color_comfort_night:I = 0x7f060255
+
+.field public static final com_list_bg_palying_color:I = 0x7f060256
+
+.field public static final com_list_bg_palying_color_comfort_night:I = 0x7f060257
+
+.field public static final com_list_bg_slidebg_color:I = 0x7f060258
+
+.field public static final com_list_bg_slidebg_color_comfort_night:I = 0x7f060259
+
+.field public static final com_list_bg_slidedelete_color:I = 0x7f06025a
+
+.field public static final com_list_bg_slidedelete_color_comfort_night:I = 0x7f06025b
+
+.field public static final com_list_divider_color:I = 0x7f06025c
+
+.field public static final com_list_divider_color_comfort_night:I = 0x7f06025d
+
+.field public static final com_list_icon_mainicon_color:I = 0x7f06025e
+
+.field public static final com_list_icon_mainicon_color_comfort_night:I = 0x7f06025f
+
+.field public static final com_list_icon_subicon_color:I = 0x7f060260
+
+.field public static final com_list_icon_subicon_color_comfort_night:I = 0x7f060261
+
+.field public static final com_list_text_caption_color:I = 0x7f060262
+
+.field public static final com_list_text_caption_color_comfort_night:I = 0x7f060263
+
+.field public static final com_list_text_error_color:I = 0x7f060264
+
+.field public static final com_list_text_error_color_comfort_night:I = 0x7f060265
+
+.field public static final com_list_text_subtitle_color:I = 0x7f060266
+
+.field public static final com_list_text_subtitle_color_comfort_night:I = 0x7f060267
+
+.field public static final com_list_text_title_color:I = 0x7f060268
+
+.field public static final com_list_text_title_color_comfort_night:I = 0x7f060269
+
+.field public static final com_loading_bg_color:I = 0x7f06026a
+
+.field public static final com_loading_bg_color_comfort_night:I = 0x7f06026b
+
+.field public static final com_loading_content_color:I = 0x7f06026c
+
+.field public static final com_loading_content_color_comfort_night:I = 0x7f06026d
+
+.field public static final com_loading_progressbar_color:I = 0x7f06026e
+
+.field public static final com_loading_progressbar_color_comfort_night:I = 0x7f06026f
+
+.field public static final com_loading_progressbg_color:I = 0x7f060270
+
+.field public static final com_loading_progressbg_color_comfort_night:I = 0x7f060271
+
+.field public static final com_loading_spinner_color:I = 0x7f060272
+
+.field public static final com_loading_spinner_color_comfort_night:I = 0x7f060273
+
+.field public static final com_nav_background_color:I = 0x7f060274
+
+.field public static final com_nav_background_color_comfort_night:I = 0x7f060275
+
+.field public static final com_nav_icon_bg_color:I = 0x7f060276
+
+.field public static final com_nav_icon_bg_color_comfort_night:I = 0x7f060277
+
+.field public static final com_nav_icon_headlineicon_color:I = 0x7f060278
+
+.field public static final com_nav_icon_headlineicon_color_comfort_night:I = 0x7f060279
+
+.field public static final com_nav_icon_stroke_color:I = 0x7f06027a
+
+.field public static final com_nav_icon_stroke_color_comfort_night:I = 0x7f06027b
+
+.field public static final com_nav_indicator_color:I = 0x7f06027c
+
+.field public static final com_nav_indicator_color_comfort_night:I = 0x7f06027d
+
+.field public static final com_nav_indicator_color_ep32:I = 0x7f06027e
+
+.field public static final com_nav_text_disable_color:I = 0x7f06027f
+
+.field public static final com_nav_text_disable_color_comfort_night:I = 0x7f060280
+
+.field public static final com_nav_text_headline_color:I = 0x7f060281
+
+.field public static final com_nav_text_headline_color_comfort_night:I = 0x7f060282
+
+.field public static final com_nav_text_selected_color:I = 0x7f060283
+
+.field public static final com_nav_text_selected_color_comfort_night:I = 0x7f060284
+
+.field public static final com_nav_text_selected_color_ep32:I = 0x7f060285
+
+.field public static final com_nav_text_unselected_color:I = 0x7f060286
+
+.field public static final com_nav_text_unselected_color_comfort_night:I = 0x7f060287
+
+.field public static final com_nav_text_unselected_color_ep32:I = 0x7f060288
+
+.field public static final com_popup_bg_color:I = 0x7f060289
+
+.field public static final com_popup_bg_color_comfort_night:I = 0x7f06028a
+
+.field public static final com_popup_text_color:I = 0x7f06028b
+
+.field public static final com_popup_text_color_comfort_night:I = 0x7f06028c
+
+.field public static final com_progress_fail_bar_color:I = 0x7f06028d
+
+.field public static final com_progress_fail_bar_color_comfort_night:I = 0x7f06028e
+
+.field public static final com_progress_fail_bg_color:I = 0x7f06028f
+
+.field public static final com_progress_fail_bg_color_comfort_night:I = 0x7f060290
+
+.field public static final com_progress_normal_bar_color:I = 0x7f060291
+
+.field public static final com_progress_normal_bar_color_comfort_night:I = 0x7f060292
+
+.field public static final com_progress_normal_bg_color:I = 0x7f060293
+
+.field public static final com_progress_normal_bg_color_comfort_night:I = 0x7f060294
+
+.field public static final com_radio_selected_disable_bg_color:I = 0x7f060295
+
+.field public static final com_radio_selected_disable_bg_color_comfort_night:I = 0x7f060296
+
+.field public static final com_radio_selected_disable_icon_color:I = 0x7f060297
+
+.field public static final com_radio_selected_disable_icon_color_comfort_night:I = 0x7f060298
+
+.field public static final com_radio_selected_disable_stroke_color:I = 0x7f060299
+
+.field public static final com_radio_selected_disable_stroke_color_comfort_night:I = 0x7f06029a
+
+.field public static final com_radio_selected_normal_bg_color:I = 0x7f06029b
+
+.field public static final com_radio_selected_normal_bg_color_comfort_night:I = 0x7f06029c
+
+.field public static final com_radio_selected_normal_icon_color:I = 0x7f06029d
+
+.field public static final com_radio_selected_normal_icon_color_comfort_night:I = 0x7f06029e
+
+.field public static final com_radio_selected_normal_stroke_color:I = 0x7f06029f
+
+.field public static final com_radio_selected_normal_stroke_color_comfort_night:I = 0x7f0602a0
+
+.field public static final com_radio_selected_press_bg_color:I = 0x7f0602a1
+
+.field public static final com_radio_selected_press_bg_color_comfort_night:I = 0x7f0602a2
+
+.field public static final com_radio_selected_press_icon_color:I = 0x7f0602a3
+
+.field public static final com_radio_selected_press_icon_color_comfort_night:I = 0x7f0602a4
+
+.field public static final com_radio_selected_press_stroke_color:I = 0x7f0602a5
+
+.field public static final com_radio_selected_press_stroke_color_comfort_night:I = 0x7f0602a6
+
+.field public static final com_radio_unselected_disable_bg_color:I = 0x7f0602a7
+
+.field public static final com_radio_unselected_disable_bg_color_comfort_night:I = 0x7f0602a8
+
+.field public static final com_radio_unselected_disable_stroke_color:I = 0x7f0602a9
+
+.field public static final com_radio_unselected_disable_stroke_color_comfort_night:I = 0x7f0602aa
+
+.field public static final com_radio_unselected_normal_bg_color:I = 0x7f0602ab
+
+.field public static final com_radio_unselected_normal_bg_color_comfort_night:I = 0x7f0602ac
+
+.field public static final com_radio_unselected_normal_stroke_color:I = 0x7f0602ad
+
+.field public static final com_radio_unselected_normal_stroke_color_comfort_night:I = 0x7f0602ae
+
+.field public static final com_radio_unselected_press_bg_color:I = 0x7f0602af
+
+.field public static final com_radio_unselected_press_bg_color_comfort_night:I = 0x7f0602b0
+
+.field public static final com_radio_unselected_press_stroke_color:I = 0x7f0602b1
+
+.field public static final com_radio_unselected_press_stroke_color_comfort_night:I = 0x7f0602b2
+
+.field public static final com_result_icon_color:I = 0x7f0602b3
+
+.field public static final com_result_icon_color_comfort_night:I = 0x7f0602b4
+
+.field public static final com_result_text_caption_color:I = 0x7f0602b5
+
+.field public static final com_result_text_caption_color_comfort_night:I = 0x7f0602b6
+
+.field public static final com_result_text_title_color:I = 0x7f0602b7
+
+.field public static final com_result_text_title_color_comfort_night:I = 0x7f0602b8
+
+.field public static final com_slider_disable_bar_color:I = 0x7f0602b9
+
+.field public static final com_slider_disable_bar_color_comfort_night:I = 0x7f0602ba
+
+.field public static final com_slider_disable_bg_color:I = 0x7f0602bb
+
+.field public static final com_slider_disable_bg_color_comfort_night:I = 0x7f0602bc
+
+.field public static final com_slider_disable_icon_color:I = 0x7f0602bd
+
+.field public static final com_slider_disable_icon_color_comfort_night:I = 0x7f0602be
+
+.field public static final com_slider_disable_text_color:I = 0x7f0602bf
+
+.field public static final com_slider_disable_text_color_comfort_night:I = 0x7f0602c0
+
+.field public static final com_slider_normal_bar_color:I = 0x7f0602c1
+
+.field public static final com_slider_normal_bar_color_comfort_night:I = 0x7f0602c2
+
+.field public static final com_slider_normal_bg_color:I = 0x7f0602c3
+
+.field public static final com_slider_normal_bg_color_comfort_night:I = 0x7f0602c4
+
+.field public static final com_slider_normal_icon_color:I = 0x7f0602c5
+
+.field public static final com_slider_normal_icon_color_comfort_night:I = 0x7f0602c6
+
+.field public static final com_slider_normal_text_color:I = 0x7f0602c7
+
+.field public static final com_slider_normal_text_color_comfort_night:I = 0x7f0602c8
+
+.field public static final com_stepper_bg_color:I = 0x7f0602c9
+
+.field public static final com_stepper_bg_color_comfort_night:I = 0x7f0602ca
+
+.field public static final com_stepper_btn_disable_bg_color:I = 0x7f0602cb
+
+.field public static final com_stepper_btn_disable_bg_color_comfort_night:I = 0x7f0602cc
+
+.field public static final com_stepper_btn_disable_icon_color:I = 0x7f0602cd
+
+.field public static final com_stepper_btn_disable_icon_color_comfort_night:I = 0x7f0602ce
+
+.field public static final com_stepper_btn_normal_bg_color:I = 0x7f0602cf
+
+.field public static final com_stepper_btn_normal_bg_color_comfort_night:I = 0x7f0602d0
+
+.field public static final com_stepper_btn_normal_icon_color:I = 0x7f0602d1
+
+.field public static final com_stepper_btn_normal_icon_color_comfort_night:I = 0x7f0602d2
+
+.field public static final com_stepper_btn_press_bg_color:I = 0x7f0602d3
+
+.field public static final com_stepper_btn_press_bg_color_comfort_night:I = 0x7f0602d4
+
+.field public static final com_stepper_btn_press_icon_color:I = 0x7f0602d5
+
+.field public static final com_stepper_btn_press_icon_color_comfort_night:I = 0x7f0602d6
+
+.field public static final com_stepper_text_caption_color:I = 0x7f0602d7
+
+.field public static final com_stepper_text_caption_color_comfort_night:I = 0x7f0602d8
+
+.field public static final com_stepper_text_content_color:I = 0x7f0602d9
+
+.field public static final com_stepper_text_content_color_comfort_night:I = 0x7f0602da
+
+.field public static final com_stepper_text_dsiable_color:I = 0x7f0602db
+
+.field public static final com_stepper_text_dsiable_color_comfort_night:I = 0x7f0602dc
+
+.field public static final com_switch_off_disable_bg_color:I = 0x7f0602dd
+
+.field public static final com_switch_off_disable_bg_color_comfort_night:I = 0x7f0602de
+
+.field public static final com_switch_off_disable_bg_color_new:I = 0x7f0602df
+
+.field public static final com_switch_off_disable_indicator_color:I = 0x7f0602e0
+
+.field public static final com_switch_off_disable_indicator_color_comfort_night:I = 0x7f0602e1
+
+.field public static final com_switch_off_disable_indicator_color_new:I = 0x7f0602e2
+
+.field public static final com_switch_off_loading_bg_color:I = 0x7f0602e3
+
+.field public static final com_switch_off_loading_bg_color_comfort_night:I = 0x7f0602e4
+
+.field public static final com_switch_off_loading_icon_color:I = 0x7f0602e5
+
+.field public static final com_switch_off_loading_icon_color_comfort_night:I = 0x7f0602e6
+
+.field public static final com_switch_off_loading_indicator_color:I = 0x7f0602e7
+
+.field public static final com_switch_off_loading_indicator_color_comfort_night:I = 0x7f0602e8
+
+.field public static final com_switch_off_normal_bg_color:I = 0x7f0602e9
+
+.field public static final com_switch_off_normal_bg_color_comfort_night:I = 0x7f0602ea
+
+.field public static final com_switch_off_normal_bg_color_new:I = 0x7f0602eb
+
+.field public static final com_switch_off_normal_indicator_color:I = 0x7f0602ec
+
+.field public static final com_switch_off_normal_indicator_color_comfort_night:I = 0x7f0602ed
+
+.field public static final com_switch_off_press_bg_color:I = 0x7f0602ee
+
+.field public static final com_switch_off_press_bg_color_comfort_night:I = 0x7f0602ef
+
+.field public static final com_switch_off_press_indicator_color:I = 0x7f0602f0
+
+.field public static final com_switch_off_press_indicator_color_comfort_night:I = 0x7f0602f1
+
+.field public static final com_switch_on_disable_bg_color:I = 0x7f0602f2
+
+.field public static final com_switch_on_disable_bg_color_comfort_night:I = 0x7f0602f3
+
+.field public static final com_switch_on_disable_bg_color_new:I = 0x7f0602f4
+
+.field public static final com_switch_on_disable_indicator_color:I = 0x7f0602f5
+
+.field public static final com_switch_on_disable_indicator_color_comfort_night:I = 0x7f0602f6
+
+.field public static final com_switch_on_disable_indicator_color_new:I = 0x7f0602f7
+
+.field public static final com_switch_on_loading_bg_color:I = 0x7f0602f8
+
+.field public static final com_switch_on_loading_bg_color_comfort_night:I = 0x7f0602f9
+
+.field public static final com_switch_on_loading_indicator_color:I = 0x7f0602fa
+
+.field public static final com_switch_on_loading_indicator_color_comfort_night:I = 0x7f0602fb
+
+.field public static final com_switch_on_loading_spinner_color:I = 0x7f0602fc
+
+.field public static final com_switch_on_loading_spinner_color_comfort_night:I = 0x7f0602fd
+
+.field public static final com_switch_on_normal_bg_color:I = 0x7f0602fe
+
+.field public static final com_switch_on_normal_bg_color_comfort_night:I = 0x7f0602ff
+
+.field public static final com_switch_on_normal_indicator_color:I = 0x7f060300
+
+.field public static final com_switch_on_normal_indicator_color_comfort_night:I = 0x7f060301
+
+.field public static final com_switch_on_press_bg_color:I = 0x7f060302
+
+.field public static final com_switch_on_press_bg_color_comfort_night:I = 0x7f060303
+
+.field public static final com_switch_on_press_indicator_color:I = 0x7f060304
+
+.field public static final com_switch_on_press_indicator_color_comfort_night:I = 0x7f060305
+
+.field public static final com_tab_btntab_bg_color:I = 0x7f060306
+
+.field public static final com_tab_btntab_bg_color_comfort_night:I = 0x7f060307
+
+.field public static final com_tab_btntab_caption_color:I = 0x7f060308
+
+.field public static final com_tab_btntab_caption_color_comfort_night:I = 0x7f060309
+
+.field public static final com_tab_btntab_disble_text_color:I = 0x7f06030a
+
+.field public static final com_tab_btntab_disble_text_color_comfort_night:I = 0x7f06030b
+
+.field public static final com_tab_btntab_icon_color:I = 0x7f06030c
+
+.field public static final com_tab_btntab_icon_color_comfort_night:I = 0x7f06030d
+
+.field public static final com_tab_btntab_selected_bg_color:I = 0x7f06030e
+
+.field public static final com_tab_btntab_selected_bg_color_comfort_night:I = 0x7f06030f
+
+.field public static final com_tab_btntab_selected_text_color:I = 0x7f060310
+
+.field public static final com_tab_btntab_selected_text_color_comfort_night:I = 0x7f060311
+
+.field public static final com_tab_btntab_title_color:I = 0x7f060312
+
+.field public static final com_tab_btntab_title_color_comfort_night:I = 0x7f060313
+
+.field public static final com_tab_btntab_unselected_text_color:I = 0x7f060314
+
+.field public static final com_tab_btntab_unselected_text_color_comfort_night:I = 0x7f060315
+
+.field public static final com_tab_texttab_divider_color:I = 0x7f060316
+
+.field public static final com_tab_texttab_divider_color_comfort_night:I = 0x7f060317
+
+.field public static final com_tab_texttab_selected_text_color:I = 0x7f060318
+
+.field public static final com_tab_texttab_selected_text_color_comfort_night:I = 0x7f060319
+
+.field public static final com_tab_texttab_selected_text_color_ep32:I = 0x7f06031a
+
+.field public static final com_tab_texttab_selected_underline_color:I = 0x7f06031b
+
+.field public static final com_tab_texttab_selected_underline_color_comfort_night:I = 0x7f06031c
+
+.field public static final com_tab_texttab_unenabled_text_color_ep32:I = 0x7f06031d
+
+.field public static final com_tab_texttab_unselected_text_color:I = 0x7f06031e
+
+.field public static final com_tab_texttab_unselected_text_color_comfort_night:I = 0x7f06031f
+
+.field public static final com_tab_texttab_unselected_text_color_ep32:I = 0x7f060320
+
+.field public static final com_timepicker_divider_color:I = 0x7f060321
+
+.field public static final com_timepicker_divider_color_comfort_night:I = 0x7f060322
+
+.field public static final com_timepicker_text_selecte_color:I = 0x7f060323
+
+.field public static final com_timepicker_text_selecte_color_comfort_night:I = 0x7f060324
+
+.field public static final com_timepicker_text_unselected_color:I = 0x7f060325
+
+.field public static final com_timepicker_text_unselected_color_comfort_night:I = 0x7f060326
+
+.field public static final com_toast_bg_color:I = 0x7f060327
+
+.field public static final com_toast_bg_color_comfort_night:I = 0x7f060328
+
+.field public static final com_toast_close_bg_color:I = 0x7f060329
+
+.field public static final com_toast_close_bg_color_comfort_night:I = 0x7f06032a
+
+.field public static final com_toast_close_stroke_color:I = 0x7f06032b
+
+.field public static final com_toast_close_stroke_color_comfort_night:I = 0x7f06032c
+
+.field public static final com_toast_icon_color:I = 0x7f06032d
+
+.field public static final com_toast_icon_color_comfort_night:I = 0x7f06032e
+
+.field public static final com_toast_text_color:I = 0x7f06032f
+
+.field public static final com_toast_text_color_comfort_night:I = 0x7f060330
+
+.field public static final container_btn_main_disable_bot:I = 0x7f060331
+
+.field public static final container_btn_main_disable_stroke:I = 0x7f060332
+
+.field public static final container_btn_main_disable_top:I = 0x7f060333
+
+.field public static final container_btn_main_normal_bot_color:I = 0x7f060334
+
+.field public static final container_btn_main_normal_bot_color_comfort_night:I = 0x7f060335
+
+.field public static final container_btn_main_normal_stroke_color:I = 0x7f060336
+
+.field public static final container_btn_main_normal_stroke_color_comfort_night:I = 0x7f060337
+
+.field public static final container_btn_main_normal_text_color:I = 0x7f060338
+
+.field public static final container_btn_main_normal_text_color_comfort_night:I = 0x7f060339
+
+.field public static final container_btn_main_normal_top_color:I = 0x7f06033a
+
+.field public static final container_btn_main_normal_top_color_comfort_night:I = 0x7f06033b
+
+.field public static final container_btn_main_pressed_bot:I = 0x7f06033c
+
+.field public static final container_btn_main_pressed_stroke:I = 0x7f06033d
+
+.field public static final container_btn_main_pressed_top:I = 0x7f06033e
+
+.field public static final container_btn_secondary_disable_bot:I = 0x7f06033f
+
+.field public static final container_btn_secondary_disable_stroke:I = 0x7f060340
+
+.field public static final container_btn_secondary_disable_top:I = 0x7f060341
+
+.field public static final container_btn_secondary_normal_bot_color:I = 0x7f060342
+
+.field public static final container_btn_secondary_normal_bot_color_comfort_night:I = 0x7f060343
+
+.field public static final container_btn_secondary_normal_stroke_color:I = 0x7f060344
+
+.field public static final container_btn_secondary_normal_stroke_color_comfort_night:I = 0x7f060345
+
+.field public static final container_btn_secondary_normal_top_color:I = 0x7f060346
+
+.field public static final container_btn_secondary_normal_top_color_comfort_night:I = 0x7f060347
+
+.field public static final container_btn_secondary_pressed_bot:I = 0x7f060348
+
+.field public static final container_btn_secondary_pressed_stroke:I = 0x7f060349
+
+.field public static final container_btn_secondary_pressed_top:I = 0x7f06034a
+
+.field public static final container_btn_secondary_text_color:I = 0x7f06034b
+
+.field public static final container_btn_secondary_text_color_comfort_night:I = 0x7f06034c
+
+.field public static final container_btn_warn_disable_bot:I = 0x7f06034d
+
+.field public static final container_btn_warn_disable_stroke:I = 0x7f06034e
+
+.field public static final container_btn_warn_disable_top:I = 0x7f06034f
+
+.field public static final container_btn_warn_normal_bot_color:I = 0x7f060350
+
+.field public static final container_btn_warn_normal_bot_color_comfort_night:I = 0x7f060351
+
+.field public static final container_btn_warn_normal_stroke_color:I = 0x7f060352
+
+.field public static final container_btn_warn_normal_stroke_color_comfort_night:I = 0x7f060353
+
+.field public static final container_btn_warn_normal_top_color:I = 0x7f060354
+
+.field public static final container_btn_warn_normal_top_color_comfort_night:I = 0x7f060355
+
+.field public static final container_btn_warn_pressed_bot:I = 0x7f060356
+
+.field public static final container_btn_warn_pressed_stroke:I = 0x7f060357
+
+.field public static final container_btn_warn_pressed_top:I = 0x7f060358
+
+.field public static final container_btn_weak_normal_bot_color:I = 0x7f060359
+
+.field public static final container_btn_weak_normal_bot_color_comfort_night:I = 0x7f06035a
+
+.field public static final container_btn_weak_normal_stroke_color:I = 0x7f06035b
+
+.field public static final container_btn_weak_normal_stroke_color_comfort_night:I = 0x7f06035c
+
+.field public static final container_btn_weak_normal_top_color:I = 0x7f06035d
+
+.field public static final container_btn_weak_normal_top_color_comfort_night:I = 0x7f06035e
+
+.field public static final contentTabBg:I = 0x7f06035f
+
+.field public static final contentTabBg_comfort_night:I = 0x7f060360
+
+.field public static final contentTabTextChecked:I = 0x7f060361
+
+.field public static final contentTabTextChecked_comfort_night:I = 0x7f060362
+
+.field public static final contentTabTextChecked_ep36:I = 0x7f060363
+
+.field public static final contentTabTextNormal:I = 0x7f060364
+
+.field public static final contentTabTextNormal_comfort_night:I = 0x7f060365
+
+.field public static final contentTabTextNormal_ep36:I = 0x7f060366
+
+.field public static final contentTabTextNormal_ep36_comfort_night:I = 0x7f060367
+
+.field public static final content_tab_text_selector:I = 0x7f060368
+
+.field public static final content_tab_text_selector_comfort_night:I = 0x7f060369
+
+.field public static final content_tab_text_selector_ep36:I = 0x7f06036a
+
+.field public static final content_tab_text_selector_ep36_comfort_night:I = 0x7f06036b
+
+.field public static final cursor_color:I = 0x7f06036c
+
+.field public static final design_bottom_navigation_shadow_color:I = 0x7f06036d
+
+.field public static final design_box_stroke_color:I = 0x7f06036e
+
+.field public static final design_dark_default_color_background:I = 0x7f06036f
+
+.field public static final design_dark_default_color_error:I = 0x7f060370
+
+.field public static final design_dark_default_color_on_background:I = 0x7f060371
+
+.field public static final design_dark_default_color_on_error:I = 0x7f060372
+
+.field public static final design_dark_default_color_on_primary:I = 0x7f060373
+
+.field public static final design_dark_default_color_on_secondary:I = 0x7f060374
+
+.field public static final design_dark_default_color_on_surface:I = 0x7f060375
+
+.field public static final design_dark_default_color_primary:I = 0x7f060376
+
+.field public static final design_dark_default_color_primary_dark:I = 0x7f060377
+
+.field public static final design_dark_default_color_primary_variant:I = 0x7f060378
+
+.field public static final design_dark_default_color_secondary:I = 0x7f060379
+
+.field public static final design_dark_default_color_secondary_variant:I = 0x7f06037a
+
+.field public static final design_dark_default_color_surface:I = 0x7f06037b
+
+.field public static final design_default_color_background:I = 0x7f06037c
+
+.field public static final design_default_color_error:I = 0x7f06037d
+
+.field public static final design_default_color_on_background:I = 0x7f06037e
+
+.field public static final design_default_color_on_error:I = 0x7f06037f
+
+.field public static final design_default_color_on_primary:I = 0x7f060380
+
+.field public static final design_default_color_on_secondary:I = 0x7f060381
+
+.field public static final design_default_color_on_surface:I = 0x7f060382
+
+.field public static final design_default_color_primary:I = 0x7f060383
+
+.field public static final design_default_color_primary_dark:I = 0x7f060384
+
+.field public static final design_default_color_primary_variant:I = 0x7f060385
+
+.field public static final design_default_color_secondary:I = 0x7f060386
+
+.field public static final design_default_color_secondary_variant:I = 0x7f060387
+
+.field public static final design_default_color_surface:I = 0x7f060388
+
+.field public static final design_error:I = 0x7f060389
+
+.field public static final design_fab_shadow_end_color:I = 0x7f06038a
+
+.field public static final design_fab_shadow_mid_color:I = 0x7f06038b
+
+.field public static final design_fab_shadow_start_color:I = 0x7f06038c
+
+.field public static final design_fab_stroke_end_inner_color:I = 0x7f06038d
+
+.field public static final design_fab_stroke_end_outer_color:I = 0x7f06038e
+
+.field public static final design_fab_stroke_top_inner_color:I = 0x7f06038f
+
+.field public static final design_fab_stroke_top_outer_color:I = 0x7f060390
+
+.field public static final design_icon_tint:I = 0x7f060391
+
+.field public static final design_snackbar_background_color:I = 0x7f060392
+
+.field public static final dialogConfirmText:I = 0x7f060393
+
+.field public static final dialogConfirmText_comfort_night:I = 0x7f060394
+
+.field public static final dialogContentText:I = 0x7f060395
+
+.field public static final dialogContentText_comfort_night:I = 0x7f060396
+
+.field public static final dialogContentText_ep36:I = 0x7f060397
+
+.field public static final dialogContentText_ep36_comfort_night:I = 0x7f060398
+
+.field public static final dialogSubTitle:I = 0x7f060399
+
+.field public static final dialogSubTitle_comfort_night:I = 0x7f06039a
+
+.field public static final dialogTitleText:I = 0x7f06039b
+
+.field public static final dialogTitleText_comfort_night:I = 0x7f06039c
+
+.field public static final dialogTitleText_ep36:I = 0x7f06039d
+
+.field public static final dialogTitleText_ep36_comfort_night:I = 0x7f06039e
+
+.field public static final dialog_cancel_btn_text_color:I = 0x7f06039f
+
+.field public static final dialog_cancel_btn_text_color_comfort_night:I = 0x7f0603a0
+
+.field public static final dialog_edit_text_color:I = 0x7f0603a1
+
+.field public static final dialog_edit_text_color_comfort_night:I = 0x7f0603a2
+
+.field public static final dialog_edit_text_hint_color:I = 0x7f0603a3
+
+.field public static final dialog_edit_text_hint_color_comfort_night:I = 0x7f0603a4
+
+.field public static final dialog_shade_end_bg_color_comfort_night:I = 0x7f0603a5
+
+.field public static final dialog_shade_start_bg_color_comfort_night:I = 0x7f0603a6
+
+.field public static final dialog_vol_light_title_color:I = 0x7f0603a7
+
+.field public static final dialog_vol_light_title_color_comfort_night:I = 0x7f0603a8
+
+.field public static final dim_foreground_disabled_material_dark:I = 0x7f0603a9
+
+.field public static final dim_foreground_disabled_material_light:I = 0x7f0603aa
+
+.field public static final dim_foreground_material_dark:I = 0x7f0603ab
+
+.field public static final dim_foreground_material_light:I = 0x7f0603ac
+
+.field public static final dock_card_fault_default_color:I = 0x7f0603ad
+
+.field public static final dock_card_fault_default_color_comfort_night:I = 0x7f0603ae
+
+.field public static final dock_card_temp_warn:I = 0x7f0603af
+
+.field public static final dock_card_temp_warn_comfort_night:I = 0x7f0603b0
+
+.field public static final drag_hint_line:I = 0x7f0603b1
+
+.field public static final drop_down_page_switch_bg_color_checked:I = 0x7f0603b2
+
+.field public static final drop_down_rb_bg_color_normal:I = 0x7f0603b3
+
+.field public static final editDivideLine:I = 0x7f0603b4
+
+.field public static final editDivideLine_comfort_night:I = 0x7f0603b5
+
+.field public static final editTextColor:I = 0x7f0603b6
+
+.field public static final editTextColor_comfort_night:I = 0x7f0603b7
+
+.field public static final editTextHintColor:I = 0x7f0603b8
+
+.field public static final editTextHintColor_comfort_night:I = 0x7f0603b9
+
+.field public static final edit_text_grey_dark:I = 0x7f0603ba
+
+.field public static final edit_text_grey_dark_comfort_night:I = 0x7f0603bb
+
+.field public static final edit_text_hint_grey_dark:I = 0x7f0603bc
+
+.field public static final edit_text_hint_grey_dark_comfort_night:I = 0x7f0603bd
+
+.field public static final edit_tv_color:I = 0x7f0603be
+
+.field public static final edit_tv_color_comfort_night:I = 0x7f0603bf
+
+.field public static final edit_tv_color_ep32:I = 0x7f0603c0
+
+.field public static final edit_tv_color_ep32_comfort_night:I = 0x7f0603c1
+
+.field public static final environment_layout_bg:I = 0x7f0603c2
+
+.field public static final environment_layout_bg_comfort_night:I = 0x7f0603c3
+
+.field public static final environment_text_color:I = 0x7f0603c4
+
+.field public static final environment_text_color_comfort_night:I = 0x7f0603c5
+
+.field public static final error_color_material_dark:I = 0x7f0603c6
+
+.field public static final error_color_material_light:I = 0x7f0603c7
+
+.field public static final fixed_tab_background_color_ep32:I = 0x7f0603c8
+
+.field public static final fixed_tab_background_color_ep32_comfort_night:I = 0x7f0603c9
+
+.field public static final fixed_tab_background_color_ep36:I = 0x7f0603ca
+
+.field public static final fixed_tab_background_color_ep36_comfort_night:I = 0x7f0603cb
+
+.field public static final fixed_tab_background_gray_color:I = 0x7f0603cc
+
+.field public static final fixed_tab_background_gray_color_comfort_night:I = 0x7f0603cd
+
+.field public static final fixed_tab_background_white_color:I = 0x7f0603ce
+
+.field public static final fixed_tab_background_white_color_comfort_night:I = 0x7f0603cf
+
+.field public static final fixed_tab_text_selected_color:I = 0x7f0603d0
+
+.field public static final fixed_tab_text_selected_color_comfort_night:I = 0x7f0603d1
+
+.field public static final fixed_tab_text_selected_color_ep32:I = 0x7f0603d2
+
+.field public static final fixed_tab_text_selected_color_ep32_comfort_night:I = 0x7f0603d3
+
+.field public static final fixed_tab_text_unenabled_color:I = 0x7f0603d4
+
+.field public static final fixed_tab_text_unenabled_color_comfort_night:I = 0x7f0603d5
+
+.field public static final fixed_tab_text_unselect_color_ep32:I = 0x7f0603d6
+
+.field public static final fixed_tab_text_unselect_color_ep32_comfort_night:I = 0x7f0603d7
+
+.field public static final fixed_tab_text_unselected_color:I = 0x7f0603d8
+
+.field public static final fixed_tab_text_unselected_color_comfort_night:I = 0x7f0603d9
+
+.field public static final foreground_material_dark:I = 0x7f0603da
+
+.field public static final foreground_material_light:I = 0x7f0603db
+
+.field public static final full_transparent:I = 0x7f0603dc
+
+.field public static final function_color_collect_default:I = 0x7f0603dd
+
+.field public static final function_color_collect_default_comfort_night:I = 0x7f0603de
+
+.field public static final function_color_collect_default_dream:I = 0x7f0603df
+
+.field public static final function_color_collect_default_dream_night:I = 0x7f0603e0
+
+.field public static final function_color_collect_default_lassie:I = 0x7f0603e1
+
+.field public static final function_color_collect_default_lassie_night:I = 0x7f0603e2
+
+.field public static final function_color_collect_default_light_blue:I = 0x7f0603e3
+
+.field public static final function_color_collect_default_light_blue_night:I = 0x7f0603e4
+
+.field public static final function_color_collect_default_lite:I = 0x7f0603e5
+
+.field public static final function_color_collect_default_lite_lassie:I = 0x7f0603e6
+
+.field public static final function_color_collect_default_lite_lassie_night:I = 0x7f0603e7
+
+.field public static final function_color_collect_default_lite_night:I = 0x7f0603e8
+
+.field public static final function_color_collect_disable:I = 0x7f0603e9
+
+.field public static final function_color_collect_disable_comfort_night:I = 0x7f0603ea
+
+.field public static final function_color_collect_disable_dream:I = 0x7f0603eb
+
+.field public static final function_color_collect_disable_dream_night:I = 0x7f0603ec
+
+.field public static final function_color_collect_disable_lassie:I = 0x7f0603ed
+
+.field public static final function_color_collect_disable_lassie_night:I = 0x7f0603ee
+
+.field public static final function_color_collect_disable_light_blue:I = 0x7f0603ef
+
+.field public static final function_color_collect_disable_light_blue_night:I = 0x7f0603f0
+
+.field public static final function_color_collect_disable_lite:I = 0x7f0603f1
+
+.field public static final function_color_collect_disable_lite_lassie:I = 0x7f0603f2
+
+.field public static final function_color_collect_disable_lite_lassie_night:I = 0x7f0603f3
+
+.field public static final function_color_collect_disable_lite_night:I = 0x7f0603f4
+
+.field public static final function_color_collect_press:I = 0x7f0603f5
+
+.field public static final function_color_collect_press_comfort_night:I = 0x7f0603f6
+
+.field public static final function_color_collect_press_dream:I = 0x7f0603f7
+
+.field public static final function_color_collect_press_dream_night:I = 0x7f0603f8
+
+.field public static final function_color_collect_press_lassie:I = 0x7f0603f9
+
+.field public static final function_color_collect_press_lassie_night:I = 0x7f0603fa
+
+.field public static final function_color_collect_press_light_blue:I = 0x7f0603fb
+
+.field public static final function_color_collect_press_light_blue_night:I = 0x7f0603fc
+
+.field public static final function_color_collect_press_lite:I = 0x7f0603fd
+
+.field public static final function_color_collect_press_lite_lassie:I = 0x7f0603fe
+
+.field public static final function_color_collect_press_lite_lassie_night:I = 0x7f0603ff
+
+.field public static final function_color_collect_press_lite_night:I = 0x7f060400
+
+.field public static final function_color_error_text_default:I = 0x7f060401
+
+.field public static final function_color_error_text_default_comfort_night:I = 0x7f060402
+
+.field public static final function_color_error_text_default_dream:I = 0x7f060403
+
+.field public static final function_color_error_text_default_dream_night:I = 0x7f060404
+
+.field public static final function_color_error_text_default_lassie:I = 0x7f060405
+
+.field public static final function_color_error_text_default_lassie_night:I = 0x7f060406
+
+.field public static final function_color_error_text_default_light_blue:I = 0x7f060407
+
+.field public static final function_color_error_text_default_light_blue_night:I = 0x7f060408
+
+.field public static final function_color_error_text_default_lite:I = 0x7f060409
+
+.field public static final function_color_error_text_default_lite_lassie:I = 0x7f06040a
+
+.field public static final function_color_error_text_default_lite_lassie_night:I = 0x7f06040b
+
+.field public static final function_color_error_text_default_lite_night:I = 0x7f06040c
+
+.field public static final function_color_error_text_disable:I = 0x7f06040d
+
+.field public static final function_color_error_text_disable_comfort_night:I = 0x7f06040e
+
+.field public static final function_color_error_text_disable_dream:I = 0x7f06040f
+
+.field public static final function_color_error_text_disable_dream_night:I = 0x7f060410
+
+.field public static final function_color_error_text_disable_lassie:I = 0x7f060411
+
+.field public static final function_color_error_text_disable_lassie_night:I = 0x7f060412
+
+.field public static final function_color_error_text_disable_light_blue:I = 0x7f060413
+
+.field public static final function_color_error_text_disable_light_blue_night:I = 0x7f060414
+
+.field public static final function_color_error_text_disable_lite:I = 0x7f060415
+
+.field public static final function_color_error_text_disable_lite_lassie:I = 0x7f060416
+
+.field public static final function_color_error_text_disable_lite_lassie_night:I = 0x7f060417
+
+.field public static final function_color_error_text_disable_lite_night:I = 0x7f060418
+
+.field public static final function_color_error_text_press:I = 0x7f060419
+
+.field public static final function_color_error_text_press_comfort_night:I = 0x7f06041a
+
+.field public static final function_color_error_text_press_dream:I = 0x7f06041b
+
+.field public static final function_color_error_text_press_dream_night:I = 0x7f06041c
+
+.field public static final function_color_error_text_press_lassie:I = 0x7f06041d
+
+.field public static final function_color_error_text_press_lassie_night:I = 0x7f06041e
+
+.field public static final function_color_error_text_press_light_blue:I = 0x7f06041f
+
+.field public static final function_color_error_text_press_light_blue_night:I = 0x7f060420
+
+.field public static final function_color_error_text_press_lite:I = 0x7f060421
+
+.field public static final function_color_error_text_press_lite_lassie:I = 0x7f060422
+
+.field public static final function_color_error_text_press_lite_lassie_night:I = 0x7f060423
+
+.field public static final function_color_error_text_press_lite_night:I = 0x7f060424
+
+.field public static final function_color_link_default:I = 0x7f060425
+
+.field public static final function_color_link_default_comfort_night:I = 0x7f060426
+
+.field public static final function_color_link_default_dream:I = 0x7f060427
+
+.field public static final function_color_link_default_dream_night:I = 0x7f060428
+
+.field public static final function_color_link_default_lassie:I = 0x7f060429
+
+.field public static final function_color_link_default_lassie_night:I = 0x7f06042a
+
+.field public static final function_color_link_default_light_blue:I = 0x7f06042b
+
+.field public static final function_color_link_default_light_blue_night:I = 0x7f06042c
+
+.field public static final function_color_link_default_lite:I = 0x7f06042d
+
+.field public static final function_color_link_default_lite_lassie:I = 0x7f06042e
+
+.field public static final function_color_link_default_lite_lassie_night:I = 0x7f06042f
+
+.field public static final function_color_link_default_lite_night:I = 0x7f060430
+
+.field public static final function_color_link_disable:I = 0x7f060431
+
+.field public static final function_color_link_disable_comfort_night:I = 0x7f060432
+
+.field public static final function_color_link_disable_dream:I = 0x7f060433
+
+.field public static final function_color_link_disable_dream_night:I = 0x7f060434
+
+.field public static final function_color_link_disable_lassie:I = 0x7f060435
+
+.field public static final function_color_link_disable_lassie_night:I = 0x7f060436
+
+.field public static final function_color_link_disable_light_blue:I = 0x7f060437
+
+.field public static final function_color_link_disable_light_blue_night:I = 0x7f060438
+
+.field public static final function_color_link_disable_lite:I = 0x7f060439
+
+.field public static final function_color_link_disable_lite_lassie:I = 0x7f06043a
+
+.field public static final function_color_link_disable_lite_lassie_night:I = 0x7f06043b
+
+.field public static final function_color_link_disable_lite_night:I = 0x7f06043c
+
+.field public static final function_color_link_press:I = 0x7f06043d
+
+.field public static final function_color_link_press_comfort_night:I = 0x7f06043e
+
+.field public static final function_color_link_press_dream:I = 0x7f06043f
+
+.field public static final function_color_link_press_dream_night:I = 0x7f060440
+
+.field public static final function_color_link_press_lassie:I = 0x7f060441
+
+.field public static final function_color_link_press_lassie_night:I = 0x7f060442
+
+.field public static final function_color_link_press_light_blue:I = 0x7f060443
+
+.field public static final function_color_link_press_light_blue_night:I = 0x7f060444
+
+.field public static final function_color_link_press_lite:I = 0x7f060445
+
+.field public static final function_color_link_press_lite_lassie:I = 0x7f060446
+
+.field public static final function_color_link_press_lite_lassie_night:I = 0x7f060447
+
+.field public static final function_color_link_press_lite_night:I = 0x7f060448
+
+.field public static final function_color_success_default:I = 0x7f060449
+
+.field public static final function_color_success_default_comfort_night:I = 0x7f06044a
+
+.field public static final function_color_success_default_dream:I = 0x7f06044b
+
+.field public static final function_color_success_default_dream_night:I = 0x7f06044c
+
+.field public static final function_color_success_default_lassie:I = 0x7f06044d
+
+.field public static final function_color_success_default_lassie_night:I = 0x7f06044e
+
+.field public static final function_color_success_default_light_blue:I = 0x7f06044f
+
+.field public static final function_color_success_default_light_blue_night:I = 0x7f060450
+
+.field public static final function_color_success_default_lite:I = 0x7f060451
+
+.field public static final function_color_success_default_lite_lassie:I = 0x7f060452
+
+.field public static final function_color_success_default_lite_lassie_night:I = 0x7f060453
+
+.field public static final function_color_success_default_lite_night:I = 0x7f060454
+
+.field public static final function_color_success_disable:I = 0x7f060455
+
+.field public static final function_color_success_disable_comfort_night:I = 0x7f060456
+
+.field public static final function_color_success_disable_dream:I = 0x7f060457
+
+.field public static final function_color_success_disable_dream_night:I = 0x7f060458
+
+.field public static final function_color_success_disable_lassie:I = 0x7f060459
+
+.field public static final function_color_success_disable_lassie_night:I = 0x7f06045a
+
+.field public static final function_color_success_disable_light_blue:I = 0x7f06045b
+
+.field public static final function_color_success_disable_light_blue_night:I = 0x7f06045c
+
+.field public static final function_color_success_disable_lite:I = 0x7f06045d
+
+.field public static final function_color_success_disable_lite_lassie:I = 0x7f06045e
+
+.field public static final function_color_success_disable_lite_lassie_night:I = 0x7f06045f
+
+.field public static final function_color_success_disable_lite_night:I = 0x7f060460
+
+.field public static final function_color_success_press:I = 0x7f060461
+
+.field public static final function_color_success_press_comfort_night:I = 0x7f060462
+
+.field public static final function_color_success_press_dream:I = 0x7f060463
+
+.field public static final function_color_success_press_dream_night:I = 0x7f060464
+
+.field public static final function_color_success_press_lassie:I = 0x7f060465
+
+.field public static final function_color_success_press_lassie_night:I = 0x7f060466
+
+.field public static final function_color_success_press_light_blue:I = 0x7f060467
+
+.field public static final function_color_success_press_light_blue_night:I = 0x7f060468
+
+.field public static final function_color_success_press_lite:I = 0x7f060469
+
+.field public static final function_color_success_press_lite_lassie:I = 0x7f06046a
+
+.field public static final function_color_success_press_lite_lassie_night:I = 0x7f06046b
+
+.field public static final function_color_success_press_lite_night:I = 0x7f06046c
+
+.field public static final function_color_warning_default:I = 0x7f06046d
+
+.field public static final function_color_warning_default_comfort_night:I = 0x7f06046e
+
+.field public static final function_color_warning_default_dream:I = 0x7f06046f
+
+.field public static final function_color_warning_default_dream_night:I = 0x7f060470
+
+.field public static final function_color_warning_default_lassie:I = 0x7f060471
+
+.field public static final function_color_warning_default_lassie_night:I = 0x7f060472
+
+.field public static final function_color_warning_default_light_blue:I = 0x7f060473
+
+.field public static final function_color_warning_default_light_blue_night:I = 0x7f060474
+
+.field public static final function_color_warning_default_lite:I = 0x7f060475
+
+.field public static final function_color_warning_default_lite_lassie:I = 0x7f060476
+
+.field public static final function_color_warning_default_lite_lassie_night:I = 0x7f060477
+
+.field public static final function_color_warning_default_lite_night:I = 0x7f060478
+
+.field public static final function_color_warning_disable:I = 0x7f060479
+
+.field public static final function_color_warning_disable_comfort_night:I = 0x7f06047a
+
+.field public static final function_color_warning_disable_dream:I = 0x7f06047b
+
+.field public static final function_color_warning_disable_dream_night:I = 0x7f06047c
+
+.field public static final function_color_warning_disable_lassie:I = 0x7f06047d
+
+.field public static final function_color_warning_disable_lassie_night:I = 0x7f06047e
+
+.field public static final function_color_warning_disable_light_blue:I = 0x7f06047f
+
+.field public static final function_color_warning_disable_light_blue_night:I = 0x7f060480
+
+.field public static final function_color_warning_disable_lite:I = 0x7f060481
+
+.field public static final function_color_warning_disable_lite_lassie:I = 0x7f060482
+
+.field public static final function_color_warning_disable_lite_lassie_night:I = 0x7f060483
+
+.field public static final function_color_warning_disable_lite_night:I = 0x7f060484
+
+.field public static final function_color_warning_press:I = 0x7f060485
+
+.field public static final function_color_warning_press_comfort_night:I = 0x7f060486
+
+.field public static final function_color_warning_press_dream:I = 0x7f060487
+
+.field public static final function_color_warning_press_dream_night:I = 0x7f060488
+
+.field public static final function_color_warning_press_lassie:I = 0x7f060489
+
+.field public static final function_color_warning_press_lassie_night:I = 0x7f06048a
+
+.field public static final function_color_warning_press_light_blue:I = 0x7f06048b
+
+.field public static final function_color_warning_press_light_blue_night:I = 0x7f06048c
+
+.field public static final function_color_warning_press_lite:I = 0x7f06048d
+
+.field public static final function_color_warning_press_lite_lassie:I = 0x7f06048e
+
+.field public static final function_color_warning_press_lite_lassie_night:I = 0x7f06048f
+
+.field public static final function_color_warning_press_lite_night:I = 0x7f060490
+
+.field public static final highlighted_text_material_dark:I = 0x7f060491
+
+.field public static final highlighted_text_material_light:I = 0x7f060492
+
+.field public static final horizontal_tab_background_color:I = 0x7f060493
+
+.field public static final horizontal_tab_background_color_comfort_night:I = 0x7f060494
+
+.field public static final horizontal_tab_text_selected_color:I = 0x7f060495
+
+.field public static final horizontal_tab_text_selected_color_comfort_night:I = 0x7f060496
+
+.field public static final horizontal_tab_text_selected_color_ep32:I = 0x7f060497
+
+.field public static final horizontal_tab_text_selected_color_ep32_comfort_night:I = 0x7f060498
+
+.field public static final horizontal_tab_text_unselect_color_ep32:I = 0x7f060499
+
+.field public static final horizontal_tab_text_unselect_color_ep32_comfort_night:I = 0x7f06049a
+
+.field public static final horizontal_tab_text_unselected_color:I = 0x7f06049b
+
+.field public static final horizontal_tab_text_unselected_color_comfort_night:I = 0x7f06049c
+
+.field public static final horizontal_tab_texttab_divider_color_ep32:I = 0x7f06049d
+
+.field public static final horizontal_tab_texttab_divider_color_ep32_comfort_night:I = 0x7f06049e
+
+.field public static final icon_btn_blue_normal_text_color:I = 0x7f06049f
+
+.field public static final icon_btn_blue_normal_text_color_comfort_night:I = 0x7f0604a0
+
+.field public static final icon_btn_main_normal_bot:I = 0x7f0604a1
+
+.field public static final icon_btn_main_normal_top:I = 0x7f0604a2
+
+.field public static final icon_btn_normal_text_color:I = 0x7f0604a3
+
+.field public static final icon_btn_normal_text_color_comfort_night:I = 0x7f0604a4
+
+.field public static final icon_btn_pressed_text_color:I = 0x7f0604a5
+
+.field public static final icon_btn_pressed_text_color_comfort_night:I = 0x7f0604a6
+
+.field public static final icon_btn_text_disable:I = 0x7f0604a7
+
+.field public static final icon_btn_text_pressed:I = 0x7f0604a8
+
+.field public static final input_bg_grey_dark:I = 0x7f0604a9
+
+.field public static final inverse_color:I = 0x7f0604aa
+
+.field public static final inverse_color2:I = 0x7f0604ab
+
+.field public static final inverse_color2_comfort_night:I = 0x7f0604ac
+
+.field public static final inverse_color2_dream:I = 0x7f0604ad
+
+.field public static final inverse_color2_dream_night:I = 0x7f0604ae
+
+.field public static final inverse_color2_lassie:I = 0x7f0604af
+
+.field public static final inverse_color2_lassie_night:I = 0x7f0604b0
+
+.field public static final inverse_color2_light_blue:I = 0x7f0604b1
+
+.field public static final inverse_color2_light_blue_night:I = 0x7f0604b2
+
+.field public static final inverse_color2_lite:I = 0x7f0604b3
+
+.field public static final inverse_color2_lite_lassie:I = 0x7f0604b4
+
+.field public static final inverse_color2_lite_lassie_night:I = 0x7f0604b5
+
+.field public static final inverse_color2_lite_night:I = 0x7f0604b6
+
+.field public static final inverse_color_comfort_night:I = 0x7f0604b7
+
+.field public static final inverse_color_dream:I = 0x7f0604b8
+
+.field public static final inverse_color_dream_night:I = 0x7f0604b9
+
+.field public static final inverse_color_lassie:I = 0x7f0604ba
+
+.field public static final inverse_color_lassie_night:I = 0x7f0604bb
+
+.field public static final inverse_color_light_blue:I = 0x7f0604bc
+
+.field public static final inverse_color_light_blue_night:I = 0x7f0604bd
+
+.field public static final inverse_color_lite:I = 0x7f0604be
+
+.field public static final inverse_color_lite_lassie:I = 0x7f0604bf
+
+.field public static final inverse_color_lite_lassie_night:I = 0x7f0604c0
+
+.field public static final inverse_color_lite_night:I = 0x7f0604c1
+
+.field public static final lightness_mode_text_checked:I = 0x7f0604c2
+
+.field public static final lightness_mode_text_checked_comfort_night:I = 0x7f0604c3
+
+.field public static final lightness_mode_text_normal:I = 0x7f0604c4
+
+.field public static final lightness_mode_text_normal_comfort_night:I = 0x7f0604c5
+
+.field public static final lightness_mode_text_selector:I = 0x7f0604c6
+
+.field public static final lightness_mode_text_selector_comfort_night:I = 0x7f0604c7
+
+.field public static final list_bg:I = 0x7f0604c8
+
+.field public static final list_bg_comfort_night:I = 0x7f0604c9
+
+.field public static final list_bg_dream:I = 0x7f0604ca
+
+.field public static final list_bg_dream_night:I = 0x7f0604cb
+
+.field public static final list_bg_lassie:I = 0x7f0604cc
+
+.field public static final list_bg_lassie_night:I = 0x7f0604cd
+
+.field public static final list_bg_light_blue:I = 0x7f0604ce
+
+.field public static final list_bg_light_blue_night:I = 0x7f0604cf
+
+.field public static final list_bg_lite:I = 0x7f0604d0
+
+.field public static final list_bg_lite_lassie:I = 0x7f0604d1
+
+.field public static final list_bg_lite_lassie_night:I = 0x7f0604d2
+
+.field public static final list_bg_lite_night:I = 0x7f0604d3
+
+.field public static final list_item_end_text_color:I = 0x7f0604d4
+
+.field public static final list_item_end_text_color_comfort_night:I = 0x7f0604d5
+
+.field public static final main_right_seek_bar_bg:I = 0x7f0604d6
+
+.field public static final material_blue_grey_800:I = 0x7f0604d7
+
+.field public static final material_blue_grey_900:I = 0x7f0604d8
+
+.field public static final material_blue_grey_950:I = 0x7f0604d9
+
+.field public static final material_cursor_color:I = 0x7f0604da
+
+.field public static final material_deep_teal_200:I = 0x7f0604db
+
+.field public static final material_deep_teal_500:I = 0x7f0604dc
+
+.field public static final material_grey_100:I = 0x7f0604dd
+
+.field public static final material_grey_300:I = 0x7f0604de
+
+.field public static final material_grey_50:I = 0x7f0604df
+
+.field public static final material_grey_600:I = 0x7f0604e0
+
+.field public static final material_grey_800:I = 0x7f0604e1
+
+.field public static final material_grey_850:I = 0x7f0604e2
+
+.field public static final material_grey_900:I = 0x7f0604e3
+
+.field public static final material_on_background_disabled:I = 0x7f0604e4
+
+.field public static final material_on_background_emphasis_high_type:I = 0x7f0604e5
+
+.field public static final material_on_background_emphasis_medium:I = 0x7f0604e6
+
+.field public static final material_on_primary_disabled:I = 0x7f0604e7
+
+.field public static final material_on_primary_emphasis_high_type:I = 0x7f0604e8
+
+.field public static final material_on_primary_emphasis_medium:I = 0x7f0604e9
+
+.field public static final material_on_surface_disabled:I = 0x7f0604ea
+
+.field public static final material_on_surface_emphasis_high_type:I = 0x7f0604eb
+
+.field public static final material_on_surface_emphasis_medium:I = 0x7f0604ec
+
+.field public static final material_on_surface_stroke:I = 0x7f0604ed
+
+.field public static final material_slider_active_tick_marks_color:I = 0x7f0604ee
+
+.field public static final material_slider_active_track_color:I = 0x7f0604ef
+
+.field public static final material_slider_halo_color:I = 0x7f0604f0
+
+.field public static final material_slider_inactive_tick_marks_color:I = 0x7f0604f1
+
+.field public static final material_slider_inactive_track_color:I = 0x7f0604f2
+
+.field public static final material_slider_thumb_color:I = 0x7f0604f3
+
+.field public static final material_timepicker_button_background:I = 0x7f0604f4
+
+.field public static final material_timepicker_button_stroke:I = 0x7f0604f5
+
+.field public static final material_timepicker_clock_text_color:I = 0x7f0604f6
+
+.field public static final material_timepicker_clockface:I = 0x7f0604f7
+
+.field public static final material_timepicker_modebutton_tint:I = 0x7f0604f8
+
+.field public static final mtrl_btn_bg_color_selector:I = 0x7f0604f9
+
+.field public static final mtrl_btn_ripple_color:I = 0x7f0604fa
+
+.field public static final mtrl_btn_stroke_color_selector:I = 0x7f0604fb
+
+.field public static final mtrl_btn_text_btn_bg_color_selector:I = 0x7f0604fc
+
+.field public static final mtrl_btn_text_btn_ripple_color:I = 0x7f0604fd
+
+.field public static final mtrl_btn_text_color_disabled:I = 0x7f0604fe
+
+.field public static final mtrl_btn_text_color_selector:I = 0x7f0604ff
+
+.field public static final mtrl_btn_transparent_bg_color:I = 0x7f060500
+
+.field public static final mtrl_calendar_item_stroke_color:I = 0x7f060501
+
+.field public static final mtrl_calendar_selected_range:I = 0x7f060502
+
+.field public static final mtrl_card_view_foreground:I = 0x7f060503
+
+.field public static final mtrl_card_view_ripple:I = 0x7f060504
+
+.field public static final mtrl_chip_background_color:I = 0x7f060505
+
+.field public static final mtrl_chip_close_icon_tint:I = 0x7f060506
+
+.field public static final mtrl_chip_surface_color:I = 0x7f060507
+
+.field public static final mtrl_chip_text_color:I = 0x7f060508
+
+.field public static final mtrl_choice_chip_background_color:I = 0x7f060509
+
+.field public static final mtrl_choice_chip_ripple_color:I = 0x7f06050a
+
+.field public static final mtrl_choice_chip_text_color:I = 0x7f06050b
+
+.field public static final mtrl_error:I = 0x7f06050c
+
+.field public static final mtrl_fab_bg_color_selector:I = 0x7f06050d
+
+.field public static final mtrl_fab_icon_text_color_selector:I = 0x7f06050e
+
+.field public static final mtrl_fab_ripple_color:I = 0x7f06050f
+
+.field public static final mtrl_filled_background_color:I = 0x7f060510
+
+.field public static final mtrl_filled_icon_tint:I = 0x7f060511
+
+.field public static final mtrl_filled_stroke_color:I = 0x7f060512
+
+.field public static final mtrl_indicator_text_color:I = 0x7f060513
+
+.field public static final mtrl_navigation_bar_colored_item_tint:I = 0x7f060514
+
+.field public static final mtrl_navigation_bar_colored_ripple_color:I = 0x7f060515
+
+.field public static final mtrl_navigation_bar_item_tint:I = 0x7f060516
+
+.field public static final mtrl_navigation_bar_ripple_color:I = 0x7f060517
+
+.field public static final mtrl_navigation_item_background_color:I = 0x7f060518
+
+.field public static final mtrl_navigation_item_icon_tint:I = 0x7f060519
+
+.field public static final mtrl_navigation_item_text_color:I = 0x7f06051a
+
+.field public static final mtrl_on_primary_text_btn_text_color_selector:I = 0x7f06051b
+
+.field public static final mtrl_on_surface_ripple_color:I = 0x7f06051c
+
+.field public static final mtrl_outlined_icon_tint:I = 0x7f06051d
+
+.field public static final mtrl_outlined_stroke_color:I = 0x7f06051e
+
+.field public static final mtrl_popupmenu_overlay_color:I = 0x7f06051f
+
+.field public static final mtrl_scrim_color:I = 0x7f060520
+
+.field public static final mtrl_tabs_colored_ripple_color:I = 0x7f060521
+
+.field public static final mtrl_tabs_icon_color_selector:I = 0x7f060522
+
+.field public static final mtrl_tabs_icon_color_selector_colored:I = 0x7f060523
+
+.field public static final mtrl_tabs_legacy_text_color_selector:I = 0x7f060524
+
+.field public static final mtrl_tabs_ripple_color:I = 0x7f060525
+
+.field public static final mtrl_text_btn_text_color_selector:I = 0x7f060526
+
+.field public static final mtrl_textinput_default_box_stroke_color:I = 0x7f060527
+
+.field public static final mtrl_textinput_disabled_color:I = 0x7f060528
+
+.field public static final mtrl_textinput_filled_box_default_background_color:I = 0x7f060529
+
+.field public static final mtrl_textinput_focused_box_stroke_color:I = 0x7f06052a
+
+.field public static final mtrl_textinput_hovered_box_stroke_color:I = 0x7f06052b
+
+.field public static final multi_edit_bg_color:I = 0x7f06052c
+
+.field public static final multi_edit_bg_color_comfort_night:I = 0x7f06052d
+
+.field public static final multi_edit_warn_text_color:I = 0x7f06052e
+
+.field public static final multi_edit_warn_text_color_comfort_night:I = 0x7f06052f
+
+.field public static final neutral_black10:I = 0x7f060530
+
+.field public static final neutral_black100:I = 0x7f060531
+
+.field public static final neutral_black16:I = 0x7f060532
+
+.field public static final neutral_black36:I = 0x7f060533
+
+.field public static final neutral_black36_comfort_night:I = 0x7f060534
+
+.field public static final neutral_black40:I = 0x7f060535
+
+.field public static final neutral_black56:I = 0x7f060536
+
+.field public static final neutral_black86:I = 0x7f060537
+
+.field public static final neutral_color_background_surface_disable:I = 0x7f060538
+
+.field public static final neutral_color_background_surface_press:I = 0x7f060539
+
+.field public static final neutral_color_background_surface_primary:I = 0x7f06053a
+
+.field public static final neutral_color_background_surface_primary_comfort_night:I = 0x7f06053b
+
+.field public static final neutral_color_background_surface_primary_dream:I = 0x7f06053c
+
+.field public static final neutral_color_background_surface_primary_dream_night:I = 0x7f06053d
+
+.field public static final neutral_color_background_surface_primary_lassie:I = 0x7f06053e
+
+.field public static final neutral_color_background_surface_primary_lassie_night:I = 0x7f06053f
+
+.field public static final neutral_color_background_surface_primary_light_blue:I = 0x7f060540
+
+.field public static final neutral_color_background_surface_primary_light_blue_night:I = 0x7f060541
+
+.field public static final neutral_color_background_surface_primary_lite:I = 0x7f060542
+
+.field public static final neutral_color_background_surface_primary_lite_lassie:I = 0x7f060543
+
+.field public static final neutral_color_background_surface_primary_lite_lassie_night:I = 0x7f060544
+
+.field public static final neutral_color_background_surface_primary_lite_night:I = 0x7f060545
+
+.field public static final neutral_color_background_surface_secondary:I = 0x7f060546
+
+.field public static final neutral_color_background_surface_secondary_comfort_night:I = 0x7f060547
+
+.field public static final neutral_color_background_surface_secondary_dream:I = 0x7f060548
+
+.field public static final neutral_color_background_surface_secondary_dream_night:I = 0x7f060549
+
+.field public static final neutral_color_background_surface_secondary_lassie:I = 0x7f06054a
+
+.field public static final neutral_color_background_surface_secondary_lassie_night:I = 0x7f06054b
+
+.field public static final neutral_color_background_surface_secondary_light_blue:I = 0x7f06054c
+
+.field public static final neutral_color_background_surface_secondary_light_blue_night:I = 0x7f06054d
+
+.field public static final neutral_color_background_surface_secondary_lite:I = 0x7f06054e
+
+.field public static final neutral_color_background_surface_secondary_lite_lassie:I = 0x7f06054f
+
+.field public static final neutral_color_background_surface_secondary_lite_lassie_night:I = 0x7f060550
+
+.field public static final neutral_color_background_surface_secondary_lite_night:I = 0x7f060551
+
+.field public static final neutral_color_background_surface_slider:I = 0x7f060552
+
+.field public static final neutral_color_background_surface_slider_comfort_night:I = 0x7f060553
+
+.field public static final neutral_color_background_surface_slider_lassie:I = 0x7f060554
+
+.field public static final neutral_color_background_surface_slider_lassie_night:I = 0x7f060555
+
+.field public static final neutral_color_background_surface_slider_light_blue:I = 0x7f060556
+
+.field public static final neutral_color_background_surface_slider_light_blue_night:I = 0x7f060557
+
+.field public static final neutral_color_background_system_alert:I = 0x7f060558
+
+.field public static final neutral_color_background_system_alert_comfort_night:I = 0x7f060559
+
+.field public static final neutral_color_background_system_alert_dream:I = 0x7f06055a
+
+.field public static final neutral_color_background_system_alert_lassie:I = 0x7f06055b
+
+.field public static final neutral_color_background_system_alert_lassie_night:I = 0x7f06055c
+
+.field public static final neutral_color_background_system_alert_light_blue:I = 0x7f06055d
+
+.field public static final neutral_color_background_system_alert_light_blue_night:I = 0x7f06055e
+
+.field public static final neutral_color_background_system_alert_lite:I = 0x7f06055f
+
+.field public static final neutral_color_background_system_alert_lite_lassie:I = 0x7f060560
+
+.field public static final neutral_color_background_system_alert_lite_lassie_night:I = 0x7f060561
+
+.field public static final neutral_color_background_system_alert_lite_night:I = 0x7f060562
+
+.field public static final neutral_color_background_system_alert_night:I = 0x7f060563
+
+.field public static final neutral_color_background_system_on_dock:I = 0x7f060564
+
+.field public static final neutral_color_background_system_on_dock_comfort_night:I = 0x7f060565
+
+.field public static final neutral_color_background_system_on_dock_dream:I = 0x7f060566
+
+.field public static final neutral_color_background_system_on_dock_dream_night:I = 0x7f060567
+
+.field public static final neutral_color_background_system_on_dock_lassie:I = 0x7f060568
+
+.field public static final neutral_color_background_system_on_dock_lassie_night:I = 0x7f060569
+
+.field public static final neutral_color_background_system_on_dock_light_blue:I = 0x7f06056a
+
+.field public static final neutral_color_background_system_on_dock_light_blue_night:I = 0x7f06056b
+
+.field public static final neutral_color_background_system_on_dock_lite:I = 0x7f06056c
+
+.field public static final neutral_color_background_system_on_dock_lite_lassie:I = 0x7f06056d
+
+.field public static final neutral_color_background_system_on_dock_lite_lassie_night:I = 0x7f06056e
+
+.field public static final neutral_color_background_system_on_dock_lite_night:I = 0x7f06056f
+
+.field public static final neutral_color_icon_caption:I = 0x7f060570
+
+.field public static final neutral_color_icon_caption_comfort_night:I = 0x7f060571
+
+.field public static final neutral_color_icon_caption_dream:I = 0x7f060572
+
+.field public static final neutral_color_icon_caption_dream_night:I = 0x7f060573
+
+.field public static final neutral_color_icon_caption_lassie:I = 0x7f060574
+
+.field public static final neutral_color_icon_caption_lassie_night:I = 0x7f060575
+
+.field public static final neutral_color_icon_caption_light_blue:I = 0x7f060576
+
+.field public static final neutral_color_icon_caption_light_blue_night:I = 0x7f060577
+
+.field public static final neutral_color_icon_caption_lite:I = 0x7f060578
+
+.field public static final neutral_color_icon_caption_lite_lassie:I = 0x7f060579
+
+.field public static final neutral_color_icon_caption_lite_lassie_night:I = 0x7f06057a
+
+.field public static final neutral_color_icon_caption_lite_night:I = 0x7f06057b
+
+.field public static final neutral_color_icon_close:I = 0x7f06057c
+
+.field public static final neutral_color_icon_close_comfort_night:I = 0x7f06057d
+
+.field public static final neutral_color_icon_close_dream:I = 0x7f06057e
+
+.field public static final neutral_color_icon_close_dream_night:I = 0x7f06057f
+
+.field public static final neutral_color_icon_close_lassie:I = 0x7f060580
+
+.field public static final neutral_color_icon_close_lassie_night:I = 0x7f060581
+
+.field public static final neutral_color_icon_close_light_blue:I = 0x7f060582
+
+.field public static final neutral_color_icon_close_light_blue_night:I = 0x7f060583
+
+.field public static final neutral_color_icon_close_lite:I = 0x7f060584
+
+.field public static final neutral_color_icon_close_lite_lassie:I = 0x7f060585
+
+.field public static final neutral_color_icon_close_lite_lassie_night:I = 0x7f060586
+
+.field public static final neutral_color_icon_close_lite_night:I = 0x7f060587
+
+.field public static final neutral_color_icon_primary:I = 0x7f060588
+
+.field public static final neutral_color_icon_primary_comfort_night:I = 0x7f060589
+
+.field public static final neutral_color_icon_primary_dream:I = 0x7f06058a
+
+.field public static final neutral_color_icon_primary_dream_night:I = 0x7f06058b
+
+.field public static final neutral_color_icon_primary_lassie:I = 0x7f06058c
+
+.field public static final neutral_color_icon_primary_lassie_night:I = 0x7f06058d
+
+.field public static final neutral_color_icon_primary_light_blue:I = 0x7f06058e
+
+.field public static final neutral_color_icon_primary_light_blue_night:I = 0x7f06058f
+
+.field public static final neutral_color_icon_primary_lite:I = 0x7f060590
+
+.field public static final neutral_color_icon_primary_lite_lassie:I = 0x7f060591
+
+.field public static final neutral_color_icon_primary_lite_lassie_night:I = 0x7f060592
+
+.field public static final neutral_color_icon_primary_lite_night:I = 0x7f060593
+
+.field public static final neutral_color_icon_secondary:I = 0x7f060594
+
+.field public static final neutral_color_icon_secondary_comfort_night:I = 0x7f060595
+
+.field public static final neutral_color_icon_secondary_dream:I = 0x7f060596
+
+.field public static final neutral_color_icon_secondary_dream_night:I = 0x7f060597
+
+.field public static final neutral_color_icon_secondary_lassie:I = 0x7f060598
+
+.field public static final neutral_color_icon_secondary_lassie_night:I = 0x7f060599
+
+.field public static final neutral_color_icon_secondary_light_blue:I = 0x7f06059a
+
+.field public static final neutral_color_icon_secondary_light_blue_night:I = 0x7f06059b
+
+.field public static final neutral_color_icon_secondary_lite:I = 0x7f06059c
+
+.field public static final neutral_color_icon_secondary_lite_lassie:I = 0x7f06059d
+
+.field public static final neutral_color_icon_secondary_lite_lassie_night:I = 0x7f06059e
+
+.field public static final neutral_color_icon_secondary_lite_night:I = 0x7f06059f
+
+.field public static final neutral_color_icon_tertiary:I = 0x7f0605a0
+
+.field public static final neutral_color_icon_tertiary_comfort_night:I = 0x7f0605a1
+
+.field public static final neutral_color_icon_tertiary_dream:I = 0x7f0605a2
+
+.field public static final neutral_color_icon_tertiary_dream_night:I = 0x7f0605a3
+
+.field public static final neutral_color_icon_tertiary_lassie:I = 0x7f0605a4
+
+.field public static final neutral_color_icon_tertiary_lassie_night:I = 0x7f0605a5
+
+.field public static final neutral_color_icon_tertiary_light_blue:I = 0x7f0605a6
+
+.field public static final neutral_color_icon_tertiary_light_blue_night:I = 0x7f0605a7
+
+.field public static final neutral_color_icon_tertiary_lite:I = 0x7f0605a8
+
+.field public static final neutral_color_icon_tertiary_lite_lassie:I = 0x7f0605a9
+
+.field public static final neutral_color_icon_tertiary_lite_lassie_night:I = 0x7f0605aa
+
+.field public static final neutral_color_icon_tertiary_lite_night:I = 0x7f0605ab
+
+.field public static final neutral_color_splitline_primary:I = 0x7f0605ac
+
+.field public static final neutral_color_splitline_primary_comfort_night:I = 0x7f0605ad
+
+.field public static final neutral_color_splitline_primary_dream:I = 0x7f0605ae
+
+.field public static final neutral_color_splitline_primary_dream_night:I = 0x7f0605af
+
+.field public static final neutral_color_splitline_primary_lassie:I = 0x7f0605b0
+
+.field public static final neutral_color_splitline_primary_lassie_night:I = 0x7f0605b1
+
+.field public static final neutral_color_splitline_primary_light_blue:I = 0x7f0605b2
+
+.field public static final neutral_color_splitline_primary_light_blue_night:I = 0x7f0605b3
+
+.field public static final neutral_color_splitline_primary_lite:I = 0x7f0605b4
+
+.field public static final neutral_color_splitline_primary_lite_lassie:I = 0x7f0605b5
+
+.field public static final neutral_color_splitline_primary_lite_lassie_night:I = 0x7f0605b6
+
+.field public static final neutral_color_splitline_primary_lite_night:I = 0x7f0605b7
+
+.field public static final neutral_color_splitline_secondary:I = 0x7f0605b8
+
+.field public static final neutral_color_splitline_secondary_comfort_night:I = 0x7f0605b9
+
+.field public static final neutral_color_splitline_secondary_dream:I = 0x7f0605ba
+
+.field public static final neutral_color_splitline_secondary_dream_night:I = 0x7f0605bb
+
+.field public static final neutral_color_splitline_secondary_lassie:I = 0x7f0605bc
+
+.field public static final neutral_color_splitline_secondary_lassie_night:I = 0x7f0605bd
+
+.field public static final neutral_color_splitline_secondary_light_blue:I = 0x7f0605be
+
+.field public static final neutral_color_splitline_secondary_light_blue_night:I = 0x7f0605bf
+
+.field public static final neutral_color_splitline_secondary_lite:I = 0x7f0605c0
+
+.field public static final neutral_color_splitline_secondary_lite_lassie:I = 0x7f0605c1
+
+.field public static final neutral_color_splitline_secondary_lite_lassie_night:I = 0x7f0605c2
+
+.field public static final neutral_color_splitline_secondary_lite_night:I = 0x7f0605c3
+
+.field public static final neutral_color_splitline_tertiary:I = 0x7f0605c4
+
+.field public static final neutral_color_splitline_tertiary_comfort_night:I = 0x7f0605c5
+
+.field public static final neutral_color_splitline_tertiary_dream:I = 0x7f0605c6
+
+.field public static final neutral_color_splitline_tertiary_dream_night:I = 0x7f0605c7
+
+.field public static final neutral_color_splitline_tertiary_lassie:I = 0x7f0605c8
+
+.field public static final neutral_color_splitline_tertiary_lassie_night:I = 0x7f0605c9
+
+.field public static final neutral_color_splitline_tertiary_light_blue:I = 0x7f0605ca
+
+.field public static final neutral_color_splitline_tertiary_light_blue_night:I = 0x7f0605cb
+
+.field public static final neutral_color_splitline_tertiary_lite:I = 0x7f0605cc
+
+.field public static final neutral_color_splitline_tertiary_lite_lassie:I = 0x7f0605cd
+
+.field public static final neutral_color_splitline_tertiary_lite_lassie_night:I = 0x7f0605ce
+
+.field public static final neutral_color_splitline_tertiary_lite_night:I = 0x7f0605cf
+
+.field public static final neutral_color_stoke_primary:I = 0x7f0605d0
+
+.field public static final neutral_color_stoke_primary_comfort_night:I = 0x7f0605d1
+
+.field public static final neutral_color_stoke_primary_dream:I = 0x7f0605d2
+
+.field public static final neutral_color_stoke_primary_dream_night:I = 0x7f0605d3
+
+.field public static final neutral_color_stoke_primary_lassie:I = 0x7f0605d4
+
+.field public static final neutral_color_stoke_primary_lassie_night:I = 0x7f0605d5
+
+.field public static final neutral_color_stoke_primary_light_blue:I = 0x7f0605d6
+
+.field public static final neutral_color_stoke_primary_light_blue_night:I = 0x7f0605d7
+
+.field public static final neutral_color_stoke_primary_lite:I = 0x7f0605d8
+
+.field public static final neutral_color_stoke_primary_lite_lassie:I = 0x7f0605d9
+
+.field public static final neutral_color_stoke_primary_lite_lassie_night:I = 0x7f0605da
+
+.field public static final neutral_color_stoke_primary_lite_night:I = 0x7f0605db
+
+.field public static final neutral_color_stoke_secondary:I = 0x7f0605dc
+
+.field public static final neutral_color_stoke_secondary_comfort_night:I = 0x7f0605dd
+
+.field public static final neutral_color_stoke_secondary_dream:I = 0x7f0605de
+
+.field public static final neutral_color_stoke_secondary_dream_night:I = 0x7f0605df
+
+.field public static final neutral_color_stoke_secondary_lassie:I = 0x7f0605e0
+
+.field public static final neutral_color_stoke_secondary_lassie_night:I = 0x7f0605e1
+
+.field public static final neutral_color_stoke_secondary_light_blue:I = 0x7f0605e2
+
+.field public static final neutral_color_stoke_secondary_light_blue_night:I = 0x7f0605e3
+
+.field public static final neutral_color_stoke_secondary_lite:I = 0x7f0605e4
+
+.field public static final neutral_color_stoke_secondary_lite_lassie:I = 0x7f0605e5
+
+.field public static final neutral_color_stoke_secondary_lite_lassie_night:I = 0x7f0605e6
+
+.field public static final neutral_color_stoke_secondary_lite_night:I = 0x7f0605e7
+
+.field public static final neutral_color_stoke_tertiary:I = 0x7f0605e8
+
+.field public static final neutral_color_stoke_tertiary_comfort_night:I = 0x7f0605e9
+
+.field public static final neutral_color_stoke_tertiary_dream:I = 0x7f0605ea
+
+.field public static final neutral_color_stoke_tertiary_dream_night:I = 0x7f0605eb
+
+.field public static final neutral_color_stoke_tertiary_lassie:I = 0x7f0605ec
+
+.field public static final neutral_color_stoke_tertiary_lassie_night:I = 0x7f0605ed
+
+.field public static final neutral_color_stoke_tertiary_light_blue:I = 0x7f0605ee
+
+.field public static final neutral_color_stoke_tertiary_light_blue_night:I = 0x7f0605ef
+
+.field public static final neutral_color_stoke_tertiary_lite:I = 0x7f0605f0
+
+.field public static final neutral_color_stoke_tertiary_lite_lassie:I = 0x7f0605f1
+
+.field public static final neutral_color_stoke_tertiary_lite_lassie_night:I = 0x7f0605f2
+
+.field public static final neutral_color_stoke_tertiary_lite_night:I = 0x7f0605f3
+
+.field public static final neutral_color_text_caption:I = 0x7f0605f4
+
+.field public static final neutral_color_text_caption_comfort_night:I = 0x7f0605f5
+
+.field public static final neutral_color_text_caption_dream:I = 0x7f0605f6
+
+.field public static final neutral_color_text_caption_dream_night:I = 0x7f0605f7
+
+.field public static final neutral_color_text_caption_lassie:I = 0x7f0605f8
+
+.field public static final neutral_color_text_caption_lassie_night:I = 0x7f0605f9
+
+.field public static final neutral_color_text_caption_light_blue:I = 0x7f0605fa
+
+.field public static final neutral_color_text_caption_light_blue_night:I = 0x7f0605fb
+
+.field public static final neutral_color_text_caption_lite:I = 0x7f0605fc
+
+.field public static final neutral_color_text_caption_lite_lassie:I = 0x7f0605fd
+
+.field public static final neutral_color_text_caption_lite_lassie_night:I = 0x7f0605fe
+
+.field public static final neutral_color_text_caption_lite_night:I = 0x7f0605ff
+
+.field public static final neutral_color_text_primary:I = 0x7f060600
+
+.field public static final neutral_color_text_primary_comfort_night:I = 0x7f060601
+
+.field public static final neutral_color_text_primary_dream:I = 0x7f060602
+
+.field public static final neutral_color_text_primary_dream_night:I = 0x7f060603
+
+.field public static final neutral_color_text_primary_lassie:I = 0x7f060604
+
+.field public static final neutral_color_text_primary_lassie_night:I = 0x7f060605
+
+.field public static final neutral_color_text_primary_light_blue:I = 0x7f060606
+
+.field public static final neutral_color_text_primary_light_blue_night:I = 0x7f060607
+
+.field public static final neutral_color_text_primary_lite:I = 0x7f060608
+
+.field public static final neutral_color_text_primary_lite_lassie:I = 0x7f060609
+
+.field public static final neutral_color_text_primary_lite_lassie_night:I = 0x7f06060a
+
+.field public static final neutral_color_text_primary_lite_night:I = 0x7f06060b
+
+.field public static final neutral_color_text_secondary:I = 0x7f06060c
+
+.field public static final neutral_color_text_secondary_comfort_night:I = 0x7f06060d
+
+.field public static final neutral_color_text_secondary_dream:I = 0x7f06060e
+
+.field public static final neutral_color_text_secondary_dream_night:I = 0x7f06060f
+
+.field public static final neutral_color_text_secondary_lassie:I = 0x7f060610
+
+.field public static final neutral_color_text_secondary_lassie_night:I = 0x7f060611
+
+.field public static final neutral_color_text_secondary_light_blue:I = 0x7f060612
+
+.field public static final neutral_color_text_secondary_light_blue_night:I = 0x7f060613
+
+.field public static final neutral_color_text_secondary_lite:I = 0x7f060614
+
+.field public static final neutral_color_text_secondary_lite_lassie:I = 0x7f060615
+
+.field public static final neutral_color_text_secondary_lite_lassie_night:I = 0x7f060616
+
+.field public static final neutral_color_text_secondary_lite_night:I = 0x7f060617
+
+.field public static final neutral_color_text_tertiary:I = 0x7f060618
+
+.field public static final neutral_color_text_tertiary_comfort_night:I = 0x7f060619
+
+.field public static final neutral_color_text_tertiary_dream:I = 0x7f06061a
+
+.field public static final neutral_color_text_tertiary_dream_night:I = 0x7f06061b
+
+.field public static final neutral_color_text_tertiary_lassie:I = 0x7f06061c
+
+.field public static final neutral_color_text_tertiary_lassie_night:I = 0x7f06061d
+
+.field public static final neutral_color_text_tertiary_light_blue:I = 0x7f06061e
+
+.field public static final neutral_color_text_tertiary_light_blue_night:I = 0x7f06061f
+
+.field public static final neutral_color_text_tertiary_lite:I = 0x7f060620
+
+.field public static final neutral_color_text_tertiary_lite_lassie:I = 0x7f060621
+
+.field public static final neutral_color_text_tertiary_lite_lassie_night:I = 0x7f060622
+
+.field public static final neutral_color_text_tertiary_lite_night:I = 0x7f060623
+
+.field public static final neutral_white100:I = 0x7f060624
+
+.field public static final neutral_white100_comfort_night:I = 0x7f060625
+
+.field public static final neutral_white16:I = 0x7f060626
+
+.field public static final neutral_white36:I = 0x7f060627
+
+.field public static final neutral_white40:I = 0x7f060628
+
+.field public static final neutral_white56:I = 0x7f060629
+
+.field public static final neutral_white86:I = 0x7f06062a
+
+.field public static final neutralcolor_text_primary:I = 0x7f06062b
+
+.field public static final neutralcolor_text_primary_comfort_night:I = 0x7f06062c
+
+.field public static final neutralcolor_text_secondary:I = 0x7f06062d
+
+.field public static final neutralcolor_text_secondary_comfort_night:I = 0x7f06062e
+
+.field public static final no_notification_color_ep36:I = 0x7f06062f
+
+.field public static final no_notification_color_ep36_comfort_night:I = 0x7f060630
+
+.field public static final no_notification_color_ep40:I = 0x7f060631
+
+.field public static final no_notification_color_ep40_comfort_night:I = 0x7f060632
+
+.field public static final notification_action_color_filter:I = 0x7f060633
+
+.field public static final notification_clear_btn_color:I = 0x7f060634
+
+.field public static final notification_clear_btn_color_comfort_night:I = 0x7f060635
+
+.field public static final notification_icon_bg_color:I = 0x7f060636
+
+.field public static final notification_item_delete_color_ep36:I = 0x7f060637
+
+.field public static final notification_item_delete_color_ep36_comfort_night:I = 0x7f060638
+
+.field public static final notification_item_expand_color_ep36:I = 0x7f060639
+
+.field public static final notification_item_expand_color_ep36_comfort_night:I = 0x7f06063a
+
+.field public static final notification_item_waring_title_color:I = 0x7f06063b
+
+.field public static final notification_item_waring_title_color_comfort_night:I = 0x7f06063c
+
+.field public static final notification_material_background_media_default_color:I = 0x7f06063d
+
+.field public static final pop_item_state_color1:I = 0x7f06063e
+
+.field public static final pop_item_state_color1_comfort_night:I = 0x7f06063f
+
+.field public static final pop_item_state_color2:I = 0x7f060640
+
+.field public static final primary_back_circle_color:I = 0x7f060641
+
+.field public static final primary_dark_material_dark:I = 0x7f060642
+
+.field public static final primary_dark_material_light:I = 0x7f060643
+
+.field public static final primary_grey_dark:I = 0x7f060644
+
+.field public static final primary_grey_dark_comfort_night:I = 0x7f060645
+
+.field public static final primary_material_dark:I = 0x7f060646
+
+.field public static final primary_material_light:I = 0x7f060647
+
+.field public static final primary_shadow_color:I = 0x7f060648
+
+.field public static final primary_text_color:I = 0x7f060649
+
+.field public static final primary_text_color_comfort_night:I = 0x7f06064a
+
+.field public static final primary_text_default_material_dark:I = 0x7f06064b
+
+.field public static final primary_text_default_material_light:I = 0x7f06064c
+
+.field public static final primary_text_disabled_material_dark:I = 0x7f06064d
+
+.field public static final primary_text_disabled_material_light:I = 0x7f06064e
+
+.field public static final progressBar_bg_color:I = 0x7f06064f
+
+.field public static final progress_bg:I = 0x7f060650
+
+.field public static final progress_fail_end:I = 0x7f060651
+
+.field public static final progress_fail_start:I = 0x7f060652
+
+.field public static final progress_normal_end:I = 0x7f060653
+
+.field public static final progress_normal_start:I = 0x7f060654
+
+.field public static final purple_200:I = 0x7f060655
+
+.field public static final purple_500:I = 0x7f060656
+
+.field public static final purple_700:I = 0x7f060657
+
+.field public static final qs_container_volumn_tv_color:I = 0x7f060658
+
+.field public static final qs_container_volumn_tv_color_comfort_night:I = 0x7f060659
+
+.field public static final qs_date_text_color:I = 0x7f06065a
+
+.field public static final qs_date_text_color_comfort_night:I = 0x7f06065b
+
+.field public static final qs_seat_checked:I = 0x7f06065c
+
+.field public static final qs_seat_unchecked:I = 0x7f06065d
+
+.field public static final qs_seat_unchecked_comfort_night:I = 0x7f06065e
+
+.field public static final qs_tile_text_color:I = 0x7f06065f
+
+.field public static final qs_tile_text_color_comfort_night:I = 0x7f060660
+
+.field public static final quit_text:I = 0x7f060661
+
+.field public static final radiobutton_themeable_attribute_color:I = 0x7f060662
+
+.field public static final red:I = 0x7f060663
+
+.field public static final ripple_material_dark:I = 0x7f060664
+
+.field public static final ripple_material_light:I = 0x7f060665
+
+.field public static final scroll_bar_widget:I = 0x7f060666
+
+.field public static final scroll_bar_widget_comfort_night:I = 0x7f060667
+
+.field public static final seat_button_bg:I = 0x7f060668
+
+.field public static final seat_button_bg_comfort_night:I = 0x7f060669
+
+.field public static final seatransport_view_text_color:I = 0x7f06066a
+
+.field public static final seatransport_view_text_color_comfort_night:I = 0x7f06066b
+
+.field public static final secondary_back_circle_color:I = 0x7f06066c
+
+.field public static final secondary_shadow_color:I = 0x7f06066d
+
+.field public static final secondary_text_default_material_dark:I = 0x7f06066e
+
+.field public static final secondary_text_default_material_light:I = 0x7f06066f
+
+.field public static final secondary_text_disabled_material_dark:I = 0x7f060670
+
+.field public static final secondary_text_disabled_material_light:I = 0x7f060671
+
+.field public static final seek_bar_gradient_end_color:I = 0x7f060672
+
+.field public static final seek_bar_gradient_start_color:I = 0x7f060673
+
+.field public static final seek_bar_progress_color:I = 0x7f060674
+
+.field public static final seekbar_hint_color:I = 0x7f060675
+
+.field public static final seekbar_hint_color_comfort_night:I = 0x7f060676
+
+.field public static final seekbar_hint_color_ep36:I = 0x7f060677
+
+.field public static final seekbar_hint_color_ep36_comfort_night:I = 0x7f060678
+
+.field public static final seekbar_shadow_color:I = 0x7f060679
+
+.field public static final shadow_color_on_brand:I = 0x7f06067a
+
+.field public static final shadow_color_on_brand_comfort_night:I = 0x7f06067b
+
+.field public static final shadow_color_on_brand_dream:I = 0x7f06067c
+
+.field public static final shadow_color_on_brand_dream_night:I = 0x7f06067d
+
+.field public static final shadow_color_on_brand_lassie:I = 0x7f06067e
+
+.field public static final shadow_color_on_brand_lassie_night:I = 0x7f06067f
+
+.field public static final shadow_color_on_brand_light_blue:I = 0x7f060680
+
+.field public static final shadow_color_on_brand_light_blue_night:I = 0x7f060681
+
+.field public static final shadow_color_on_brand_lite:I = 0x7f060682
+
+.field public static final shadow_color_on_brand_lite_lassie:I = 0x7f060683
+
+.field public static final shadow_color_on_brand_lite_lassie_night:I = 0x7f060684
+
+.field public static final shadow_color_on_brand_lite_night:I = 0x7f060685
+
+.field public static final shadow_end:I = 0x7f060686
+
+.field public static final special_d:I = 0x7f060687
+
+.field public static final special_d_comfort_night:I = 0x7f060688
+
+.field public static final splitline_secondary_color:I = 0x7f060689
+
+.field public static final splitline_secondary_color_comfort_night:I = 0x7f06068a
+
+.field public static final standard_dialog_bg_color:I = 0x7f06068b
+
+.field public static final standard_dialog_bg_color_comfort_night:I = 0x7f06068c
+
+.field public static final standard_dialog_bg_color_night:I = 0x7f06068d
+
+.field public static final standard_dialog_content_text_color:I = 0x7f06068e
+
+.field public static final standard_dialog_content_text_color_comfort_night:I = 0x7f06068f
+
+.field public static final standard_dialog_subTitle_color:I = 0x7f060690
+
+.field public static final standard_dialog_subTitle_color_comfort_night:I = 0x7f060691
+
+.field public static final standard_dialog_title_color:I = 0x7f060692
+
+.field public static final standard_dialog_title_color_comfort_night:I = 0x7f060693
+
+.field public static final statusbar_battery_color:I = 0x7f060694
+
+.field public static final statusbar_battery_color_ep32:I = 0x7f060695
+
+.field public static final statusbar_battery_color_extender_ep32:I = 0x7f060696
+
+.field public static final stepper_add_color_gradient_end:I = 0x7f060697
+
+.field public static final stepper_add_color_gradient_start:I = 0x7f060698
+
+.field public static final stepper_bg_color:I = 0x7f060699
+
+.field public static final stepper_bg_color_comfort_night:I = 0x7f06069a
+
+.field public static final stepper_minus_color_gradient_end:I = 0x7f06069b
+
+.field public static final stepper_minus_color_gradient_start:I = 0x7f06069c
+
+.field public static final stepper_text_color:I = 0x7f06069d
+
+.field public static final stepper_text_color_comfort_night:I = 0x7f06069e
+
+.field public static final switch_checked_color:I = 0x7f06069f
+
+.field public static final switch_thumb_disabled_material_dark:I = 0x7f0606a0
+
+.field public static final switch_thumb_disabled_material_light:I = 0x7f0606a1
+
+.field public static final switch_thumb_material_dark:I = 0x7f0606a2
+
+.field public static final switch_thumb_material_light:I = 0x7f0606a3
+
+.field public static final switch_thumb_normal_material_dark:I = 0x7f0606a4
+
+.field public static final switch_thumb_normal_material_light:I = 0x7f0606a5
+
+.field public static final switch_unchecked_color:I = 0x7f0606a6
+
+.field public static final system_warn_tips_text_color_ep36:I = 0x7f0606a7
+
+.field public static final system_warn_tips_text_color_ep36_comfort_night:I = 0x7f0606a8
+
+.field public static final tab_text_color:I = 0x7f0606a9
+
+.field public static final tab_text_color_comfort_night:I = 0x7f0606aa
+
+.field public static final tab_text_color_ep40:I = 0x7f0606ab
+
+.field public static final tab_text_color_ep40_comfort_night:I = 0x7f0606ac
+
+.field public static final teal_200:I = 0x7f0606ad
+
+.field public static final teal_700:I = 0x7f0606ae
+
+.field public static final template_name_bg_checked:I = 0x7f0606af
+
+.field public static final template_name_bg_normal:I = 0x7f0606b0
+
+.field public static final test_mtrl_calendar_day:I = 0x7f0606b1
+
+.field public static final test_mtrl_calendar_day_selected:I = 0x7f0606b2
+
+.field public static final text_blue:I = 0x7f0606b3
+
+.field public static final text_color_disconnect:I = 0x7f0606b4
+
+.field public static final text_color_qs_seat:I = 0x7f0606b5
+
+.field public static final text_color_qs_seat_comfort_night:I = 0x7f0606b6
+
+.field public static final text_empty_hint_color:I = 0x7f0606b7
+
+.field public static final text_empty_hint_color_comfort_night:I = 0x7f0606b8
+
+.field public static final text_warn:I = 0x7f0606b9
+
+.field public static final tips_bar_bg_color:I = 0x7f0606ba
+
+.field public static final tips_bar_bg_color_comfort_night:I = 0x7f0606bb
+
+.field public static final tips_bar_close_color:I = 0x7f0606bc
+
+.field public static final tips_bar_close_color_comfort_night:I = 0x7f0606bd
+
+.field public static final tips_bar_textcolor:I = 0x7f0606be
+
+.field public static final tips_bar_textcolor_comfort_night:I = 0x7f0606bf
+
+.field public static final tooltip_background_dark:I = 0x7f0606c0
+
+.field public static final tooltip_background_light:I = 0x7f0606c1
+
+.field public static final transparent:I = 0x7f0606c2
+
+.field public static final transparent_black_50:I = 0x7f0606c3
+
+.field public static final transparent_white_40:I = 0x7f0606c4
+
+.field public static final vertical_progress_color:I = 0x7f0606c5
+
+.field public static final vertical_progress_color_comfort_night:I = 0x7f0606c6
+
+.field public static final vertical_seekbar_thumb:I = 0x7f0606c7
+
+.field public static final vertical_seekbar_thumb_comfort_night:I = 0x7f0606c8
+
+.field public static final vertical_seekbar_track:I = 0x7f0606c9
+
+.field public static final vertical_seekbar_track_comfort_night:I = 0x7f0606ca
+
+.field public static final vertical_tab_background_color:I = 0x7f0606cb
+
+.field public static final vertical_tab_background_color_comfort_night:I = 0x7f0606cc
+
+.field public static final vertical_tab_indicator_color_ep32:I = 0x7f0606cd
+
+.field public static final vertical_tab_indicator_color_ep32_comfort_night:I = 0x7f0606ce
+
+.field public static final vertical_tab_indicator_left_color:I = 0x7f0606cf
+
+.field public static final vertical_tab_indicator_left_color_comfort_night:I = 0x7f0606d0
+
+.field public static final vertical_tab_indicator_right_dst_center_color:I = 0x7f0606d1
+
+.field public static final vertical_tab_indicator_right_dst_center_color_comfort_night:I = 0x7f0606d2
+
+.field public static final vertical_tab_indicator_right_dst_end_color:I = 0x7f0606d3
+
+.field public static final vertical_tab_indicator_right_dst_end_color_comfort_night:I = 0x7f0606d4
+
+.field public static final vertical_tab_indicator_right_dst_start_color:I = 0x7f0606d5
+
+.field public static final vertical_tab_indicator_right_dst_start_color_comfort_night:I = 0x7f0606d6
+
+.field public static final vertical_tab_indicator_right_src_center_color:I = 0x7f0606d7
+
+.field public static final vertical_tab_indicator_right_src_center_color_comfort_night:I = 0x7f0606d8
+
+.field public static final vertical_tab_indicator_right_src_end_color:I = 0x7f0606d9
+
+.field public static final vertical_tab_indicator_right_src_end_color_comfort_night:I = 0x7f0606da
+
+.field public static final vertical_tab_indicator_right_src_start_color:I = 0x7f0606db
+
+.field public static final vertical_tab_indicator_right_src_start_color_comfort_night:I = 0x7f0606dc
+
+.field public static final vertical_tab_text_selected_color:I = 0x7f0606dd
+
+.field public static final vertical_tab_text_selected_color_comfort_night:I = 0x7f0606de
+
+.field public static final vertical_tab_text_selected_color_ep32:I = 0x7f0606df
+
+.field public static final vertical_tab_text_selected_color_ep32_comfort_night:I = 0x7f0606e0
+
+.field public static final vertical_tab_text_unenabled_color:I = 0x7f0606e1
+
+.field public static final vertical_tab_text_unenabled_color_comfort_night:I = 0x7f0606e2
+
+.field public static final vertical_tab_text_unselect_color_ep32:I = 0x7f0606e3
+
+.field public static final vertical_tab_text_unselect_color_ep32_comfort_night:I = 0x7f0606e4
+
+.field public static final vertical_tab_text_unselected_color:I = 0x7f0606e5
+
+.field public static final vertical_tab_text_unselected_color_comfort_night:I = 0x7f0606e6
+
+.field public static final vertical_volume_value_color:I = 0x7f0606e7
+
+.field public static final vertical_volume_value_color_comfort_night:I = 0x7f0606e8
+
+.field public static final vol_seekbar_bg_color:I = 0x7f0606e9
+
+.field public static final vol_seekbar_bg_color_comfort_night:I = 0x7f0606ea
+
+.field public static final vol_seekbar_bg_color_ep40:I = 0x7f0606eb
+
+.field public static final vol_seekbar_progress_end_color:I = 0x7f0606ec
+
+.field public static final vol_seekbar_progress_start_color:I = 0x7f0606ed
+
+.field public static final volume_auto_off_bg_color_ep40:I = 0x7f0606ee
+
+.field public static final volume_auto_off_on_color_ep40:I = 0x7f0606ef
+
+.field public static final volume_auto_off_on_color_ep40_comfort_night:I = 0x7f0606f0
+
+.field public static final volume_color_ep40:I = 0x7f0606f1
+
+.field public static final volume_color_ep40_comfort_night:I = 0x7f0606f2
+
+.field public static final volumn_tv_color:I = 0x7f0606f3
+
+.field public static final volumn_tv_color_comfort_night:I = 0x7f0606f4
+
+.field public static final warn_back_circle_color:I = 0x7f0606f5
+
+.field public static final warn_shadow_color:I = 0x7f0606f6
+
+.field public static final weak_color_text_primary:I = 0x7f0606f7
+
+.field public static final weak_color_text_secondary:I = 0x7f0606f8
+
+.field public static final weak_color_text_tertiary:I = 0x7f0606f9
+
+.field public static final weather_text_color:I = 0x7f0606fa
+
+.field public static final weather_text_color_comfort_night:I = 0x7f0606fb
+
+.field public static final wheel_center_text_color:I = 0x7f0606fc
+
+.field public static final wheel_center_text_color_comfort_night:I = 0x7f0606fd
+
+.field public static final wheel_divider_color:I = 0x7f0606fe
+
+.field public static final wheel_divider_color_comfort_night:I = 0x7f0606ff
+
+.field public static final wheel_outer_text_color:I = 0x7f060700
+
+.field public static final wheel_outer_text_color_comfort_night:I = 0x7f060701
+
+.field public static final while_t16:I = 0x7f060702
+
+.field public static final white:I = 0x7f060703
+
+.field public static final white16:I = 0x7f060704
+
+.field public static final white_10:I = 0x7f060705
+
+.field public static final white_32:I = 0x7f060706
+
+.field public static final white_6:I = 0x7f060707
+
+.field public static final white_60:I = 0x7f060708
+
+.field public static final white_80:I = 0x7f060709
+
+.field public static final white_9D9E9F:I = 0x7f06070a
+
+.field public static final white_F4F5F7:I = 0x7f06070b
+
+.field public static final white_common:I = 0x7f06070c
+
+.field public static final white_common_comfort_night:I = 0x7f06070d
+
+.field public static final white_common_dream:I = 0x7f06070e
+
+.field public static final white_common_dream_night:I = 0x7f06070f
+
+.field public static final white_common_lassie:I = 0x7f060710
+
+.field public static final white_common_lassie_night:I = 0x7f060711
+
+.field public static final white_common_light_blue:I = 0x7f060712
+
+.field public static final white_common_light_blue_night:I = 0x7f060713
+
+.field public static final white_common_lite:I = 0x7f060714
+
+.field public static final white_common_lite_lassie:I = 0x7f060715
+
+.field public static final white_common_lite_lassie_night:I = 0x7f060716
+
+.field public static final white_common_lite_night:I = 0x7f060717
+
+.field public static final white_half:I = 0x7f060718
+
+.field public static final white_half2:I = 0x7f060719
+
+.field public static final white_half2_comfort_night:I = 0x7f06071a
+
+.field public static final widget_edit_ep32:I = 0x7f06071b
+
+.field public static final widget_edit_ep32_comfort_night:I = 0x7f06071c
+
+.field public static final widget_home_text_normal_color:I = 0x7f06071d
+
+.field public static final widget_home_text_normal_color_comfort_night:I = 0x7f06071e
+
+.field public static final widget_line_ep32:I = 0x7f06071f
+
+.field public static final widget_line_ep32_comfort_night:I = 0x7f060720
+
+.field public static final widget_name_color:I = 0x7f060721
+
+.field public static final widget_name_color_comfort_night:I = 0x7f060722
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

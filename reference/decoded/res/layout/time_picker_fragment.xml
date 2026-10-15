@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@mipmap/pop_dialog_background" android:layout_width="760.0dip" android:layout_height="520.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="32.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/pop_dialog_reserve_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:text="上牌时间" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/picker_view_layout" android:layout_width="wrap_content" android:layout_height="205.0dip" android:layout_marginTop="84.0dip">
+        <com.hozonauto.widget.PickerView android:id="@id/picker_view_hour_id" android:layout_width="180.0dip" android:layout_height="205.0dip" />
+        <com.hozonauto.widget.PickerView android:id="@id/picker_view_minute_id" android:layout_width="115.0dip" android:layout_height="205.0dip" android:layout_marginLeft="49.0dip" android:layout_toRightOf="@id/picker_view_hour_id" />
+        <com.hozonauto.widget.PickerView android:id="@id/picker_view_day_id" android:layout_width="115.0dip" android:layout_height="205.0dip" android:layout_marginLeft="80.0dip" android:layout_toRightOf="@id/picker_view_minute_id" />
+        <TextView android:background="@drawable/time_settings_masking_bottom" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="479.0dip" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:background="@drawable/time_settings_masking" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="479.0dip" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dialog_btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="47.0dip">
+        <Button android:textSize="26.0sp" android:textColor="#ff00ffbf" android:gravity="center" android:id="@id/confirm_btn" android:background="@drawable/pressed_btn_background" android:layout_width="280.0dip" android:layout_height="80.0dip" android:layout_marginLeft="120.0dip" android:text="确定" />
+        <Button android:textSize="26.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/cancel_btn" android:background="@drawable/pressed_small_btn_background" android:layout_width="160.0dip" android:layout_height="80.0dip" android:layout_marginLeft="80.0dip" android:text="取消" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="@color/stepper_add_color_gradient_start" android:endColor="@color/stepper_add_color_gradient_end" android:angle="180.0" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="100.0dip" android:width="100.0dip" />
+        </shape>
+    </item>
+    <item android:left="3.0dip" android:right="3.0dip">
+        <shape android:shape="line">
+            <stroke android:width="6.0dip" android:color="#ffffffff" />
+        </shape>
+    </item>
+    <item android:left="3.0dip" android:right="3.0dip">
+        <rotate android:fromDegrees="90.0" android:toDegrees="90.0">
+            <shape android:shape="line">
+                <stroke android:width="6.0dip" android:color="#ffffffff" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

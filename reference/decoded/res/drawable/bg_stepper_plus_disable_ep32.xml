@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill" android:drawable="@drawable/neutral_color_background_surface_primary" />
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/px_1" android:width="@dimen/px_8" />
+            <solid android:color="@color/neutral_color_icon_secondary" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/px_8" android:width="@dimen/px_1" />
+            <solid android:color="@color/neutral_color_icon_secondary" />
+        </shape>
+    </item>
+</layer-list>

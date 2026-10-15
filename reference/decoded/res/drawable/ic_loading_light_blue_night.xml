@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate android:pivotX="50.0%" android:pivotY="50.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <vector android:height="@dimen/px_12" android:width="@dimen/px_12" android:viewportWidth="16.0" android:viewportHeight="16.0">
+        <path android:fillColor="#00000000" android:pathData="M12.252,2.439C11.073,1.536 9.599,1 8,1C4.134,1 1,4.134 1,8C1,11.866 4.134,15 8,15C11.866,15 15,11.866 15,8" android:strokeColor="@color/neutral_color_icon_primary_light_blue_night" android:strokeWidth="1.5" android:strokeLineCap="round" />
+    </vector>
+</animated-rotate>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hozonauto.widget.btn.ContainerButton android:id="@id/dragSave" android:layout_width="@dimen/px_40" android:layout_height="wrap_content" app:hz_btnStyle="primary" app:hz_btnText="@string/drag_save" />
+        <com.hozonauto.widget.btn.ContainerButton android:id="@id/dragCancel" android:layout_width="@dimen/px_40" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_8" app:hz_btnStyle="secondary" app:hz_btnText="@string/cancel" />
+    </LinearLayout>
+    <View android:layout_width="@dimen/dp_1" android:layout_height="@dimen/edit_bottom_layout_margin" />
+</LinearLayout>

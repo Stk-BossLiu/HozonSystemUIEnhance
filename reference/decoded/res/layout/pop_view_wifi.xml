@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.AccessPointPopView android:orientation="vertical" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_pop" android:background="@drawable/bg_pop" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_168" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/switch_container" android:paddingLeft="@dimen/px_16" android:paddingRight="@dimen/px_16" android:layout_width="fill_parent" android:layout_height="@dimen/px_32">
+            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/pop_wifi" android:layout_weight="1.0" style="@style/HozonTheme.TextAppearance.Body.Large.Regular" />
+            <com.hozonauto.widget.SwitchButton android:id="@id/switch_ap" android:contentDescription="无线网络(switch)" app:hz_loading_timeout="12000" app:hz_show_loading="true" style="@style/SwitchButton" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@id/divide_line" android:background="@color/neutral_color_splitline_primary" android:layout_width="@dimen/px_136" android:layout_height="@dimen/px_1" />
+        <com.hozonauto.systemui.theme.HzNestedScrollView android:id="@id/nested_scrollview" android:layout_width="@dimen/px_152" android:layout_height="@dimen/px_176">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.hozonauto.systemui.statusbar.FontTextView android:textSize="@dimen/text_size_pop_bt_sub_title" android:textColor="@color/color_pop_bt_sub_title" android:gravity="center_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_10" android:text="@string/pop_wifi_frequency" android:layout_marginStart="@dimen/px_16" />
+                <com.hozonauto.widget.tablayout.HzFixedTabLayout android:id="@id/rgWlanFrequency" android:visibility="gone" android:layout_width="@dimen/px_120" android:layout_height="@dimen/px_24" android:layout_marginTop="@dimen/px_8" android:layout_centerVertical="true" android:layout_marginStart="@dimen/px_16" app:hz_mode="slider">
+                    <view android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="工作频率AUTO" app:hz_text="@string/auto" class="com.hozonauto.widget.tablayout.HzFixedTabLayout$TabTextItem" />
+                    <view android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="工作频率2.4G" app:hz_text="2.4G" class="com.hozonauto.widget.tablayout.HzFixedTabLayout$TabTextItem" />
+                    <view android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="工作频率5G" app:hz_text="5G" class="com.hozonauto.widget.tablayout.HzFixedTabLayout$TabTextItem" />
+                </com.hozonauto.widget.tablayout.HzFixedTabLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_wifi_saved" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_16">
+                    <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_caption" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/px_12" android:layout_marginTop="@dimen/px_8" android:layout_marginBottom="@dimen/px_10" android:text="@string/pop_wifi_saved" style="@style/HozonTheme.TextAppearance.Body.Small.Heavy" />
+                    <RelativeLayout android:id="@id/rlTheConnect" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/px_12" android:layout_marginTop="@dimen/px_6" android:layout_marginBottom="@dimen/px_10">
+                        <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:ellipsize="end" android:id="@id/wifi_current_connect_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/px_65" android:singleLine="true" android:layout_centerVertical="true" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+                        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/px_16" android:layout_alignParentEnd="true">
+                            <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_primary" android:gravity="center" android:id="@id/wifi_current_disconnect_tv" android:background="@drawable/neutral_color_background_surface_secondary" android:layout_width="@dimen/px_38" android:layout_height="@dimen/px_24" android:layout_marginTop="2.0dip" android:text="断开" android:fontFamily="@string/font_family_regular" />
+                            <ProgressBar android:gravity="center" android:id="@id/openWifiProgressBar" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginLeft="@dimen/px_4" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/anim_loading_open_wifi" android:indeterminateBehavior="repeat" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_wifi_saved" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_wifi_unlink" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_16">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8" android:layout_marginBottom="@dimen/px_10">
+                        <com.hozonauto.systemui.statusbar.FontTextView android:textColor="@color/neutral_color_text_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_wifi_other" style="@style/HozonTheme.TextAppearance.Body.Small.Heavy" />
+                        <ImageView android:layout_gravity="center" android:id="@id/tv_search" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@drawable/svg_pop_refresh" android:contentDescription="刷新列表" android:layout_marginStart="@dimen/px_56" />
+                        <ImageView android:layout_gravity="center" android:id="@id/iv_searching" android:visibility="visible" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@drawable/svg_statusbar_icon_loading" android:layout_marginStart="@dimen/px_56" />
+                    </LinearLayout>
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_wifi" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.hozonauto.systemui.theme.HzNestedScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_160" android:layout_marginStart="@dimen/dp_36" android:layout_marginEnd="@dimen/dp_36">
+            <TextView android:textSize="@dimen/dp_36" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/pop_wifi_settings" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center" android:id="@id/iv_settings" android:layout_width="@dimen/dp_64" android:layout_height="@dimen/dp_64" android:src="@mipmap/statusbar_icon_settings" android:layout_marginEnd="@dimen/dp_48" />
+        </LinearLayout>
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.AccessPointPopView>

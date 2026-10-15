@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="count_down_send_again">重新发送(%ds)</string>
+</resources>

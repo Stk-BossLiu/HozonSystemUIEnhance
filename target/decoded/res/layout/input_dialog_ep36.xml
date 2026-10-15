@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/px_16" android:paddingTop="@dimen/px_8" android:paddingRight="@dimen/px_16" android:paddingBottom="@dimen/px_8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/font_size_9" android:textColor="@color/com_dialog_text_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="@dimen/px_12" android:singleLine="true" android:includeFontPadding="false" style="@style/FzltBlackSimpleFontStyle" />
+    <TextView android:textSize="@dimen/font_size_7" android:textColor="@color/com_dialog_text_subtitle_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_subTitle" android:paddingTop="@dimen/px_4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:maxLines="2" android:includeFontPadding="false" android:lineHeight="@dimen/px_10" style="@style/FzltBlackSimpleFontStyle" />
+    <androidx.core.widget.NestedScrollView android:layout_gravity="center_horizontal" android:id="@id/scrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_4" android:fadeScrollbars="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:gravity="center|bottom" android:orientation="horizontal" android:id="@id/dialog_btn_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_8">
+        <com.hozonauto.widget.btn.ContainerButton android:id="@id/primary_btn" android:layout_width="@dimen/px_76" android:layout_height="wrap_content" app:hz_btnStyle="primary" />
+        <com.hozonauto.widget.btn.ContainerButton android:id="@id/secondary_btn" android:layout_width="@dimen/px_76" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_8" app:hz_btnStyle="secondary" />
+    </LinearLayout>
+</LinearLayout>

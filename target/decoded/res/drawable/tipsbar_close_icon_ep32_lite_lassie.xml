@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="12.0" android:viewportHeight="12.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/brand_color_on_brand_tertiary_lite_lassie" android:pathData="M6.0001,11.3996C3.0177,11.3996 0.6001,8.982 0.6001,5.9996C0.6001,3.0172 3.0177,0.5996 6.0001,0.5996C8.9825,0.5996 11.4001,3.0172 11.4001,5.9996C11.4001,8.982 8.9825,11.3996 6.0001,11.3996Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M7.5911,8.0149C7.7083,8.132 7.8982,8.132 8.0154,8.0149C8.1325,7.8977 8.1325,7.7077 8.0154,7.5906L6.4244,5.9996L8.0154,4.4087C8.1325,4.2915 8.1325,4.1016 8.0154,3.9844C7.8982,3.8672 7.7082,3.8672 7.5911,3.9844L6.0001,5.5754L4.4091,3.9843C4.292,3.8672 4.102,3.8672 3.9848,3.9843C3.8677,4.1015 3.8677,4.2915 3.9848,4.4086L5.5759,5.9996L3.9848,7.5906C3.8677,7.7078 3.8677,7.8977 3.9848,8.0149C4.102,8.1321 4.292,8.1321 4.4091,8.0149L6.0001,6.4239L7.5911,8.0149Z" android:fillType="evenOdd" />
+</vector>

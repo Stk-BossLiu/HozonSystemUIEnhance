@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/px_14" android:paddingStart="@dimen/px_4" android:paddingEnd="@dimen/px_4">
+        <ImageView android:id="@id/iv_icon" android:background="@drawable/svg_ic_avas_media" android:layout_width="@dimen/px_18" android:layout_height="@dimen/px_10" />
+        <TextView android:textSize="@dimen/px_10" android:textColor="@color/brand_color_on_brand_primary" android:id="@id/tv_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statusbar_avas_medis_info" android:maxLines="1" android:layout_marginStart="@dimen/px_2" style="@style/HozonTheme.TextAppearance.Subtitle.Medium.Heavy" />
+    </LinearLayout>
+</FrameLayout>

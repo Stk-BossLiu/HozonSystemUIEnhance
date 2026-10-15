@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/media_playbar_bg" android:layout_width="wrap_content" android:layout_height="@dimen/px_16">
+        <ImageView android:id="@id/media_source_icon" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" />
+        <TextView android:textSize="@dimen/px_8" android:textColor="@color/neutralcolor_text_primary" android:gravity="center" android:id="@id/media_title" android:layout_width="@dimen/px_60" android:layout_height="@dimen/px_12" android:maxLines="1" android:layout_marginStart="@dimen/px_8" />
+        <ImageView android:id="@id/media_control_icon" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:scaleType="center" android:layout_marginStart="@dimen/px_4" />
+    </LinearLayout>
+</FrameLayout>

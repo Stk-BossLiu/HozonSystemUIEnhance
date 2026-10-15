@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/px_12" android:width="@dimen/px_12" android:viewportWidth="13.0" android:viewportHeight="13.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/com_checkbox_unselected_normal_stroke_color_comfort_night" android:pathData="M2.8001,0.7998C1.6955,0.7998 0.8,1.6952 0.8,2.7998V10.7998C0.8,11.9044 1.6955,12.7998 2.8001,12.7998H10.8C11.9046,12.7998 12.8,11.9044 12.8,10.7998V2.7998C12.8,1.6952 11.9046,0.7998 10.8,0.7998H2.8001ZM2.8001,1.7998C2.2478,1.7998 1.8001,2.2475 1.8001,2.7998V10.7998C1.8001,11.3521 2.2478,11.7998 2.8001,11.7998H10.8C11.3523,11.7998 11.8,11.3521 11.8,10.7998V2.7998C11.8,2.2475 11.3523,1.7998 10.8,1.7998H2.8001Z" android:fillType="evenOdd" />
+    <path android:fillColor="@color/com_checkbox_unselected_normal_bg_color_comfort_night" android:pathData="M2.8001,1.7998L10.8,1.7998A1,1 0,0 1,11.8 2.7998L11.8,10.7998A1,1 0,0 1,10.8 11.7998L2.8001,11.7998A1,1 0,0 1,1.8001 10.7998L1.8001,2.7998A1,1 0,0 1,2.8001 1.7998z" android:strokeAlpha="0.7" android:fillAlpha="0.7" />
+</vector>

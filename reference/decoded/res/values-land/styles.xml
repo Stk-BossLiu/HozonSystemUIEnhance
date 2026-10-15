@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContentTabTextStyle">
+        <item name="android:textSize">@dimen/px_10</item>
+        <item name="android:textColor">@color/content_tab_text_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/content_tab_bg_selector</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="DialogCancelStyle">
+        <item name="android:textSize">@dimen/px_8</item>
+        <item name="android:textColor">@color/dialog_cancel_btn_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/dialog_cancel_bt_selector</item>
+        <item name="android:layout_width">@dimen/px_76</item>
+        <item name="android:layout_height">@dimen/px_24</item>
+        <item name="android:layout_marginLeft">@dimen/px_8</item>
+        <item name="android:text">取消</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DialogConfirmStyle">
+        <item name="android:textSize">@dimen/px_8</item>
+        <item name="android:textColor">@color/dialog_cancel_btn_text_color</item>
+        <item name="android:state_selected">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/dialog_cancel_bt_selector</item>
+        <item name="android:layout_width">@dimen/px_76</item>
+        <item name="android:layout_height">@dimen/px_24</item>
+        <item name="android:text">确认</item>
+    </style>
+    <style name="DialogContentStyle">
+        <item name="android:textSize">@dimen/px_7</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/px_8</item>
+        <item name="android:layout_marginStart">@dimen/px_16</item>
+        <item name="android:layout_marginEnd">@dimen/px_16</item>
+    </style>
+    <style name="DialogTitleStyle">
+        <item name="android:textSize">@dimen/px_9</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/px_8</item>
+    </style>
+    <style name="SwitchButtonStyle">
+        <item name="android:background">@drawable/switch_bt_selector</item>
+        <item name="android:layout_width">@dimen/px_22</item>
+        <item name="android:layout_height">@dimen/px_12</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    </style>
+    <style name="QsContainerBriaght_Volume">
+        <item name="android:background">@drawable/qs_container_bg</item>
+        <item name="android:paddingTop">@dimen/px_12</item>
+        <item name="android:paddingBottom">@dimen/px_12</item>
+        <item name="android:layout_width">@dimen/px_40</item>
+        <item name="android:layout_height">@dimen/px_36</item>
+        <item name="android:paddingStart">@dimen/px_14</item>
+        <item name="android:paddingEnd">@dimen/px_14</item>
+        <item name="android:layout_marginEnd">@dimen/px_16</item>
+    </style>
+</resources>

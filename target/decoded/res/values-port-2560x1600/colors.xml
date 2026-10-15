@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_color_brand_default_comfort_night">#ff006cff</color>
+    <color name="com_dialog_background_color_comfort_night">#ff252832</color>
+    <color name="com_dialog_input_bg_color_comfort_night">#ff252832</color>
+    <color name="com_dialog_text_caption_color_comfort_night">#ff808080</color>
+    <color name="com_dialog_text_content_color_comfort_night">#ffffffff</color>
+    <color name="com_dialog_text_subtitle_color_comfort_night">#ff808080</color>
+    <color name="com_dialog_text_title_color_comfort_night">#ffffffff</color>
+    <color name="com_dialog_text_warn_color_comfort_night">#ffb22e2e</color>
+    <color name="com_list_text_caption_color_comfort_night">#ff808080</color>
+    <color name="com_list_text_subtitle_color_comfort_night">#ff808080</color>
+    <color name="com_list_text_title_color_comfort_night">#ffffffff</color>
+    <color name="com_stepper_bg_color_comfort_night">#ff292d3b</color>
+    <color name="com_stepper_btn_disable_bg_color_comfort_night">#ff313542</color>
+    <color name="com_stepper_btn_disable_icon_color_comfort_night">#66efefef</color>
+    <color name="com_stepper_btn_normal_bg_color_comfort_night">#ff313542</color>
+    <color name="com_stepper_btn_normal_icon_color_comfort_night">#ffffffff</color>
+    <color name="com_stepper_btn_press_bg_color_comfort_night">#ff3a3f4f</color>
+    <color name="com_stepper_btn_press_icon_color_comfort_night">#ffffffff</color>
+    <color name="com_stepper_text_caption_color_comfort_night">#ff999999</color>
+    <color name="com_stepper_text_content_color_comfort_night">#ffffffff</color>
+    <color name="com_toast_bg_color_comfort_night">#ffe6e7ec</color>
+    <color name="function_color_error_text_default_comfort_night">#ffae2d2d</color>
+    <color name="function_color_error_text_disable_comfort_night">#ff5f1919</color>
+    <color name="function_color_error_text_press_comfort_night">#ff872323</color>
+    <color name="function_color_link_default_comfort_night">#ff006cff</color>
+    <color name="function_color_link_disable_comfort_night">#66006cff</color>
+    <color name="function_color_link_press_comfort_night">#99006cff</color>
+    <color name="function_color_success_default_comfort_night">#ff2ccd4f</color>
+    <color name="function_color_success_disable_comfort_night">#ff176c2a</color>
+    <color name="function_color_success_press_comfort_night">#ff209439</color>
+    <color name="function_color_warning_default_comfort_night">#ffe77e33</color>
+    <color name="function_color_warning_disable_comfort_night">#ff944912</color>
+    <color name="function_color_warning_press_comfort_night">#ffc86620</color>
+</resources>

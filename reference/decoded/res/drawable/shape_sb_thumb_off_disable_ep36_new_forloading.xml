@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/px_10" android:width="@dimen/px_10" />
+            <gradient android:startColor="@color/com_switch_off_disable_indicator_color_new" android:endColor="@color/com_switch_off_disable_indicator_color_new" android:angle="0.0" />
+        </shape>
+    </item>
+</layer-list>

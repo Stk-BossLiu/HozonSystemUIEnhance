@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hozonauto.widget.DatePicker android:id="@id/v_date" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <com.hozonauto.widget.TimePicker android:id="@id/v_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/px_6" />
+</LinearLayout>

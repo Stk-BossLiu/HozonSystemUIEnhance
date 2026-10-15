@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rl_notification_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_520" android:layout_marginStart="@dimen/dp_100" android:layout_marginEnd="@dimen/dp_100"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_80" android:layout_marginBottom="@dimen/dp_18">
+        <TextView android:textSize="@dimen/dp_28" android:textColor="@color/color_notification_center_title" android:layout_gravity="bottom" android:id="@id/notification_client_title" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10" android:text="@string/notification_center" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_30" />
+        <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="bottom" android:id="@id/btn_clear" android:background="@mipmap/icon_empty" android:visibility="gone" android:layout_width="@dimen/dp_80" android:layout_height="@dimen/dp_80" android:contentDescription="删除" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/dp_28" android:textColor="@color/notification_clear_btn_color" android:gravity="center" android:layout_gravity="bottom" android:id="@id/btn_clear_confirm" android:background="@drawable/bg_clear" android:visibility="gone" android:layout_width="@dimen/dp_99" android:layout_height="@dimen/dp_60" android:text="@string/qs_clear_notification" android:contentDescription="清除" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fl_no_notification" android:background="@drawable/bg_qs_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/dp_160" android:layout_height="@dimen/dp_160" android:src="@mipmap/notification_icon_no_notification_ep40" />
+        <TextView android:textSize="@dimen/dp_36" android:textColor="@color/no_notification_color_ep40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/no_notification" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_notification" android:focusable="true" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_240" />
+</LinearLayout>

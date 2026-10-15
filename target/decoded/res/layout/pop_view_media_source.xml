@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.MediaSourcePopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pop" android:background="@drawable/bg_pop_view_media_source" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_94" android:layout_height="wrap_content" android:paddingVertical="@dimen/px_8">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_media_source" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.MediaSourcePopView>

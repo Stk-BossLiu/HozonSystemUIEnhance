@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/px_8" android:paddingTop="@dimen/px_8" android:paddingRight="@dimen/px_8" android:paddingBottom="@dimen/px_8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_left_big_icon" android:clickable="false" android:layout_width="@dimen/px_28" android:layout_height="@dimen/px_28" android:scaleType="fitCenter" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/layout_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_6" android:layout_weight="1.0" android:layout_toRightOf="@id/iv_left_big_icon">
+        <TextView android:textColor="@color/neutral_color_text_primary" android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/HozonTheme.TextAppearance.Body.Medium.Regular" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_assit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_4">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_assist" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/icon_width_76" android:layout_height="@dimen/icon_height_38" android:layout_marginRight="@dimen/px_4" android:scaleType="fitCenter" />
+            <TextView android:textColor="@color/neutral_color_text_secondary" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/tv_assist" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/px_180" android:includeFontPadding="false" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/right_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/px_10" android:layout_marginTop="@dimen/px_7">
+        <TextView android:textColor="@color/neutral_color_text_secondary" android:id="@id/tv_end_left" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/iv_end_left" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginLeft="@dimen/px_4" android:layout_marginRight="@dimen/px_4" android:scaleType="fitCenter" />
+        <TextView android:textColor="@color/neutral_color_text_secondary" android:id="@id/tv_end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/iv_icon_end" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginLeft="@dimen/px_4" android:scaleType="fitCenter" />
+    </LinearLayout>
+</LinearLayout>

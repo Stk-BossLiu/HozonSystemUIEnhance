@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.DropdownLinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="@dimen/edit_icon_size_large" android:layout_height="@dimen/edit_icon_size_large">
+        <com.hozonauto.systemui.statusbar.DropdownCheckBox android:id="@id/cb" android:background="@drawable/bg_qs_switch" android:layout_width="@dimen/edit_icon_size_large" android:layout_height="@dimen/edit_icon_size_large" android:button="@null" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv" android:visibility="gone" android:layout_width="@dimen/edit_icon_size_large" android:layout_height="@dimen/edit_icon_size_large" />
+        <ImageView android:id="@id/ivSwitch" android:layout_width="@dimen/edit_item_switch_size" android:layout_height="@dimen/edit_item_switch_size" android:layout_marginTop="@dimen/edit_item_switch_marginTop" android:src="@mipmap/bg_switch_item_ep32" android:layout_marginStart="@dimen/edit_item_switch_marginStart" />
+    </RelativeLayout>
+    <TextView android:id="@id/tv" android:text="@string/qs_text_toogle_edit" style="@style/QSTileText" />
+</com.hozonauto.systemui.statusbar.DropdownLinearLayout>

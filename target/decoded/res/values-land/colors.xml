@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorTabChecked">#ff006cff</color>
+    <color name="color_clock">@color/primary_text_color</color>
+    <color name="color_clock_comfort_night">@color/primary_text_color_comfort_night</color>
+    <color name="color_notification_content">#ff626b99</color>
+    <color name="color_notification_title">@color/primary_text_color</color>
+    <color name="color_notification_title_comfort_night">@color/primary_text_color_comfort_night</color>
+    <color name="color_pop_bt_sub_title">@color/caption_text_color</color>
+    <color name="color_pop_bt_sub_title_comfort_night">@color/caption_text_color_comfort_night</color>
+    <color name="color_usbpopview_title">@color/primary_text_color</color>
+    <color name="contentTabBg">#ffc9cad5</color>
+    <color name="contentTabBg_comfort_night">#ff333644</color>
+    <color name="contentTabTextChecked">#fff4f5f7</color>
+    <color name="contentTabTextNormal">@color/primary_text_color</color>
+    <color name="editTextColor">@color/white</color>
+    <color name="editTextColor_comfort_night">@color/white</color>
+    <color name="editTextHintColor">#ff666975</color>
+    <color name="pop_item_state_color1">@color/neutral_white40</color>
+    <color name="pop_item_state_color2">@color/white_80</color>
+    <color name="bg_qs_rb_button_normal_bg_32">#e5f4f9ff</color>
+    <color name="color_drop_down_seekbar">#ff323440</color>
+    <color name="color_notification_collapse">@color/primary_text_color</color>
+    <color name="color_notification_collapse_comfort_night">@color/primary_text_color_comfort_night</color>
+    <color name="color_notification_content_comfort_night">#ff7f85a8</color>
+    <color name="color_usbpopview_title_comfort_night">@color/primary_text_color_comfort_night</color>
+</resources>

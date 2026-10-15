@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="12.0" android:viewportHeight="12.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@drawable/$switch_button_thumb_on_normal_svg_light_blue__0" android:pathData="M6,1L6,1A5,5 0,0 1,11 6L11,6A5,5 0,0 1,6 11L6,11A5,5 0,0 1,1 6L1,6A5,5 0,0 1,6 1z" />
+</vector>

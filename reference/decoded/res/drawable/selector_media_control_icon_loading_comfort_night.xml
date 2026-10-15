@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/svg_media_control_icon_loading_disable_comfort_night" />
+    <item android:drawable="@drawable/svg_media_control_icon_loading_comfort_night" />
+</selector>

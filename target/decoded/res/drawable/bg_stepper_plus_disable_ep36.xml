@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/com_stepper_btn_disable_bg_color" />
+            <corners android:topLeftRadius="@dimen/px_2" android:topRightRadius="@dimen/px_2" android:bottomLeftRadius="@dimen/px_2" android:bottomRightRadius="@dimen/px_2" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/px_1" android:width="@dimen/px_8" />
+            <solid android:color="@color/com_stepper_btn_disable_icon_color" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/px_8" android:width="@dimen/px_1" />
+            <solid android:color="@color/com_stepper_btn_disable_icon_color" />
+        </shape>
+    </item>
+</layer-list>

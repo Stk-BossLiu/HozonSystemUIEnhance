@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_stepper_ep36" android:paddingTop="@dimen/px_2" android:paddingBottom="@dimen/px_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/px_2" android:paddingEnd="@dimen/px_2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/stepper_minus" android:background="@drawable/stepper_minus_selector_ep36" android:layout_width="@dimen/px_24" android:layout_height="@dimen/px_20" />
+    <RelativeLayout android:layout_width="@dimen/px_50" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/px_4">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <skin.support.widget.SkinCompatTextView android:textSize="@dimen/font_size_8" android:textColor="@color/com_stepper_text_content_color" android:id="@id/stepper_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4档" />
+            <skin.support.widget.SkinCompatTextView android:textSize="@dimen/font_size_6" android:textColor="@color/com_stepper_text_caption_color" android:id="@id/stepper_text_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="km/h" />
+        </LinearLayout>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatImageButton android:id="@id/stepper_plus" android:background="@drawable/stepper_plus_selector_ep36" android:layout_width="@dimen/px_24" android:layout_height="@dimen/px_20" />
+</LinearLayout>

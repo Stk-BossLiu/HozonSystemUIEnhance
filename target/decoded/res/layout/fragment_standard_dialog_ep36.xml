@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <skin.support.widget.SkinCompatLinearLayout android:orientation="vertical" android:id="@id/layout_shade" android:background="@drawable/bg_dialog_shade_rectangle_shape_ep36" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/px_4" android:layout_marginRight="@dimen/px_4" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_inner" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.hozonauto.widget.dialog.InputDialogView android:id="@id/standard_dialog" android:background="@drawable/bg_dialog_rectangle_shape_ep36" android:layout_width="@dimen/px_192" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

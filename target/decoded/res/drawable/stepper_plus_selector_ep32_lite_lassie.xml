@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/bg_stepper_plus_pressed_ep32_lite_lassie" />
+    <item android:state_enabled="false" android:drawable="@drawable/bg_stepper_plus_disable_ep32_lite_lassie" />
+    <item android:drawable="@drawable/bg_stepper_plus_ep32_lite_lassie" />
+</selector>

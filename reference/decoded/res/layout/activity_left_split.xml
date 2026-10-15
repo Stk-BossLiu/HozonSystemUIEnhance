@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="bottom" android:layout_width="528.0px" android:layout_height="fill_parent">
+        <com.hozonauto.systemui.faultView.RightFaultView android:id="@id/car_status_card" android:layout_width="492.0px" android:layout_height="240.0px" android:layout_marginBottom="18.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/right_slide_out" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="240.0dip" android:src="@drawable/ic_slide_out" android:layout_marginStart="18.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

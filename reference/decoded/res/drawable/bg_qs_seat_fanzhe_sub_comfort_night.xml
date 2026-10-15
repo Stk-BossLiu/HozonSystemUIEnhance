@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_normal_comfort_night" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/chair_white_main" />
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_pressed_comfort_night" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/chair_white_main" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected_comfort_night" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/chair_white_main_sei" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected_pressed_comfort_night" />
+            <item android:gravity="center" android:height="@dimen/edit_icon_size" android:width="@dimen/edit_icon_size" android:drawable="@mipmap/chair_white_main_sei" />
+        </layer-list>
+    </item>
+</selector>

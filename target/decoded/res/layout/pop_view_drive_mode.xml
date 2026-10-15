@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.DriveModePopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <LinearLayout android:id="@id/ll_pop" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <TextView android:id="@id/iv_epedal" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <TextView android:id="@id/iv_eco" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <TextView android:id="@id/iv_comfort" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <TextView android:id="@id/iv_sport" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.DriveModePopView>

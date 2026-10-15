@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingVertical="@dimen/dp_50"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/leftLine" android:background="@color/drag_hint_line" android:layout_width="@dimen/dp_1" android:layout_height="@dimen/dp_1" />
+    <TextView android:textSize="@dimen/dp_28" android:textColor="@color/color_notification_content" android:id="@id/centertv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drag_hint_ep40" />
+    <View android:id="@id/rightLine" android:background="@color/drag_hint_line" android:layout_width="@dimen/dp_1" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_seatransport_view" android:layout_width="@dimen/px_104" android:layout_height="@dimen/px_16" android:paddingStart="@dimen/px_11">
+        <ImageView android:id="@id/iv_icon" android:background="@mipmap/ic_seatransport" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/px_7" android:textColor="@color/seatransport_view_text_color" android:id="@id/tv_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/statusbar_seatransport_text" android:maxLines="1" android:layout_marginStart="@dimen/px_12" />
+    </LinearLayout>
+</FrameLayout>

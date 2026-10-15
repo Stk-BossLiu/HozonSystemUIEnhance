@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_title" android:paddingLeft="@dimen/px_8" android:paddingTop="@dimen/px_8" android:paddingRight="@dimen/px_8" android:paddingBottom="@dimen/px_8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <skin.support.widget.SkinCompatTextView android:textColor="@color/neutral_color_text_primary" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我是标题" android:singleLine="true" android:layout_centerVertical="true" style="@style/HozonTheme.TextAppearance.Body.Medium.Regular" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textColor="@color/neutral_color_text_secondary" android:layout_gravity="center_vertical" android:id="@id/end_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="结束文字" style="@style/HozonTheme.TextAppearance.Body.Small.Regular" />
+            <skin.support.widget.SkinCompatCheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox_fold" android:background="@drawable/fold_checkbox_selector" android:clickable="false" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginLeft="16.0dip" android:checked="true" android:button="@null" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/layout_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/content_bg" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:paddingTop="@dimen/space_8" android:paddingBottom="@dimen/space_8" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

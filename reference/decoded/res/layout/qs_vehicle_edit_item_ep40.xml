@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_140"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height">
+        <com.hozonauto.systemui.statusbar.DropdownCheckBox android:id="@id/cb" android:background="@drawable/bg_qs_switch" android:layout_width="@dimen/drop_down_qs_tile_width" android:layout_height="@dimen/drop_down_qs_tile_height" android:button="@null" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:id="@id/tv" android:text="@string/qs_text_toogle_edit" style="@style/QSTileText" />
+</LinearLayout>

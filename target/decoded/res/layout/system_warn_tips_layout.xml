@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.widget.tips.SystemWarnTipsLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/px_20" android:paddingHorizontal="@dimen/px_8"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hozonauto.widget.tips.SystemWarnTipsIcon android:layout_gravity="center_vertical" android:id="@id/tips_icon" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <TextView android:textColor="@color/neutral_color_text_primary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tips_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_4" android:layout_marginBottom="@dimen/px_4" android:maxWidth="@dimen/px_96" android:minWidth="@dimen/px_68" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="@dimen/px_8" style="@style/HozonTheme.TextAppearance.Subtitle.Medium.Heavy" />
+</com.hozonauto.widget.tips.SystemWarnTipsLayout>

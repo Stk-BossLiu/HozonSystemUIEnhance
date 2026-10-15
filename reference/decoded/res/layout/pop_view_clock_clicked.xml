@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hozonauto.systemui.statusbar.popup.ClockClickedPopView android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_pop" android:background="@drawable/bg_pop_view_usb_clicked" android:focusable="true" android:clickable="true" android:layout_width="@dimen/px_76" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/px_14" android:paddingVertical="@dimen/px_7">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/screen_protect" android:visibility="gone" android:layout_width="@dimen/px_20" android:layout_height="@dimen/px_22">
+            <ImageView android:layout_width="@dimen/px_12" android:layout_height="@dimen/px_12" android:src="@mipmap/ic_screen_protect" />
+            <com.hozonauto.systemui.statusbar.FontTextView android:textSize="@dimen/font_size_6" android:textColor="@color/clockclicked_pop_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_timeclicked_screen_protect_text" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/screen_off" android:layout_width="@dimen/px_20" android:layout_height="@dimen/px_22">
+            <ImageView android:layout_width="@dimen/px_12" android:layout_height="@dimen/px_12" android:src="@mipmap/ic_screen_off" />
+            <com.hozonauto.systemui.statusbar.FontTextView android:textSize="@dimen/font_size_6" android:textColor="@color/clockclicked_pop_text_color" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_timeclicked_screen_off_text" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/scene_mode" android:layout_width="@dimen/px_20" android:layout_height="@dimen/px_22" android:layout_marginStart="@dimen/px_8">
+            <ImageView android:id="@id/scene_mode_icon" android:layout_width="@dimen/px_12" android:layout_height="@dimen/px_12" android:src="@mipmap/ic_scene_mode" />
+            <com.hozonauto.systemui.statusbar.FontTextView android:textSize="@dimen/font_size_6" android:textColor="@color/clockclicked_pop_text_color" android:layout_gravity="center" android:id="@id/scene_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pop_timeclicked_scene_mode_text" />
+        </LinearLayout>
+    </LinearLayout>
+</com.hozonauto.systemui.statusbar.popup.ClockClickedPopView>

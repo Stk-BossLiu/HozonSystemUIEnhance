@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_normal_rear_ep32" />
+            <item android:gravity="center_horizontal" android:height="@dimen/px_24" android:width="@dimen/px_24" android:drawable="@mipmap/mirror_open_ep32_white" android:top="@dimen/px_6" />
+        </layer-list>
+    </item>
+    <item android:state_checked="false" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_pressed_rear_ep32" />
+            <item android:gravity="center_horizontal" android:height="@dimen/px_24" android:width="@dimen/px_24" android:drawable="@mipmap/mirror_open_ep32_white" android:top="@dimen/px_6" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected_rear_ep32" />
+            <item android:gravity="center_horizontal" android:height="@dimen/px_24" android:width="@dimen/px_24" android:drawable="@mipmap/mirror_close_ep32_white" android:top="@dimen/px_6" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true" android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/icon_bg_selected_pressed_rear_ep32" />
+            <item android:gravity="center_horizontal" android:height="@dimen/px_24" android:width="@dimen/px_24" android:drawable="@mipmap/mirror_close_ep32_white" android:top="@dimen/px_6" />
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/expandSystemIconLayout_ep40" android:layout_width="wrap_content" android:layout_height="0.0px" android:paddingStart="@dimen/dp_36" android:paddingEnd="@dimen/dp_36" android:layout_alignParentEnd="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.hozonauto.systemui.statusbar.InCallView android:id="@id/ic_incall" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/ic_dvr" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/statusbar_icon_dvr" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_scene" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/status_bar_icon_scene" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_usb" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/status_bar_icon_usb" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_wpc" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_bluetooth" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/statusbar_icon_bluetooth_off" android:layout_marginEnd="@dimen/px_4" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_hotspot" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/statusbar_icon_hotspot_small_idle" android:layout_marginEnd="@dimen/px_4" />
+    <skin.support.widget.SkinCompatImageView android:id="@id/ic_wifi" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/ic_statusbar_wlan_loading" android:layout_marginEnd="@dimen/px_4" />
+    <FrameLayout android:id="@id/fl_signal" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:layout_marginEnd="@dimen/px_4">
+        <com.hozonauto.systemui.statusbar.PhoneView android:id="@id/ic_signal" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/ic_statusbar_signal_power_error" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/ic_signal_sts" android:visibility="gone" android:layout_width="@dimen/px_16" android:layout_height="@dimen/px_16" android:src="@mipmap/ic_signal_sts_error" />
+    </FrameLayout>
+    <com.hozonauto.systemui.statusbar.Clock android:textSize="32.0sp" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:format12Hour="HH:mm" android:format24Hour="HH:mm" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/timePickerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hozonauto.widget.NumberPicker android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/amPm" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" android:layout_marginEnd="@dimen/px_2" app:itemCount="2" app:textSizeNormal="@dimen/body_medium" app:textSizeSelected="@dimen/headline_small" />
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hozonauto.widget.NumberPicker android:gravity="center" android:orientation="vertical" android:id="@id/hour" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" app:itemCount="3" app:selectionDivider="@drawable/divider_line_numberpicker" app:selectionDividerHeight="@dimen/px_1" app:selectionDividersDistance="@dimen/px_20" app:text="@string/hour" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/px_6">
+        <com.hozonauto.widget.NumberPicker android:gravity="center" android:orientation="vertical" android:id="@id/minute" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/px_36" android:layout_height="@dimen/px_56" app:itemCount="3" app:selectionDivider="@drawable/divider_line_numberpicker" app:selectionDividerHeight="@dimen/px_1" app:selectionDividersDistance="@dimen/px_20" app:text="@string/minute" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_size_8" android:textColor="@color/function_color_link_default" android:layout_gravity="center" android:id="@id/divider" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/px_2_5" android:layout_marginBottom="@dimen/px_2_5" android:importantForAccessibility="no" />
+</LinearLayout>

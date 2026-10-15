@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/function_color_collect_default_lassie" android:pathData="M12.1252,3.875m-1.875,0a1.875,1.875 0,1 1,3.75 0a1.875,1.875 0,1 1,-3.75 0" />
+    <path android:fillColor="@color/brand_color_on_brand_primary_lassie" android:pathData="M12.1692,2.7023C12.0658,2.7023 11.9819,2.7862 11.9819,2.8896L11.9819,4.1535C11.9819,4.2569 12.0658,4.3407 12.1692,4.3407C12.2726,4.3407 12.3564,4.2569 12.3564,4.1535L12.3564,2.8896C12.3564,2.7862 12.2726,2.7023 12.1692,2.7023ZM12.1693,5.0653C12.2851,5.0653 12.3791,4.9714 12.3791,4.8555C12.3791,4.7397 12.2851,4.6458 12.1693,4.6458C12.0534,4.6458 11.9595,4.7397 11.9595,4.8555C11.9595,4.9714 12.0534,5.0653 12.1693,5.0653Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,22 @@
+version: 2.12.1
+apkFileName: original.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 28
+  targetSdkVersion: 30
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 1000140
+  versionName: 1.1.40
+doNotCompress:
+- arsc
+- dex
+- gif
+- jpg
+- mp4
+- png
+- so
+- webp
