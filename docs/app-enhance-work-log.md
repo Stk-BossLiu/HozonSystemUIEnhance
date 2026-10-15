@@ -65,3 +65,16 @@
 - 验证：公钥结构验证通过；凭据生成 exit 0；元数据回读核对通过。未构建增强产物。
 - 未完成：增强需求未定义；`--runtime-entry` 接线方案未定（待 smali.md 审查后由作者确认）；首次构建、结构检查、设备验证均未执行。
 - 关联功能记录：`docs/PROGRESS.md`。
+
+### 2026-10-15 Asia/Shanghai - 首次推送与运行库接线预研
+
+- 授权范围：同上（离线准备 + 远程仓库推送）；未授权设备操作与发布。
+- 调查与实施：
+  - 首次推送：`git push -u origin main`（走 `ssh://git@ssh.github.com:443` 直连；本机 7890 代理未运行，首次尝试被超时中断后改后台重推成功）。14074 对象 / 133.73 MiB；GitHub 警告 input/original.apk 77.33MB 超过 50MB 建议值（GH001，仅警告）。
+  - 接线预研（产出 `metadata/entrypoints.json`）：注册 Application 为 `HzSystemUIApplication`（继承 `c.f/a/c/a` "BaseApplication.kt" → `android.app.Application`）；父类 attachBaseContext 仅 Intrinsics 非空检查 + super，无业务；原类无 attachBaseContext 覆写。方案 = 新增覆写，super 返回后紧接 `RuntimeInjector.initialize(p1)`，然后才是 onCreate 重业务。
+  - 进程覆盖审查：Manifest 仅一个显式 `android:process="com.android.systemui"`；唯一 multiprocess 组件 `UtilsTransActivity`（任意宿主进程实例化时同样先创建 Application）；两个 Provider（blankj UtilsFileProvider、SensorsData）时序晚于 Application.attachBaseContext；directBootAware/defaultToDeviceProtectedStorage 在 application 级声明，attachBaseContext 接收的即正确上下文。
+  - `extractNativeLibs=false` 原件已满足；运行库资产 `libaep.so`(sha256 41748594…064035b) + `RuntimeInjector.smali`(sha256 a93e87c1…d31f3cb) 与 runtime/manifest.json 一致待安装。
+- 错误处理：无新增（推送中断属网络，已重推成功）。
+- 验证：`git ls-remote` 显示远端 main 已建立并追踪；入口矩阵以 Manifest + smali 原文为据；设备行为未验证。
+- 未完成：initialize 尚未写入 smali（待作者确认）；增强需求未定义；构建未执行。
+- 关联功能记录：`docs/PROGRESS.md`、`metadata/entrypoints.json`。

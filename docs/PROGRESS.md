@@ -23,12 +23,13 @@
 - [x] 平台公钥 `platform-public.pem` 已放入 skill `assets/`（分发源文件名含 VIN，未入库、未记录）
 - [x] 作者凭据生成一次：id `Stk-BossLiu`，公钥指纹 `a00d827d31046724607517eab0a8de291b932cd4d54c0cbbdb3d394eb4d89c96`（私钥仅存 `.local/aep/`，不入库）
 - [x] `metadata/aep.json` 事实字段：package / versionName 1.1.40 / 原 SHA-256；车型条件 `allOf=[]`（不推断车型）
-- [x] 远程仓库 `https://github.com/Stk-BossLiu/HozonSystemUIEnhance.git` 接入
+- [x] 远程仓库 `https://github.com/Stk-BossLiu/HozonSystemUIEnhance.git` 接入并完成首次推送（commit `9dfe0eb`，133.73 MiB / 14074 对象；GitHub 对 input/original.apk 77.33MB 给出超 50MB 建议值警告，不影响交付；推送走 `ssh://git@ssh.github.com:443` 直连，本机代理 7890 未运行）
+- [x] 运行库接入预研：入口审查矩阵完成（`metadata/entrypoints.json`），方案 = 在 `HzSystemUIApplication` 新增 `attachBaseContext` 覆写（super 后紧接 `RuntimeInjector.initialize`），单一入口覆盖全部组件/进程/multiprocess；待作者确认后实施
 
 ### 待办
 
 - [ ] 定义增强需求（作者提供）
-- [ ] 按 smali.md 审查 `HzSystemUIApplication` 继承链与全部组件/进程，确定 `--runtime-entry` 接线方案（作者确认后实施）
+- [ ] 作者确认接线方案后：在 `HzSystemUIApplication` 写入 `attachBaseContext` 覆写 + `install_runtime.py` 安装运行库
 - [ ] 补全 `metadata/aep.json` 描述性字段（name / description / offlineAepLabel；label 中车型待作者指定目标）
 - [ ] 首次完整构建（`build_aep.py`，新 build-id）
 - [ ] 结构检查 `aep.py verify --mode structure`；设备验证需另行授权
