@@ -40,6 +40,7 @@
 - [ ] 首次完整构建（`build_aep.py`，新 build-id）——待作者确认 metadata 描述字段与激活模式
 - [x] **首次完整构建成功**（2026-10-17，build-id `hozon-systemui-r1-20261017-195819`，target `hozon-systemui`，activationMode `none`）：产物在 `out/`（不入库）——APK `hozon-systemui-r1-20261017-195819.apk`（81,536,889 B，sha256 `10842b8c…c2c33`，作者签名证书 `ea331f35…4375`）与 AEP `HozonSystemUI-HZEP32-1.1.40-2026-1017-1958.aep`（81,539,684 B，sha256 `d5d377d1…d7b7`，schemaVersion 2）。构建内检查 apktool/signature/zipalign16K/finalApkRuntime/aepCreateSelfCheck/aepStructure 全过；独立 `aep.py verify --mode structure` exit 0（structure-signature-only）。注意：构建需 `--smali-dir smali_classes2`（默认 smali 会撞 classes.dex 字段 65535 上限）；运行库文件由构建入口装入工作副本，target 不再预装
 - [ ] 实车验收（需授权 ADB）：安装/挂载增强 APK，下拉面板目检 test 磁贴显示、点击无业务动作、SystemUI 正常启动
+- [x] **lab 模拟器测试结论（2026-10-17，emulator-5584 / HZEP32_Restore_API30）**：① 增强 APK 可安装（lab 适配：剥 sharedUserId/persistent/进程名、uses-library 改可选、lab-debug 签名、zipalign -p 4——**16K/4K 对齐是运行库从 APK 直载的前提**，正式构建的 zipalign16K 已覆盖）；② 应用在此环境**无法运行**：`HzSystemUIApplication.onCreate:34` 自授权通知监听需 `WRITE_SECURE_SETTINGS`（signature 权限）→ SecurityException 死亡；**对照实验证明原版 APK 死法完全一致**（同一异常同一位置），属环境限制非增强缺陷；③ 下拉磁贴 UI 无法在此环境托管（需系统状态栏/系统窗口/平台签名）。test 磁贴的真实验收路径：实车 + AEP 导入（需美式）
 - [ ] 定义正式增强需求（当前注入内容仅为运行时接入 + test 测试磁贴）
 - [ ] 结构检查 `aep.py verify --mode structure`；设备验证需另行授权
 - [ ] 免费包（none）或 VIN 发码（vin）按最终选择执行

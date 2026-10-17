@@ -177,3 +177,17 @@
   - 记录：`out/hozon-systemui-r1-20261017-195819.json`（含全部 input smali 摘要）与 `out/hozon-systemui-r1-20261017-195819.aep.json`
 - 未完成/未验证：设备安装、挂载与运行未执行（未授权）；test 磁贴实车显示/点击未验证；AEP 未发布（需另授权）；VIN 激活不适用（none 模式）。
 - 关联功能记录：`docs/PROGRESS.md`。
+
+### 2026-10-17 Asia/Shanghai - lab 模拟器测试（对照实验结论：环境限制）
+
+- 授权范围：作者授权在其实验模拟器（emulator-5584，HZEP32_Restore_API30，userdebug/dev-keys，API 30，arm64 转译）上安装测试。
+- lab 适配模式（沿用 netahome-emulator-lab 既有做法 + 必要扩充）：剥 `sharedUserId`/`persistent`/`android:process`（与 AOSP systemui 进程名冲突会致 spawn 循环）、`uses-library` 全部改 `required=false`（还原快照未注册 carstate/carlan/pkimanagerlib 共享库，安装即被拒）、lab-debug.keystore 签名、**zipalign -p 4**（关键：运行库经 `System.load(apk!/lib/arm64-v8a/libaep.so)` 直载，要求 .so 未压缩且页对齐；正式构建的 zipalign16K 已满足，lab 手工流程必须补这一步）。
+- 排错记录：
+  1. 进程名冲突：与 AOSP `com.android.systemui` 同名导致 AMS 反复重建进程 → 剥 android:process。
+  2. CrashHandler 吞异常：`com.hozon.screensaver.app.CrashHandler` 自装 UncaughtExceptionHandler 后静默杀进程，掩盖真实异常；lab 副本临时禁用后露出 FATAL。
+  3. RuntimeInjector 怀疑排除：即使移除 initialize 调用仍自杀；且禁 CrashHandler 前死亡点早于任何应用日志。
+  4. zipalign  stale 文件陷阱：zipalign 不覆盖已存在的输出（需 `-f`），曾误签旧包。
+- **对照实验（决定性）**：以未改动 `reference/decoded` 制作同款 lab 原版变体，安装启动 → **同样 FATAL**：`SecurityException: writing to settings requires android.permission.WRITE_SECURE_SETTINGS at HzSystemUIApplication.onCreate(:34)`（即自授权通知监听代码）。原版与增强版死因、位置完全一致 → 该 lab 模拟器（无平台签名、无 OEM 共享库、无系统窗口权限）无法托管 SystemUI 级应用；增强包未引入任何回归。
+- 结论与路径：test 磁贴的 UI 级验收需实车（平台签名 + 系统状态栏）经 AEP 导入（需美式）；lab 环境仅证明了"增强 APK 可安装、运行库可加载（对齐后）、行为与原版一致"。
+- 清理：模拟器上测试应用已卸载；lab 大文件副本与测试 APK 已清理（脚本与日志保留在 `.work/`）。
+- 关联功能记录：`docs/PROGRESS.md`。
