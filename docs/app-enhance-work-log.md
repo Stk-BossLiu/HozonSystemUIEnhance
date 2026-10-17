@@ -2,7 +2,40 @@
 
 本文件记录工具、环境与排错过程；功能行为、发布状态和实车结论只在对应功能文档或项目进度中维护，并在此处链接。
 
+## 新电脑环境恢复（2026-10-17）
+
+- 当前工程：`C:\Users\SLKX\Downloads\HozonSystemUI-app-enhance\HozonSystemUI-app-enhance`；下文旧电脑路径仅作历史记录。
+- 按用户要求安装下载目录中的 `app-enhance-skill-20261015-103212.zip` 至 `C:\Users\SLKX\.codex\skills\app-enhance`。30 个文件与 ZIP 内容逐一一致，运行库 SO/smali 摘要与内置 manifest 一致；`build_aep.py --help`、`aep.py --help` 均退出 0。
+- PATH 与常见安装目录未发现 ADB；从 Google 官方 `https://dl.google.com/android/repository/platform-tools-latest-windows.zip` 安装至 `C:\Users\SLKX\AppData\Local\Android\Sdk\platform-tools`，已加入用户 PATH。`adb version` 退出 0：ADB 1.0.41，Platform-Tools 37.0.1-15733141。新启动的终端需继承更新后的环境。
+- 下载的 Platform-Tools ZIP SHA-256：`45f4d63113e895ebde0c90f194099a4676b6ac653bd28d54314a9e022bbc1a99`。
+- Python 3.13.14 可用；作者凭据文件已随工程迁移，未重新生成。工具包未附带 `assets/platform-public.pem`，仍需恢复；JDK、SDK build-tools、apktool 仍待补齐，未进行完整构建或设备操作。
+- 当前较长目录会导致普通 Git 检查误报 8 个 smali 文件修改；`git -c core.longpaths=true status` 核实安装前工程无未提交改动。未修改 Git 配置。
+
+### 2026-10-17 - OEM framework 拉取中断
+
+- 用户授权从已连接的 HZEP32 车机拉取 `framework-res.apk`。已确认设备 `b123f279` 的 `/system/framework/framework-res.apk` 存在，大小 16,858,649 字节。
+- `adb -s b123f279 pull` 传输中退出 1，随后设备列表为空、摘要查询返回 device not found；仅收到 589,752 字节，未能核对摘要。
+- 不完整文件移至被 Git 忽略的 `.work/framework-res-20261017.partial`；`input/framework/HZEP32/framework-res.apk` 未保留为有效输入。待设备重新连接后重拉；未安装框架缓存，未修改车机文件。
+
+### 2026-10-17 - OEM framework 重新拉取成功
+
+- 用户重新连接并要求继续；普通 `adb pull` 再次中断（收到 9,567,088 字节），设备自动重新连接。首次 256 KiB 分段尝试未获得完整首块；改为每次 64 KiB、单字符串远端 `dd` 命令后，完整读取 16,858,649 字节。
+- 成品保存至 `input/framework/HZEP32/framework-res.apk`；本地摘要与车机 `sha256sum` 一致：`8e2f744ddf3faf41b678c2ba31b708b545943e8e8c556fd56c76d8df4a267196`。ZIP 全量 CRC 检查通过，包含 `resources.arsc`。
+- 来源记录见 `input/framework/HZEP32/SOURCE.md`。未修改车机文件；尚未安装 apktool 框架缓存或执行正式构建，不将拉取成功视为资源链接问题已解决。
+
 ## 工具清单
+
+### 2026-10-17 - 系统与调试依赖备份（已完成）
+
+- 用户同意备份系统和调试依赖，不含用户数据分区。备份目录独立于仓库：`C:\Users\SLKX\Downloads\HZEP32-system-backup-20261017`。
+- 只读检查：HZEP32、Android 11 / API 30、ABI arm64-v8a/armeabi-v7a/armeabi，现有 ADB shell 为 root；未执行提权、挂载修改或设备端写入。
+- 范围：`/system`、`/vendor`、`/system_ext`、`/odm`、`/oem` 及 `/product` 符号链接。使用 TAR 保留 Linux 文件属性和链接；备份当前可见文件，不宣称为纯原厂固件或可启动镜像。
+- 已生成 6,686 个普通文件的设备端 SHA-256 清单；计划 101 个归档。普通 pull 会断连，电脑端改用 `ADB_USB_LEGACY=1` 后一次 16.9 MB pull 成功，但后续归档传输仍出现 offline；重启主机 ADB 和 reconnect offline 未恢复稳定连接。
+- 初次报告已校验 4 个归档（58,949,120 字节，168 个普通文件）；后续复核发现 APEX 归档仅包含清单中 913 个文件的 168 个，虽然这 168 个摘要正确，整个目录备份并不完整。已更正：该归档改为 `.tar.incomplete`，从成功记录移除，仅保留 3 个目录/链接归档；备份脚本增加每个来源目录的文件集合完整性检查。`summary.json` 始终标记 `complete=false`。
+- 用户重连后，框架目录传输再次因设备 offline 失败。独立安装官方 ADB 36.0.2-14143358 至 `C:\Users\SLKX\AppData\Local\Android\adb-backup-36.0.2\platform-tools` 作为兼容性排查，未替换用户 PATH 中的 37.0.1。已切换备份脚本，等待用户再次拔插数据线验证。`backup.py` 可从完整成功记录继续，框架/SystemUI/车控服务优先。最终结果以备份目录后续更新的 `summary.json` 为准。
+- 最终结果：用户更换 USB 接口后，使用 ADB 36.0.2 完成全部 101 个归档，大小 6,905,381,376 字节。6,686 个普通文件的本地 SHA-256 与车机清单一致，逐目录文件集合完整，`summary.json` 为 `complete=true`、`missing_files=[]`。上述断连和不完整归档情况均为历史排错记录。
+- 补充保存 Binder 服务接口、共享库、系统包路径及屏幕尺寸/密度到备份的 `metadata/`，生成归档与记录的 `SHA256SUMS`、离线使用说明。未采集用户数据，未修改设备文件或服务，未创建可启动镜像。
+- 车机 `system/priv-app/HozonSystemUI/HozonSystemUI.apk` 为 81,089,452 字节，SHA-256 与项目 `input/original.apk` 一致（`e9ef9f65…0208a7`）。新接口与 ADB 版本同时变更，本次结果不能单独归因于其中一个因素。
 
 | 工具 | 命令或路径 | 版本/探测结果 | 本任务用途 | 状态 | 首次确认会话 |
 | --- | --- | --- | --- | --- | --- |
@@ -112,4 +145,19 @@
   8. `n0.smali` 版本常量 0x8→0x9（行 1670，唯一引用点），强制存量设备刷新磁贴列表；副作用：用户自定义磁贴布局重置一次，已入档
 - 验证：预检副本构建 exit 0；`aapt2 dump resources` 确认 `0x7f0a040d id/cb_test PUBLIC`、`0x7f110254 string/qs_text_test PUBLIC`；`check_apk.py` exit 0（entriesVerified/runtimeClassVerified=true，2 个 DEX 全量重提取）；产物 assets/DropdownItems.json 含 cb_test/qs_text_test。测试 APK（sha256 2869c9fd…）与副本已清理。
 - 未完成/未验证：实车下拉面板实际显示与点击行为未验证（无设备授权）；EP32 的 Dropdown32EditLayout 未逐行审查（数据同源 n0，理论共用）；本测试以 `.work` 补丁绕过 OEM framework 私有资源问题，最终交付仍需实车 framework-res.apk。
+- 关联功能记录：`docs/PROGRESS.md`。
+
+### 2026-10-17 Asia/Shanghai - OEM framework 安装与构建阻塞解除
+
+- 授权范围：离线构建准备与静态验证；设备操作为用户此前已执行的只读拉取，本会话未发起设备命令。
+- 背景：作者已于 2026-10-17 从 HZEP32 实车（ADB serial b123f279，adb pull + exec-out/dd 分块兜底）取得 `input/framework/HZEP32/framework-res.apk`（16,858,649 字节，SHA-256 `8e2f744d…a267196`，与车机一致，ZIP CRC 通过，来源见同目录 SOURCE.md）。
+- 工程结构说明：作者将本工程整体迁移至 `HozonSystemUI-app-enhance/HozonSystemUI-app-enhance/`（嵌套目录，git 历史/凭据/target 完整）；原根级副本已不存在，本会话起以嵌套目录为唯一工作工程。
+- 调查与实施：
+  - 核实候选框架：`hzep32-emulator-lab/source/system/framework/framework-res.apk` 与 `input/framework/HZEP32/framework-res.apk` SHA-256 一致；`aapt2 dump resources` 确认框架含 `style/PreferenceHeaderPanel.Material`（0x01030371）与 `PreferenceHeaderPanel`（0x01030370）。
+  - 安装：备份原公共框架为 `.work/framework/1.apk.public-backup`，`apktool if input/framework/HZEP32/framework-res.apk -p .work/framework -t 1`（产出 1-1.apk），替换 1.apk（apktool.yml usesFramework ids=[1]）。
+  - 8 个超长文件名 smali（kotlin coroutines intrinsics）工作树与 HEAD 内容在忽略 CR 后完全一致，系新机器 checkout 的 CRLF 噪音，reference/target 基线内容未变，不做回滚。
+  - 决定性测试：复制 target/decoded 至 `.work/syntax-check`，**不打 media_projection 补丁**，`apktool b -p .work/framework` → **exit 0**；`aapt2 dump xmltree` 确认 `textAppearance=@0x01030371`（车机框架 ID 精确匹配）；`check_apk.py` exit 0（entriesVerified/runtimeClassVerified=true，arm64-v8a，2 DEX 全量重提取）；新磁贴资源 ID 落位不变。
+- 错误处理：无新增错误（此前 private-resource 阻塞已解除）。
+- 验证：上述命令退出码均为 0；测试副本与 APK 已清理，`.work/framework` 保留 OEM 框架与备份。
+- 未完成：首次完整构建（`build_aep.py`）待作者确认 metadata 描述字段与激活模式；设备验收未授权。
 - 关联功能记录：`docs/PROGRESS.md`。
