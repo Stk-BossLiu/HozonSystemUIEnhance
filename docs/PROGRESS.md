@@ -38,6 +38,9 @@
 - [x] **拉取 OEM framework**（2026-10-17）：已从 HZEP32 实车取得 `input/framework/HZEP32/framework-res.apk`（16,858,649 字节），本地/车机 SHA-256 一致，ZIP CRC 检查通过；来源见同目录 `SOURCE.md`。
 - [x] **安装并验证 OEM framework 资源**（2026-10-17）：已安装至 `.work/framework`（apktool `if`，id 1；原公共框架备份为 `1.apk.public-backup`）；**不带任何补丁的真实回编 exit 0**，`@android:style/PreferenceHeaderPanel.Material` 解析为 `@0x01030371`（与车机框架 ID 一致），`check_apk.py` 全项通过，测试磁贴资源 `cb_test=0x7f0a040d` / `qs_text_test=0x7f110254` 精确落位。构建阻塞解除。
 - [ ] 首次完整构建（`build_aep.py`，新 build-id）——待作者确认 metadata 描述字段与激活模式
+- [x] **首次完整构建成功**（2026-10-17，build-id `hozon-systemui-r1-20261017-195819`，target `hozon-systemui`，activationMode `none`）：产物在 `out/`（不入库）——APK `hozon-systemui-r1-20261017-195819.apk`（81,536,889 B，sha256 `10842b8c…c2c33`，作者签名证书 `ea331f35…4375`）与 AEP `HozonSystemUI-HZEP32-1.1.40-2026-1017-1958.aep`（81,539,684 B，sha256 `d5d377d1…d7b7`，schemaVersion 2）。构建内检查 apktool/signature/zipalign16K/finalApkRuntime/aepCreateSelfCheck/aepStructure 全过；独立 `aep.py verify --mode structure` exit 0（structure-signature-only）。注意：构建需 `--smali-dir smali_classes2`（默认 smali 会撞 classes.dex 字段 65535 上限）；运行库文件由构建入口装入工作副本，target 不再预装
+- [ ] 实车验收（需授权 ADB）：安装/挂载增强 APK，下拉面板目检 test 磁贴显示、点击无业务动作、SystemUI 正常启动
+- [ ] 定义正式增强需求（当前注入内容仅为运行时接入 + test 测试磁贴）
 - [ ] 结构检查 `aep.py verify --mode structure`；设备验证需另行授权
 - [ ] 免费包（none）或 VIN 发码（vin）按最终选择执行
 

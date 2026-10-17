@@ -161,3 +161,19 @@
 - 验证：上述命令退出码均为 0；测试副本与 APK 已清理，`.work/framework` 保留 OEM 框架与备份。
 - 未完成：首次完整构建（`build_aep.py`）待作者确认 metadata 描述字段与激活模式；设备验收未授权。
 - 关联功能记录：`docs/PROGRESS.md`。
+
+### 2026-10-17 Asia/Shanghai - 首次完整构建成功（AEP 交付物）
+
+- 授权范围：离线完整构建与独立结构检查；未授权设备安装/验收/发布。
+- metadata 定稿（作者确认推荐值）：name=HozonSystemUI 功能增强；offlineAepLabel={HozonSystemUI, HZEP32, 1.1.40}；description=运行时接入 + test 测试磁贴说明；enhancementId=hozon-systemui-enhance；activationMode=none（免费包）。
+- 构建命令要点：`build_aep.py --decoded target/decoded --original-apk input/original.apk --metadata metadata/aep.json --build-id hozon-systemui-r1-20261017-195819 --target hozon-systemui --activation-mode none --runtime-entry 'Lc/f/a/c/a;->attachBaseContext(Landroid/content/Context;)V' --smali-dir smali_classes2 --apktool-jar <2.12.1> --abi arm64-v8a`。
+- 排错记录：
+  1. 首次失败（runtime 步骤）：target 中已预装 RuntimeInjector/libaep（此前手工 install_runtime），构建入口检测到重复安装拒绝。处理：从 target 移除运行库文件（运行库由构建入口装入工作副本是设计流程，target 只保留手工接入的 initialize 调用）。
+  2. 第二次失败（apktool-build）：构建入口默认 `--smali-dir smali`，运行库装入 classes.dex 撞 fields=65535 上限（错误体现在 SuperPAGImageView.setComposition 等无关方法的 65536 溢出）。处理：显式 `--smali-dir smali_classes2`，与之前分析一致。
+- 构建结果（exit 0，全链路 runtime→apktool-build→apk-sign→apk-check→aep-create→aep-check）：
+  - APK：`out/hozon-systemui-r1-20261017-195819.apk`，81,536,889 B，sha256 `10842b8c629458f098a65c8075cfbeb468439b13e6d29374811b814f255c2c33`；作者签名（证书 sha256 `ea331f355d774c70b7480e0bf9f9bbb3f91ed60f45bcc96fece4f47fefe54375`，apksigner 验证通过）
+  - AEP：`out/HozonSystemUI-HZEP32-1.1.40-2026-1017-1958.aep`，81,539,684 B，sha256 `d5d377d1db73368937921e64889a68a25066800035148174a7b402488750d7b7`，schemaVersion 2，recipientKeyId `aep2-platform-1`，authorKeyFingerprint `a00d827d…89c96`（与作者凭据一致），platformPublicKeySha256 `0b7d0f33…ec6f`，hostMinVersionCode 228
+  - 构建内检查：apktool / signature / zipalign16K / finalApkRuntime / aepCreateSelfCheck / aepStructure 全部通过；独立 `aep.py verify --mode structure` exit 0（verificationScope=structure-signature-only，payload/envelope 需平台侧解封，本地不解密）
+  - 记录：`out/hozon-systemui-r1-20261017-195819.json`（含全部 input smali 摘要）与 `out/hozon-systemui-r1-20261017-195819.aep.json`
+- 未完成/未验证：设备安装、挂载与运行未执行（未授权）；test 磁贴实车显示/点击未验证；AEP 未发布（需另授权）；VIN 激活不适用（none 模式）。
+- 关联功能记录：`docs/PROGRESS.md`。

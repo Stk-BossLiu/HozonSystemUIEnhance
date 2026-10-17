@@ -1,15 +1,15 @@
 {
   "offlineAepLabel": {
-    "application": "应用名称",
-    "model": "车型或产品型号",
-    "productVersion": "产品版本"
+    "application": "HozonSystemUI",
+    "model": "HZEP32",
+    "productVersion": "1.1.40"
   },
   "schemaVersion": 2,
   "enhancementId": "hozon-systemui-enhance",
-  "name": "面向用户的应用名称",
+  "name": "HozonSystemUI 功能增强",
   "package": "com.hozonauto.systemui",
   "activationMode": "none",
-  "description": "产品版本\n【功能】说明实际行为和必要条件。",
+  "description": "接入应用增强运行时（libaep + RuntimeInjector，经 BaseApplication.attachBaseContext 早期入口）；当前功能注入：下拉磁贴区测试磁贴 test（无业务功能）。目标平台：HZEP32（实车 framework-res 已验证）。",
   "compatibility": {
     "allOf": [],
     "stockPackageVersionName": "1.1.40",
